@@ -41,7 +41,7 @@ my @CATEGORIES = (
     { id => 'security',  label => 'Security' },
 );
 
-make_path("$ROOT/data", "$ROOT/dist", "$ROOT/state");
+make_path("$ROOT/data", "$ROOT/docs", "$ROOT/state");
 
 my $state_path = "$ROOT/state/seen.json";
 my $data_path  = "$ROOT/data/items.json";
@@ -141,12 +141,12 @@ for my $cat (@CATEGORIES) {
     push @cats_data, { %$cat, items => \@cat_items };
 }
 
-make_path("$ROOT/dist/articles");
-write_edition_html("$ROOT/dist/articles/$edition_slug.html", $edition_title, \@cats_data, '../', 0);
-write_edition_html("$ROOT/dist/index.html",                  $edition_title, \@cats_data, './', 1);
-write_archive_html("$ROOT/dist/archive.html", $editions);
-write_text("$ROOT/dist/style.css",  static_css());
-write_text("$ROOT/dist/.nojekyll", "");
+make_path("$ROOT/docs/articles");
+write_edition_html("$ROOT/docs/articles/$edition_slug.html", $edition_title, \@cats_data, '../', 0);
+write_edition_html("$ROOT/docs/index.html",                  $edition_title, \@cats_data, './', 1);
+write_archive_html("$ROOT/docs/archive.html", $editions);
+write_text("$ROOT/docs/style.css",  static_css());
+write_text("$ROOT/docs/.nojekyll", "");
 
 print "Edition: $edition_title\n";
 print "Fetched sources: " . scalar(@sources) . "\n";
