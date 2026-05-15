@@ -2,6 +2,8 @@
 
 RSS・YouTube RSS・各種 API から記事を集めて、タブ切り替えの静的ページを生成する情報収集ツールです。GitHub Actions で定期実行し、GitHub Pages で公開します。
 
+取得した記事はエディションごとの JSON として `data/items/{slug}.json` に保存します。表示用 HTML はこの JSON から生成するため、あとからレイアウトを変えたい場合も、取得データを残しておけば再生成できます。
+
 ## ページ構成
 
 ```
@@ -73,7 +75,7 @@ perl bin/generate.pl
 ```
 data/items/{slug}.json  エディションごとの取得記事データ
 data/editions.json      エディション一覧
-state/seen.json         取得済み記事の管理
+state/seen.json         既読判定・取得状況の管理
 docs/index.html         最新エディション
 docs/archive.html       エディション一覧
 docs/articles/{slug}.html
@@ -90,6 +92,7 @@ lib/
   Util.pm               汎用ユーティリティ（HTML エスケープ・日付・JSON IO など）
   Fetcher.pm            HTTP フェッチ・RSS / API パース
   Source.pm             ソース設定のパース・メタデータ管理
+  Catalog.pm            カテゴリ定義・カテゴリ別グルーピング
   Renderer.pm           HTML 生成・CSS
 data/                   記事・エディションデータ（自動生成）
 state/                  取得済み管理（自動生成）
@@ -101,7 +104,7 @@ docs/                   公開ファイル（自動生成）
 `.github/workflows/generate.yml` が手動実行と1日2回の定期実行に対応しています。
 
 - `0 22 * * *` UTC = 07:00 JST
-- `0 6 * * *` UTC = 15:00 JST
+- `0 8 * * *` UTC = 17:00 JST
 
 以下を GitHub Secrets に設定してください:
 
@@ -109,7 +112,7 @@ docs/                   公開ファイル（自動生成）
 - `API_SOURCES`
 - `VIEW_PASSWORD` (optional)
 
-GitHub Pages の公開ディレクトリは `docs/` に設定してください。
+workflow は生成後に `data`・`state`・`docs` をコミットし、`docs/` を Pages artifact としてデプロイします。
 
 ## パスワード保護
 
