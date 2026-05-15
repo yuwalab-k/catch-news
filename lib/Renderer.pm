@@ -146,7 +146,7 @@ sub write_archive_html {
 
     my %seen_date;
     my @dates;
-    for my $ed (@$editions) {
+    for my $ed (sort { ($b->{slug} || '') cmp ($a->{slug} || '') } @$editions) {
         my $d = $ed->{date} || substr($ed->{slug} || '', 0, 8);
         push @dates, $d unless $seen_date{$d}++;
     }

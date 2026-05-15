@@ -127,6 +127,7 @@ unshift @$editions, {
     generated_at => now_iso(),
     by_category  => \%cat_count,
 };
+@$editions = sort { ($b->{slug} || '') cmp ($a->{slug} || '') } @$editions;
 
 write_json($data_path,    \@new_items);
 write_json($state_path,   $state);

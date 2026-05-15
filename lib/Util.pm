@@ -168,9 +168,11 @@ sub item_key {
 
 sub date_sort_value {
     my ($item) = @_;
-    my $pub = $item->{published_at};
-    return 0 unless defined $pub && length $pub;
-    return parsed_epoch($pub) || 0;
+    for my $date ($item->{published_at}, $item->{fetched_at}) {
+        next unless defined $date && length $date;
+        return parsed_epoch($date) || 0;
+    }
+    return 0;
 }
 
 sub min {
