@@ -41,13 +41,14 @@ my @CATEGORIES = (
     { id => 'security',  label => 'Security' },
 );
 
-make_path("$ROOT/data", "$ROOT/docs", "$ROOT/state");
+my ($edition_slug, $edition_date, $edition_time) = jst_edition();
+
+make_path("$ROOT/data/items", "$ROOT/docs", "$ROOT/state");
 
 my $state_path = "$ROOT/state/seen.json";
-my $data_path  = "$ROOT/data/items.json";
+my $data_path  = "$ROOT/data/items/$edition_slug.json";
 
 my $state = read_json($state_path, { seen => {}, fetched_at => {} });
-my $items = read_json($data_path,  []);
 
 my @sources = (parse_rss_sources(), parse_api_sources());
 die "No sources configured. Set RSS_SOURCES and/or API_SOURCES.\n" unless @sources;
@@ -101,12 +102,9 @@ for my $source (@sources) {
     };
 }
 
-push @$items, @new_items;
-apply_source_meta($items, \%source_by_id);
-@$items = sort { date_sort_value($b) <=> date_sort_value($a) } @$items;
-splice @$items, $MAX_ITEMS if @$items > $MAX_ITEMS;
+apply_source_meta(\@new_items, \%source_by_id);
+@new_items = sort { date_sort_value($b) <=> date_sort_value($a) } @new_items;
 
-my ($edition_slug, $edition_date, $edition_time) = jst_edition();
 my $edition_title = do {
     (my $d = $edition_date) =~ s/^(\d{4})(\d{2})(\d{2})$/$1-$2-$3/;
     (my $t = $edition_time) =~ s/^(\d{2})(\d{2})(\d{2})$/$1:$2:$3/;
@@ -130,7 +128,7 @@ unshift @$editions, {
     by_category  => \%cat_count,
 };
 
-write_json($data_path,    $items);
+write_json($data_path,    \@new_items);
 write_json($state_path,   $state);
 write_json($editions_path, $editions);
 
@@ -151,4 +149,4 @@ write_text("$ROOT/docs/.nojekyll", "");
 print "Edition: $edition_title\n";
 print "Fetched sources: " . scalar(@sources) . "\n";
 print "New items: " . scalar(@new_items) . "\n";
-print "Total items: " . scalar(@$items) . "\n";
+print "Total items: " . scalar(@new_items) . "\n";
