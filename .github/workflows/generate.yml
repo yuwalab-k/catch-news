@@ -3,8 +3,9 @@ name: Generate news
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 22 * * *"   # 07:00 JST → am edition
-    - cron: "0 8 * * *"    # 17:00 JST → pm edition
+    - cron: "40 22 * * *"
+    - cron: "40 8 * * *"
+    - cron: "40 9 * * *"
 
 permissions:
   contents: write
