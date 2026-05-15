@@ -1,112 +1,112 @@
 {
    "fetched_at" : {
       "aws-security" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://aws.amazon.com/blogs/security/feed/ at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:31Z"
       },
       "codezine" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://codezine.jp/rss/new/20/index.xml at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:24Z"
       },
       "devto-rising" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://dev.to/api/articles?state=rising&per_page=30 at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 39.\n",
          "last_success_at" : "2026-05-14T15:22:53Z"
       },
       "devto-top" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://dev.to/api/articles?top=1&per_page=30 at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 39.\n",
          "last_success_at" : "2026-05-14T15:22:52Z"
       },
       "github-blog" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://github.blog/feed/ at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:29Z"
       },
       "github-changelog" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://github.blog/changelog/feed/ at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:30Z"
       },
       "github-security" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://github.blog/security/feed/ at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:31Z"
       },
       "google-cloud-blog" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://cloud.google.com/blog/products/gcp/rss at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:26Z"
       },
       "google-dev-blog" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://developers.googleblog.com/feeds/posts/default at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:25Z"
       },
       "hatena-it" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://b.hatena.ne.jp/hotentry/it.rss at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:23Z"
       },
       "hn-best" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://hacker-news.firebaseio.com/v0/beststories.json at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 39.\n",
          "last_success_at" : "2026-05-14T15:22:43Z"
       },
       "hn-top" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://hacker-news.firebaseio.com/v0/topstories.json at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 39.\n",
          "last_success_at" : "2026-05-14T15:22:32Z"
       },
       "jpcert-all" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://www.jpcert.or.jp/rss/jpcert-all.rdf at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:30Z"
       },
       "linux-kernel" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://www.kernel.org/feeds/kdist.xml at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:29Z"
       },
       "lobsters" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://lobste.rs/rss at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:21Z"
       },
       "meta-engineering" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://engineering.fb.com/feed/ at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:28Z"
       },
       "qiita-popular" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://qiita.com/popular-items/feed at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:23Z"
       },
       "security-next" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://www.security-next.com/category/cat191/feed at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:30Z"
       },
       "tech-blog-rss" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://yamadashy.github.io/tech-blog-rss-feed/feeds/rss.xml at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:23Z"
       },
       "vercel" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://vercel.com/rss.xml at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:24Z"
       },
       "youtube-fireship" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:24Z"
       },
       "zenn" : {
-         "last_attempt_at" : "2026-05-14T22:53:45Z",
+         "last_attempt_at" : "2026-05-15T01:44:57Z",
          "last_error" : "HTTP 599 for https://zenn.dev/feed at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-05-14T15:22:22Z"
       }
