@@ -4,9 +4,9 @@ use warnings;
 use utf8;
 use parent 'Exporter';
 
-use Encode qw(decode encode);
+use Encode qw(FB_CROAK decode encode find_encoding);
 use HTTP::Tiny;
-use JSON::PP qw(decode_json);
+use JSON::PP;
 use Util qw(decode_entities resolve_url epoch_iso min trim);
 
 our @EXPORT = qw(fetch_source fetch_og_image);
@@ -30,14 +30,42 @@ sub fetch_url {
     $url = encode('UTF-8', $url);
     my $res = $http->get($url, { headers => { Accept => '*/*' } });
     die "HTTP $res->{status} for $url" unless $res->{success};
-    return decode('UTF-8', $res->{content});
+    return decode_http_content($res);
 }
 
 sub fetch_json {
     my ($url) = @_;
     my $res = $http->get(encode('UTF-8', $url), { headers => { Accept => 'application/json' } });
     die "HTTP $res->{status} for $url" unless $res->{success};
-    return decode_json($res->{content});
+    return JSON::PP->new->decode(decode_http_content($res));
+}
+
+sub decode_http_content {
+    my ($res) = @_;
+    my $content = $res->{content};
+    my $charset = response_charset($res, $content);
+
+    for my $encoding (grep { $_ } ($charset, 'UTF-8', 'Windows-31J', 'EUC-JP')) {
+        my $decoded = eval { decode($encoding, $content, FB_CROAK) };
+        return $decoded if defined $decoded;
+    }
+    return decode('UTF-8', $content);
+}
+
+sub response_charset {
+    my ($res, $content) = @_;
+    my $content_type = $res->{headers}{'content-type'} || '';
+    return normalize_charset($1) if $content_type =~ /charset="?([^";\s]+)"?/i;
+    return normalize_charset($1) if $content =~ /<\?xml[^>]+encoding=["']([^"']+)["']/i;
+    return normalize_charset($1) if $content =~ /<meta[^>]+charset=["']?([^"'\s>]+)/i;
+    return undef;
+}
+
+sub normalize_charset {
+    my ($charset) = @_;
+    return undef unless defined $charset && length $charset;
+    $charset =~ s/_/-/g;
+    return find_encoding($charset) ? $charset : undef;
 }
 
 sub fetch_rss {

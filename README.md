@@ -56,7 +56,7 @@ export API_SOURCES='hn-top|Hacker News Top|hackernews|topstories|#ff6600||knowle
 | 変数 | デフォルト | 説明 |
 |---|---|---|
 | `VIEW_PASSWORD` | (なし) | 設定するとパスワードゲートを有効化 |
-| `MAX_ITEMS` | `500` | 保持する記事の最大件数 |
+| `MAX_ITEMS` | `500` | 1エディションに出力する記事の最大件数 |
 | `FETCH_OG_IMAGES` | `0` | `1` にすると OG 画像を取得（低速） |
 | `SINCE_DATETIME` | (なし) | `YYYYMMDDHHММ` (JST) 以降の記事を既読でも再取得 |
 
@@ -71,7 +71,7 @@ perl bin/generate.pl
 生成されるファイル:
 
 ```
-data/items.json         全記事の蓄積 DB
+data/items/{slug}.json  エディションごとの取得記事データ
 data/editions.json      エディション一覧
 state/seen.json         取得済み記事の管理
 docs/index.html         最新エディション

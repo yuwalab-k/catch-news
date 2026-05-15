@@ -5,7 +5,7 @@ use utf8;
 use parent 'Exporter';
 
 use Encode qw(encode);
-use JSON::PP qw(decode_json encode_json);
+use JSON::PP;
 use Time::Piece;
 
 our @EXPORT = qw(
@@ -92,12 +92,12 @@ sub read_json {
     open my $fh, '<:encoding(UTF-8)', $path or die "Cannot read $path: $!";
     local $/;
     my $raw = <$fh>;
-    return length($raw) ? decode_json($raw) : $default;
+    return length($raw) ? JSON::PP->new->decode($raw) : $default;
 }
 
 sub write_json {
     my ($path, $value) = @_;
-    write_text($path, JSON::PP->new->utf8->pretty->canonical->encode($value));
+    write_text($path, JSON::PP->new->pretty->canonical->encode($value));
 }
 
 sub write_text {

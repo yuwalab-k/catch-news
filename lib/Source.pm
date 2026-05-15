@@ -5,6 +5,7 @@ use utf8;
 use parent 'Exporter';
 
 use Encode qw(decode);
+use Catalog ();
 use Util qw(trim normalize_color favicon_url);
 
 our @EXPORT = qw(
@@ -100,10 +101,7 @@ sub source_category {
 
 sub normalize_category {
     my ($category) = @_;
-    return undef unless defined $category;
-    $category = lc trim($category);
-    return $category if $category =~ /^(knowledge|official|security)$/;
-    return undef;
+    return Catalog::normalize_category($category);
 }
 
 sub color_from_id {

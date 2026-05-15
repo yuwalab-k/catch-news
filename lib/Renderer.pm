@@ -5,6 +5,7 @@ use utf8;
 use parent 'Exporter';
 
 use Digest::SHA qw(sha256_hex);
+use Catalog;
 use Util qw(html html_attr now_iso write_text normalize_color favicon_url);
 
 our @EXPORT = qw(write_edition_html write_archive_html static_css);
@@ -155,12 +156,6 @@ sub write_archive_html {
         push @{ $by_date{$d} }, $ed;
     }
 
-    my @cat_defs = (
-        { id => 'knowledge', label => 'Knowledge' },
-        { id => 'official',  label => 'Official'  },
-        { id => 'security',  label => 'Security'  },
-    );
-
     my $list_html = '';
     for my $date (@dates) {
         my @eds = sort { ($b->{slug} || '') cmp ($a->{slug} || '') } @{ $by_date{$date} || [] };
@@ -171,7 +166,7 @@ sub write_archive_html {
             my $title  = $ed->{title} || $slug;
             my $by_cat = $ed->{by_category} || {};
             my @badges;
-            for my $cat (@cat_defs) {
+            for my $cat (categories()) {
                 my $n = $by_cat->{$cat->{id}} || 0;
                 next unless $n;
                 push @badges, qq{<span class="cat-badge">$cat->{label}<span class="cnt">$n</span></span>};

@@ -13,12 +13,13 @@ use Util;
 use Fetcher;
 use Source;
 use Renderer;
+use Catalog;
 
 binmode STDOUT, ':encoding(UTF-8)';
 binmode STDERR, ':encoding(UTF-8)';
 
 my $ROOT          = '.';
-my $MAX_ITEMS     = $ENV{MAX_ITEMS} || 500;
+my $MAX_ITEMS     = ($ENV{MAX_ITEMS} && $ENV{MAX_ITEMS} =~ /^\d+$/) ? $ENV{MAX_ITEMS} : 500;
 my $FETCH_OG_IMAGES = exists $ENV{FETCH_OG_IMAGES} ? $ENV{FETCH_OG_IMAGES} : 0;
 
 # SINCE_DATETIME=YYYYMMDDHHММ (JST) — treat articles published after this as new even if already seen
@@ -34,12 +35,6 @@ my $SINCE_EPOCH = do {
         undef;
     }
 };
-
-my @CATEGORIES = (
-    { id => 'knowledge', label => 'Knowledge' },
-    { id => 'official',  label => 'Official' },
-    { id => 'security',  label => 'Security' },
-);
 
 my ($edition_slug, $edition_date, $edition_time) = jst_edition();
 
@@ -81,9 +76,9 @@ for my $source (@sources) {
             $item->{category}     = source_category($source);
             $item->{image_url} ||= fetch_og_image($item->{url}) if $FETCH_OG_IMAGES;
             $item->{fetched_at}   = $now;
+            $item->{_seen_key}    = $key;
 
             push @new_items, $item;
-            $state->{seen}{$key} = $now;
         }
         $state->{fetched_at}{$source->{id}} = {
             last_attempt_at => $now,
@@ -104,6 +99,11 @@ for my $source (@sources) {
 
 apply_source_meta(\@new_items, \%source_by_id);
 @new_items = sort { date_sort_value($b) <=> date_sort_value($a) } @new_items;
+splice @new_items, $MAX_ITEMS if @new_items > $MAX_ITEMS;
+for my $item (@new_items) {
+    my $key = delete $item->{_seen_key};
+    $state->{seen}{$key} = $item->{fetched_at} if $key;
+}
 
 my $edition_title = do {
     (my $d = $edition_date) =~ s/^(\d{4})(\d{2})(\d{2})$/$1-$2-$3/;
@@ -132,12 +132,7 @@ write_json($data_path,    \@new_items);
 write_json($state_path,   $state);
 write_json($editions_path, $editions);
 
-my @cats_data;
-for my $cat (@CATEGORIES) {
-    my @cat_items = grep { ($_->{category} || 'knowledge') eq $cat->{id} } @new_items;
-    @cat_items = sort { date_sort_value($b) <=> date_sort_value($a) } @cat_items;
-    push @cats_data, { %$cat, items => \@cat_items };
-}
+my @cats_data = items_by_category(\@new_items, sub { date_sort_value($_[1]) <=> date_sort_value($_[0]) });
 
 make_path("$ROOT/docs/articles");
 write_edition_html("$ROOT/docs/articles/$edition_slug.html", $edition_title, \@cats_data, '../', 0);
