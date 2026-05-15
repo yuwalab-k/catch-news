@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 22 * * *"   # 07:00 JST → am edition
-    - cron: "0 6 * * *"    # 15:00 JST → pm edition
+    - cron: "0 8 * * *"    # 17:00 JST → pm edition
 
 permissions:
   contents: write
@@ -18,15 +18,13 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
 
       - name: Install Perl SSL dependencies
         run: sudo apt-get install -y libio-socket-ssl-perl libnet-ssleay-perl
@@ -46,9 +44,9 @@ jobs:
           git diff --cached --quiet || git commit -m "Generate news"
           git push
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: docs
 
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
