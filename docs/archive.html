@@ -7,7 +7,39 @@
   <title>Catch News</title>
   <link rel="stylesheet" href="./style.css">
 </head>
-<body class="">
+<body class="locked">
+  <section id="gate">
+    <h1>Catch News</h1>
+    <input id="password" type="password" autocomplete="current-password" placeholder="Password">
+    <button id="unlock" type="button">Open</button>
+    <p id="error" class="error"></p>
+  </section>
+  <script>
+    const expected = "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4";
+    const gate = document.getElementById("gate");
+    const error = document.getElementById("error");
+    const input = document.getElementById("password");
+    async function sha256(text) {
+      const bytes = new TextEncoder().encode(text);
+      const hash = await crypto.subtle.digest("SHA-256", bytes);
+      return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, "0")).join("");
+    }
+    async function unlock() {
+      if (await sha256(input.value) === expected) {
+        sessionStorage.setItem("catch_news_unlocked", "1");
+        document.body.classList.remove("locked");
+        gate.remove();
+      } else {
+        error.textContent = "Password is incorrect.";
+      }
+    }
+    if (sessionStorage.getItem("catch_news_unlocked") === "1") {
+      document.body.classList.remove("locked");
+      gate.remove();
+    }
+    document.getElementById("unlock").addEventListener("click", unlock);
+    input.addEventListener("keydown", event => { if (event.key === "Enter") unlock(); });
+  </script>
 
   <main id="content" class="wrap">
     <header>
@@ -19,6 +51,7 @@
     <div class="date-group">
 <h2 class="date-heading">2026-05-15</h2>
 <div class="edition-list">
+<a href="./articles/20260515111214.html" class="edition-row"><span class="ed-title">2026-05-15 11:12:14</span><div class="ed-cats"><span class="no-items">no new items</span></div></a>
 <a href="./articles/20260515110043.html" class="edition-row"><span class="ed-title">2026-05-15 11:00:43</span><div class="ed-cats"><span class="cat-badge">Knowledge<span class="cnt">141</span></span><span class="cat-badge">Official<span class="cnt">8</span></span><span class="cat-badge">Security<span class="cnt">7</span></span></div></a>
 </div>
 </div>
