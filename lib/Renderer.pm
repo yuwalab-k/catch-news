@@ -225,7 +225,7 @@ header { position: sticky; top: 0; z-index: 999; display: flex; align-items: cen
 h1 { font-size: 22px; margin: 0; letter-spacing: 0; }
 .back-btn { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 8px; color: inherit; text-decoration: none; background: var(--panel); font-size: 18px; flex-shrink: 0; }
 .back-btn:hover { border-color: var(--ink); }
-.header-right { display: flex; align-items: center; gap: 10px; }
+.header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 7px; }
 .sub-link { font-size: 13px; color: var(--muted); text-decoration: none; white-space: nowrap; }
 .sub-link:hover { color: var(--ink); }
 .tabs { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
@@ -274,6 +274,13 @@ h1 { font-size: 22px; margin: 0; letter-spacing: 0; }
 }
 @media (max-width: 640px) {
   .wrap { padding-inline: 10px; }
+  header { align-items: flex-start; flex-direction: column; gap: 10px; padding: 12px 0 14px; }
+  .brand { width: 100%; }
+  .brand h1 { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .header-right { width: 100%; flex-direction: column; align-items: stretch; gap: 8px; }
+  .header-right .sub-link { align-self: flex-end; }
+  .tabs { justify-content: stretch; flex-wrap: nowrap; width: 100%; }
+  .tab-btn { flex: 1 1 0; justify-content: center; min-width: 0; padding: 0 6px; font-size: 12px; }
   .feed { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   h1 { font-size: 18px; }
   .edition-row { gap: 10px; }
