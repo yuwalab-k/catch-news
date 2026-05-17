@@ -1,0 +1,51 @@
+[
+   {
+      "author" : "Naman Sachdeva",
+      "category" : "knowledge",
+      "fetched_at" : "2026-05-17T10:53:45Z",
+      "id" : "39adfdb15cbce76d57b4b13eff74287217080743ccc2d74c93170dbb021d992f",
+      "image_url" : "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5t1cnqwinkzd6o7xsj8x.png",
+      "published_at" : "2026-05-17T09:30:54Z",
+      "score" : 4,
+      "source" : "DEV Top",
+      "source_color" : "#0A0A0A",
+      "source_home" : "https://dev.to/api/articles?top=1&per_page=30",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30",
+      "source_id" : "devto-top",
+      "source_type" : "api",
+      "title" : "I Got Bored of “Normal” Websites… So I Tried Making One Feel Alive ✨",
+      "url" : "https://dev.to/naman_sachdeva/i-got-bored-of-normal-websites-so-i-tried-making-one-feel-alive-285a"
+   },
+   {
+      "author" : null,
+      "category" : "knowledge",
+      "fetched_at" : "2026-05-17T10:53:34Z",
+      "id" : "b3384183d1585f6e774f20b996911a7531608d1e10219fcda20f27f0ef062f62",
+      "image_url" : null,
+      "published_at" : "2026-05-17T08:06:43Z",
+      "source" : "Hatena Bookmark IT",
+      "source_color" : "#00A4DE",
+      "source_home" : "https://b.hatena.ne.jp/hotentry/it.rss",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss",
+      "source_id" : "hatena-it",
+      "source_type" : "rss",
+      "title" : "AI時代のコンピューター技術書 - golden-luckyの日記",
+      "url" : "https://golden-lucky.hatenablog.com/entry/2026/05/17/170605"
+   },
+   {
+      "author" : null,
+      "category" : "knowledge",
+      "fetched_at" : "2026-05-17T10:53:34Z",
+      "id" : "c832feb7166ecea19eed135a8d77abdd2945f5b1ec71c545baa46337c77df3cf",
+      "image_url" : null,
+      "published_at" : "2026-05-17T05:46:32Z",
+      "source" : "Hatena Bookmark IT",
+      "source_color" : "#00A4DE",
+      "source_home" : "https://b.hatena.ne.jp/hotentry/it.rss",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss",
+      "source_id" : "hatena-it",
+      "source_type" : "rss",
+      "title" : "Windows has a better Notepad hiding on the Microsoft Store — and it's free",
+      "url" : "https://www.makeuseof.com/windows-has-better-notepad-hiding-on-microsoft-store-its-free/"
+   }
+]
