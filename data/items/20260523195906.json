@@ -1,0 +1,50 @@
+[
+   {
+      "author" : "khaosdoctor",
+      "category" : "knowledge",
+      "fetched_at" : "2026-05-23T10:59:19Z",
+      "id" : "a31dee11d06577bda2551f63c5948dc070f0b0f54230286fa08cd6ba5645e587",
+      "published_at" : "2026-05-22T22:57:58Z",
+      "score" : 165,
+      "source" : "Hacker News Best",
+      "source_color" : "#FF8A00",
+      "source_home" : "https://news.ycombinator.com/",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fnews.ycombinator.com%2F",
+      "source_id" : "hn-best",
+      "source_type" : "api",
+      "title" : "Don't just paste the AI at me",
+      "url" : "https://dontquotetheai.com/"
+   },
+   {
+      "author" : null,
+      "category" : "knowledge",
+      "fetched_at" : "2026-05-23T10:59:07Z",
+      "id" : "67b45178fb78c184e7cde03076921f60c8523cd5660a87c9f564702f4145cbcb",
+      "image_url" : null,
+      "published_at" : "2026-05-22T03:06:35Z",
+      "source" : "Hatena Bookmark IT",
+      "source_color" : "#00A4DE",
+      "source_home" : "https://b.hatena.ne.jp/hotentry/it.rss",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss",
+      "source_id" : "hatena-it",
+      "source_type" : "rss",
+      "title" : "サンワサプライ、貼り付けるだけで既存スイッチをスマート化できるIoT指ロボットを発売",
+      "url" : "https://internet.watch.impress.co.jp/docs/news/2110670.html"
+   },
+   {
+      "author" : "nill0",
+      "category" : "knowledge",
+      "fetched_at" : "2026-05-23T10:59:16Z",
+      "id" : "4d2d7a67adc9073050bed43de8b6cf8fd42d5eee5b7395e16cb7a8acf55d4d08",
+      "published_at" : "2026-05-20T03:55:58Z",
+      "score" : 3,
+      "source" : "Hacker News Top",
+      "source_color" : "#FF6600",
+      "source_home" : "https://news.ycombinator.com/",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fnews.ycombinator.com%2F",
+      "source_id" : "hn-top",
+      "source_type" : "api",
+      "title" : "Fast Factorial Algorithms",
+      "url" : "http://www.luschny.de/math/factorial/FastFactorialFunctions.htm"
+   }
+]
