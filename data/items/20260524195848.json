@@ -1,0 +1,35 @@
+[
+   {
+      "author" : "Devansh",
+      "category" : "knowledge",
+      "fetched_at" : "2026-05-24T10:59:02Z",
+      "id" : "d75e93f2e3d50099267b9f757ae86aa82e853646797c6d86478568eb8fc3364c",
+      "image_url" : "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6uqed7k1kudncb7sjyv9.png",
+      "published_at" : "2026-05-24T02:53:03Z",
+      "score" : 5,
+      "source" : "DEV Top",
+      "source_color" : "#0A0A0A",
+      "source_home" : "https://dev.to/api/articles?top=1&per_page=30",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30",
+      "source_id" : "devto-top",
+      "source_type" : "api",
+      "title" : "OpenCode Go + Oh My OpenAgent: The Model Routing Config That Actually Saves Money",
+      "url" : "https://dev.to/devansh365/opencode-go-oh-my-openagent-the-model-routing-config-that-actually-saves-money-3jmj"
+   },
+   {
+      "author" : "mkesper",
+      "category" : "knowledge",
+      "fetched_at" : "2026-05-24T10:58:58Z",
+      "id" : "163a3ba9dd1a7427c24505e73799133a6653c1b59bfe8b518473a1a44ae2e102",
+      "published_at" : "2026-05-20T14:16:34Z",
+      "score" : 3,
+      "source" : "Hacker News Top",
+      "source_color" : "#FF6600",
+      "source_home" : "https://news.ycombinator.com/",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fnews.ycombinator.com%2F",
+      "source_id" : "hn-top",
+      "source_type" : "api",
+      "title" : "Swap tables, flash-friendly swap, swap_ops, and more",
+      "url" : "https://lwn.net/SubscriberLink/1072657/394b87abd7cc215e/"
+   }
+]
