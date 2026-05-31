@@ -1,119 +1,119 @@
 {
    "fetched_at" : {
       "aws-security" : {
-         "last_attempt_at" : "2026-05-31T10:34:41Z",
+         "last_attempt_at" : "2026-05-31T10:40:38Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:41Z"
+         "last_success_at" : "2026-05-31T10:40:38Z"
       },
       "codezine" : {
-         "last_attempt_at" : "2026-05-31T10:34:34Z",
+         "last_attempt_at" : "2026-05-31T10:40:32Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:34Z"
+         "last_success_at" : "2026-05-31T10:40:32Z"
       },
       "devto-rising" : {
-         "last_attempt_at" : "2026-05-31T10:34:44Z",
+         "last_attempt_at" : "2026-05-31T10:40:44Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:44Z"
+         "last_success_at" : "2026-05-31T10:40:44Z"
       },
       "devto-top" : {
-         "last_attempt_at" : "2026-05-31T10:34:44Z",
+         "last_attempt_at" : "2026-05-31T10:40:43Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:44Z"
+         "last_success_at" : "2026-05-31T10:40:43Z"
       },
       "forest-security" : {
-         "last_attempt_at" : "2026-05-31T10:34:42Z",
+         "last_attempt_at" : "2026-05-31T10:40:38Z",
          "last_error" : "HTTP 404 for https://forest.watch.impress.co.jp/data/rss/1.0/wf/security.rdf at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : null
       },
       "github-blog" : {
-         "last_attempt_at" : "2026-05-31T10:34:39Z",
+         "last_attempt_at" : "2026-05-31T10:40:35Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:39Z"
+         "last_success_at" : "2026-05-31T10:40:35Z"
       },
       "github-changelog" : {
-         "last_attempt_at" : "2026-05-31T10:34:39Z",
+         "last_attempt_at" : "2026-05-31T10:40:36Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:39Z"
+         "last_success_at" : "2026-05-31T10:40:36Z"
       },
       "github-security" : {
-         "last_attempt_at" : "2026-05-31T10:34:41Z",
+         "last_attempt_at" : "2026-05-31T10:40:38Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:41Z"
+         "last_success_at" : "2026-05-31T10:40:38Z"
       },
       "google-cloud-blog" : {
-         "last_attempt_at" : "2026-05-31T10:34:37Z",
+         "last_attempt_at" : "2026-05-31T10:40:34Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:37Z"
+         "last_success_at" : "2026-05-31T10:40:34Z"
       },
       "google-dev-blog" : {
-         "last_attempt_at" : "2026-05-31T10:34:37Z",
+         "last_attempt_at" : "2026-05-31T10:40:34Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:37Z"
+         "last_success_at" : "2026-05-31T10:40:34Z"
       },
       "hatena-it" : {
-         "last_attempt_at" : "2026-05-31T10:34:33Z",
+         "last_attempt_at" : "2026-05-31T10:40:30Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:33Z"
+         "last_success_at" : "2026-05-31T10:40:30Z"
       },
       "hn-best" : {
-         "last_attempt_at" : "2026-05-31T10:34:43Z",
+         "last_attempt_at" : "2026-05-31T10:40:41Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:43Z"
+         "last_success_at" : "2026-05-31T10:40:41Z"
       },
       "hn-top" : {
-         "last_attempt_at" : "2026-05-31T10:34:42Z",
+         "last_attempt_at" : "2026-05-31T10:40:39Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:42Z"
+         "last_success_at" : "2026-05-31T10:40:39Z"
       },
       "jpcert-all" : {
-         "last_attempt_at" : "2026-05-31T10:34:39Z",
+         "last_attempt_at" : "2026-05-31T10:40:36Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:39Z"
+         "last_success_at" : "2026-05-31T10:40:36Z"
       },
       "linux-kernel" : {
-         "last_attempt_at" : "2026-05-31T10:34:39Z",
+         "last_attempt_at" : "2026-05-31T10:40:35Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:39Z"
+         "last_success_at" : "2026-05-31T10:40:35Z"
       },
       "lobsters" : {
-         "last_attempt_at" : "2026-05-31T10:34:32Z",
+         "last_attempt_at" : "2026-05-31T10:40:30Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:32Z"
+         "last_success_at" : "2026-05-31T10:40:30Z"
       },
       "meta-engineering" : {
-         "last_attempt_at" : "2026-05-31T10:34:39Z",
+         "last_attempt_at" : "2026-05-31T10:40:35Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:39Z"
+         "last_success_at" : "2026-05-31T10:40:35Z"
       },
       "qiita-popular" : {
-         "last_attempt_at" : "2026-05-31T10:34:34Z",
+         "last_attempt_at" : "2026-05-31T10:40:32Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:34Z"
+         "last_success_at" : "2026-05-31T10:40:32Z"
       },
       "security-next" : {
-         "last_attempt_at" : "2026-05-31T10:34:40Z",
+         "last_attempt_at" : "2026-05-31T10:40:36Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:40Z"
+         "last_success_at" : "2026-05-31T10:40:36Z"
       },
       "tech-blog-rss" : {
-         "last_attempt_at" : "2026-05-31T10:34:34Z",
+         "last_attempt_at" : "2026-05-31T10:40:32Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:34Z"
+         "last_success_at" : "2026-05-31T10:40:32Z"
       },
       "vercel" : {
-         "last_attempt_at" : "2026-05-31T10:34:36Z",
+         "last_attempt_at" : "2026-05-31T10:40:34Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:36Z"
+         "last_success_at" : "2026-05-31T10:40:34Z"
       },
       "youtube-fireship" : {
-         "last_attempt_at" : "2026-05-31T10:34:36Z",
+         "last_attempt_at" : "2026-05-31T10:40:34Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:36Z"
+         "last_success_at" : "2026-05-31T10:40:34Z"
       },
       "zenn" : {
-         "last_attempt_at" : "2026-05-31T10:34:33Z",
+         "last_attempt_at" : "2026-05-31T10:40:30Z",
          "last_error" : null,
-         "last_success_at" : "2026-05-31T10:34:33Z"
+         "last_success_at" : "2026-05-31T10:40:30Z"
       }
    },
    "seen" : {
@@ -2197,6 +2197,8 @@
       "https://gigazine.net/news/20260529-nightmare-eclipse-github-banned/" : "2026-05-30T04:40:27Z",
       "https://gigazine.net/news/20260529-nvidia-ai-locateanything/" : "2026-05-29T11:53:55Z",
       "https://gigazine.net/news/20260529-waymo-ojai/" : "2026-05-30T22:40:24Z",
+      "https://gigazine.net/news/20260530-humanizer/" : "2026-05-31T10:40:30Z",
+      "https://gigazine.net/news/20260530-karakeep/" : "2026-05-31T10:40:30Z",
       "https://gigazine.net/news/20260531-remove-ai-watermarks/" : "2026-05-31T10:34:33Z",
       "https://giginet.hateblo.jp/entry/2026/05/26/221005" : "2026-05-29T10:40:32Z",
       "https://gihyo.jp/admin/clip/01/ubuntu-topics/202605/22" : "2026-05-23T10:14:38Z",
@@ -5149,6 +5151,7 @@
       "https://zenn.dev/amenaruya/articles/796dded082f0bf" : "2026-05-24T10:21:02Z",
       "https://zenn.dev/amenaruya/articles/d9718f5a25056b" : "2026-05-26T10:40:24Z",
       "https://zenn.dev/aoito/articles/fb3a5f66d001b0" : "2026-05-19T22:40:22Z",
+      "https://zenn.dev/araki_takaki/articles/tinyview-dev" : "2026-05-31T10:40:30Z",
       "https://zenn.dev/arkbig/articles/devbox_0b6b39cd097e3288fe58baa5a49c7d39a28c5b46849" : "2026-05-26T10:40:24Z",
       "https://zenn.dev/arm_techblog/articles/ea4a436c5b80bb" : "2026-05-28T04:40:36Z",
       "https://zenn.dev/arufian/articles/c1389f2941de90" : "2026-05-29T22:40:25Z",
@@ -5240,6 +5243,7 @@
       "https://zenn.dev/finatext/articles/snowflake-ocsp-and-batch-job-issues" : "2026-05-25T04:40:35Z",
       "https://zenn.dev/finatext/articles/snowflake-ocsp-and-roadmap" : "2026-05-25T04:40:35Z",
       "https://zenn.dev/finatext/articles/snowflake-summit-2026-summary-nowcast" : "2026-05-27T04:40:24Z",
+      "https://zenn.dev/fjimiz/articles/design-spec-checklist" : "2026-05-31T10:40:30Z",
       "https://zenn.dev/fuji_1218/articles/67c734d19dd1b8" : "2026-05-26T22:40:31Z",
       "https://zenn.dev/fusic/articles/0111d7a11a4400" : "2026-05-20T10:41:08Z",
       "https://zenn.dev/fusic/articles/779af66b5810a9" : "2026-05-15T11:35:17Z",
@@ -5315,6 +5319,7 @@
       "https://zenn.dev/itsu_dev/articles/311a9a28a41ed3" : "2026-05-15T02:50:45Z",
       "https://zenn.dev/j5ik2o/articles/59de072b6728ff" : "2026-05-20T22:40:22Z",
       "https://zenn.dev/jackojacko05/articles/58e0d632be419a" : "2026-05-18T23:42:38Z",
+      "https://zenn.dev/jagaimo_poteto/articles/aa2aca6b25e3d5" : "2026-05-31T10:40:30Z",
       "https://zenn.dev/jinjer_techblog/articles/5812546fb399e7" : "2026-05-30T22:40:24Z",
       "https://zenn.dev/jiro3141/articles/9ad0cd28b076e9" : "2026-05-24T22:40:23Z",
       "https://zenn.dev/joinclass/articles/dx-3-20260515220005-2181" : "2026-05-18T04:40:21Z",
@@ -5480,6 +5485,7 @@
       "https://zenn.dev/retrieva_tech/articles/f4386f6b246b34" : "2026-05-23T10:40:21Z",
       "https://zenn.dev/ril/articles/13777ce701882c" : "2026-05-16T10:03:13Z",
       "https://zenn.dev/ril/articles/8a58ccf870f25e" : "2026-05-16T04:40:21Z",
+      "https://zenn.dev/rin__rin/articles/dba550bfa3c78f" : "2026-05-31T10:40:30Z",
       "https://zenn.dev/rinrin_yuuki/articles/9b69cca81875f6" : "2026-05-27T22:40:29Z",
       "https://zenn.dev/robustonian/articles/codex_mobile_connect_to_ubuntu" : "2026-05-16T23:33:56Z",
       "https://zenn.dev/robustonian/articles/x_premium_grok_search" : "2026-05-18T04:40:21Z",
@@ -5573,6 +5579,7 @@
       "https://zenn.dev/yamitake/articles/survive-vim-harassment-mindset" : "2026-05-16T04:40:21Z",
       "https://zenn.dev/yasse/articles/a7240304af804c" : "2026-05-23T10:14:38Z",
       "https://zenn.dev/yohei/articles/2026-05-30-vkg-strategy-what" : "2026-05-31T04:40:21Z",
+      "https://zenn.dev/yoshiki_otagaki/articles/c2dfe8efe5c5a3" : "2026-05-31T10:40:30Z",
       "https://zenn.dev/yuichi_dev/articles/217f4d3165d59f" : "2026-05-17T22:40:22Z",
       "https://zenn.dev/yuitonn/articles/f88ddcf21ce172" : "2026-05-24T10:21:02Z",
       "https://zenn.dev/yumayx/articles/c69ac22ce07bea" : "2026-05-31T10:34:33Z",
