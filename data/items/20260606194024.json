@@ -1,0 +1,18 @@
+[
+   {
+      "author" : "arxiv.org via carlomonte",
+      "category" : "knowledge",
+      "fetched_at" : "2026-06-06T10:40:24Z",
+      "id" : "ca7c5fedb235635afca35006de981409b7aa7de907dd7058580f990c00cb642a",
+      "image_url" : null,
+      "published_at" : "Sat, 06 Jun 2026 05:29:43 -0500",
+      "source" : "Lobsters",
+      "source_color" : "#AC130D",
+      "source_home" : "https://lobste.rs/rss",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Flobste.rs%2Frss",
+      "source_id" : "lobsters",
+      "source_type" : "rss",
+      "title" : "AI Worm",
+      "url" : "https://arxiv.org/abs/2606.03811"
+   }
+]
