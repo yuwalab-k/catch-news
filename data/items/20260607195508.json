@@ -1,0 +1,18 @@
+[
+   {
+      "author" : "berlianta",
+      "category" : "knowledge",
+      "fetched_at" : "2026-06-07T10:55:17Z",
+      "id" : "b4a742f100036dea86f35f5cb5e744540ffdbcc1d40e23682ee8146b8e0782cc",
+      "published_at" : "2026-06-04T13:04:37Z",
+      "score" : 5,
+      "source" : "Hacker News Top",
+      "source_color" : "#FF6600",
+      "source_home" : "https://news.ycombinator.com/",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fnews.ycombinator.com%2F",
+      "source_id" : "hn-top",
+      "source_type" : "api",
+      "title" : "Enforcing the First as in BGP AS_PATHs",
+      "url" : "https://blog.cloudflare.com/enforce-first-as-bgp/"
+   }
+]
