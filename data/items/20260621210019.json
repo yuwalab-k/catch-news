@@ -1,0 +1,34 @@
+[
+   {
+      "author" : "Takahir_O",
+      "category" : "knowledge",
+      "fetched_at" : "2026-06-21T12:00:21Z",
+      "id" : "c4d07100c8d786f2246d4a69a319429df09355be84a185d130a52437e2b10a54",
+      "image_url" : null,
+      "published_at" : "Sun, 21 Jun 2026 10:56:00 GMT",
+      "source" : "企業テックブログRSS",
+      "source_color" : "#E8710A",
+      "source_home" : "https://yamadashy.github.io/tech-blog-rss-feed/feeds/rss.xml",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml",
+      "source_id" : "tech-blog-rss",
+      "source_type" : "rss",
+      "title" : "SnowflakeのOLTP機能を比較したい：Snowflake Postgres / Hybrid Tables【連載1日目・準備編】 | Fusic 技術ブログのフィード",
+      "url" : "https://zenn.dev/fusic/articles/0021-snowflake-postgres-prepare"
+   },
+   {
+      "author" : "surprisetalk",
+      "category" : "knowledge",
+      "fetched_at" : "2026-06-21T12:00:28Z",
+      "id" : "6392934f81c169f446108252cb3294508d08187b4d7f8739a9cc80b0fc176f99",
+      "published_at" : "2026-06-17T12:15:04Z",
+      "score" : 3,
+      "source" : "Hacker News Top",
+      "source_color" : "#FF6600",
+      "source_home" : "https://news.ycombinator.com/",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fnews.ycombinator.com%2F",
+      "source_id" : "hn-top",
+      "source_type" : "api",
+      "title" : "Cosmodial Sky Atlas",
+      "url" : "https://frankforce.com/cosmodial-sky-atlas/"
+   }
+]
