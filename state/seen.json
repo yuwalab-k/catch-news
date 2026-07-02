@@ -1,119 +1,119 @@
 {
    "fetched_at" : {
       "aws-security" : {
-         "last_attempt_at" : "2026-07-02T11:16:02Z",
+         "last_attempt_at" : "2026-07-02T11:55:34Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:16:02Z"
+         "last_success_at" : "2026-07-02T11:55:34Z"
       },
       "codezine" : {
-         "last_attempt_at" : "2026-07-02T11:15:53Z",
+         "last_attempt_at" : "2026-07-02T11:55:28Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:53Z"
+         "last_success_at" : "2026-07-02T11:55:28Z"
       },
       "devto-rising" : {
-         "last_attempt_at" : "2026-07-02T11:16:06Z",
+         "last_attempt_at" : "2026-07-02T11:55:42Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:16:06Z"
+         "last_success_at" : "2026-07-02T11:55:42Z"
       },
       "devto-top" : {
-         "last_attempt_at" : "2026-07-02T11:16:06Z",
+         "last_attempt_at" : "2026-07-02T11:55:42Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:16:06Z"
+         "last_success_at" : "2026-07-02T11:55:42Z"
       },
       "forest-security" : {
-         "last_attempt_at" : "2026-07-02T11:16:02Z",
+         "last_attempt_at" : "2026-07-02T11:55:34Z",
          "last_error" : "HTTP 404 for https://forest.watch.impress.co.jp/data/rss/1.0/wf/security.rdf at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : null
       },
       "github-blog" : {
-         "last_attempt_at" : "2026-07-02T11:15:59Z",
+         "last_attempt_at" : "2026-07-02T11:55:32Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:59Z"
+         "last_success_at" : "2026-07-02T11:55:32Z"
       },
       "github-changelog" : {
-         "last_attempt_at" : "2026-07-02T11:15:59Z",
+         "last_attempt_at" : "2026-07-02T11:55:32Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:59Z"
+         "last_success_at" : "2026-07-02T11:55:32Z"
       },
       "github-security" : {
-         "last_attempt_at" : "2026-07-02T11:16:02Z",
+         "last_attempt_at" : "2026-07-02T11:55:34Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:16:02Z"
+         "last_success_at" : "2026-07-02T11:55:34Z"
       },
       "google-cloud-blog" : {
-         "last_attempt_at" : "2026-07-02T11:15:55Z",
+         "last_attempt_at" : "2026-07-02T11:55:30Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:55Z"
+         "last_success_at" : "2026-07-02T11:55:30Z"
       },
       "google-dev-blog" : {
-         "last_attempt_at" : "2026-07-02T11:15:54Z",
+         "last_attempt_at" : "2026-07-02T11:55:30Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:54Z"
+         "last_success_at" : "2026-07-02T11:55:30Z"
       },
       "hatena-it" : {
-         "last_attempt_at" : "2026-07-02T11:15:51Z",
+         "last_attempt_at" : "2026-07-02T11:55:28Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:51Z"
+         "last_success_at" : "2026-07-02T11:55:28Z"
       },
       "hn-best" : {
-         "last_attempt_at" : "2026-07-02T11:16:04Z",
+         "last_attempt_at" : "2026-07-02T11:55:38Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:16:04Z"
+         "last_success_at" : "2026-07-02T11:55:38Z"
       },
       "hn-top" : {
-         "last_attempt_at" : "2026-07-02T11:16:03Z",
+         "last_attempt_at" : "2026-07-02T11:55:34Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:16:03Z"
+         "last_success_at" : "2026-07-02T11:55:34Z"
       },
       "jpcert-all" : {
-         "last_attempt_at" : "2026-07-02T11:15:59Z",
+         "last_attempt_at" : "2026-07-02T11:55:32Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:59Z"
+         "last_success_at" : "2026-07-02T11:55:32Z"
       },
       "linux-kernel" : {
-         "last_attempt_at" : "2026-07-02T11:15:59Z",
+         "last_attempt_at" : "2026-07-02T11:55:32Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:59Z"
+         "last_success_at" : "2026-07-02T11:55:32Z"
       },
       "lobsters" : {
-         "last_attempt_at" : "2026-07-02T11:15:51Z",
+         "last_attempt_at" : "2026-07-02T11:55:27Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:51Z"
+         "last_success_at" : "2026-07-02T11:55:27Z"
       },
       "meta-engineering" : {
-         "last_attempt_at" : "2026-07-02T11:15:59Z",
+         "last_attempt_at" : "2026-07-02T11:55:32Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:59Z"
+         "last_success_at" : "2026-07-02T11:55:32Z"
       },
       "qiita-popular" : {
-         "last_attempt_at" : "2026-07-02T11:15:52Z",
+         "last_attempt_at" : "2026-07-02T11:55:28Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:52Z"
+         "last_success_at" : "2026-07-02T11:55:28Z"
       },
       "security-next" : {
-         "last_attempt_at" : "2026-07-02T11:16:00Z",
+         "last_attempt_at" : "2026-07-02T11:55:32Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:16:00Z"
+         "last_success_at" : "2026-07-02T11:55:32Z"
       },
       "tech-blog-rss" : {
-         "last_attempt_at" : "2026-07-02T11:15:52Z",
+         "last_attempt_at" : "2026-07-02T11:55:28Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:52Z"
+         "last_success_at" : "2026-07-02T11:55:28Z"
       },
       "vercel" : {
-         "last_attempt_at" : "2026-07-02T11:15:54Z",
+         "last_attempt_at" : "2026-07-02T11:55:29Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:54Z"
+         "last_success_at" : "2026-07-02T11:55:29Z"
       },
       "youtube-fireship" : {
-         "last_attempt_at" : "2026-07-02T11:15:54Z",
+         "last_attempt_at" : "2026-07-02T11:55:29Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:54Z"
+         "last_success_at" : "2026-07-02T11:55:29Z"
       },
       "zenn" : {
-         "last_attempt_at" : "2026-07-02T11:15:51Z",
+         "last_attempt_at" : "2026-07-02T11:55:27Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-02T11:15:51Z"
+         "last_success_at" : "2026-07-02T11:55:27Z"
       }
    },
    "seen" : {
@@ -611,6 +611,7 @@
       "https://av.watch.impress.co.jp/docs/series/rt/2116062.html" : "2026-06-10T22:40:30Z",
       "https://av.watch.impress.co.jp/docs/topic/2109623.html" : "2026-06-21T23:55:12Z",
       "https://av.watch.impress.co.jp/docs/topic/2116987.html" : "2026-06-29T12:47:47Z",
+      "https://av.watch.impress.co.jp/docs/topic/2120664.html" : "2026-07-02T11:55:28Z",
       "https://av.watch.impress.co.jp/docs/topic/special/2106593.html" : "2026-05-15T22:40:23Z",
       "https://av2.aomedia.org" : "2026-05-31T04:40:29Z",
       "https://av2.aomedia.org/" : "2026-05-31T04:40:20Z",
@@ -709,6 +710,7 @@
       "https://bcantrill.dtrace.org/2026/05/25/a-portentous-reunion/" : "2026-05-26T22:40:39Z",
       "https://bcc.hatenablog.com/entry/2026/05/22/153655" : "2026-05-22T11:28:41Z",
       "https://bd103.dev/blog/2026-06-18-git-rebase-onto/" : "2026-06-19T00:14:01Z",
+      "https://bednars.me/blog/winpe-harness" : "2026-07-02T11:55:34Z",
       "https://ben-mini.com/2026/stealing-is-a-skill" : "2026-06-24T23:47:31Z",
       "https://benjaminhollon.com/musings/stop-asking-writers-about-ai/" : "2026-06-30T23:47:57Z",
       "https://benjamintoll.com/2026/06/29/on-ditching-vagrant/" : "2026-07-02T11:15:51Z",
@@ -2456,6 +2458,7 @@
       "https://davidoks.blog/p/why-japanese-companies-do-so-many" : "2026-05-22T22:40:34Z",
       "https://dbushell.com/2024/04/16/htmx-and-modern-javascript/" : "2026-06-08T12:48:36Z",
       "https://dbushell.com/2026/06/26/aria-anti-patterns-and-you/" : "2026-06-26T23:45:33Z",
+      "https://dbushell.com/2026/07/02/the-modern-app/" : "2026-07-02T11:55:27Z",
       "https://dc.watch.impress.co.jp/docs/column/2120494.html" : "2026-06-28T23:45:21Z",
       "https://ddbeck.com/notes/jj-git-push-bookmark-template/" : "2026-05-19T22:40:21Z",
       "https://debimate.jp/post/ja/2026-06-02-%e6%96%87%e4%bd%93%e3%81%ae%e4%b8%80%e8%87%b4%e5%ba%a6%e3%82%92%e8%a9%95%e4%be%a1%e3%81%99%e3%82%8bomokage%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f%e8%a9%b1/" : "2026-06-07T22:40:25Z",
@@ -5462,6 +5465,7 @@
       "https://forest.watch.impress.co.jp/docs/news/2121349.html" : "2026-07-01T11:40:15Z",
       "https://forest.watch.impress.co.jp/docs/news/2121357.html" : "2026-07-01T11:40:15Z",
       "https://forest.watch.impress.co.jp/docs/news/2121489.html" : "2026-07-01T12:20:51Z",
+      "https://forest.watch.impress.co.jp/docs/news/2121687.html" : "2026-07-02T11:55:28Z",
       "https://forest.watch.impress.co.jp/docs/news/2121908.html" : "2026-07-02T11:15:51Z",
       "https://forest.watch.impress.co.jp/docs/news/insiderpre/2109305.html" : "2026-05-18T10:40:31Z",
       "https://forest.watch.impress.co.jp/docs/news/insiderpre/2113748.html" : "2026-06-02T10:40:28Z",
@@ -8329,6 +8333,7 @@
       "https://point.free/blog/gemma-4-on-a-2016-xeon/" : "2026-06-01T10:40:38Z",
       "https://pointieststick.com/2026/05/23/long-term-support-doesnt-mean-what-you-think/" : "2026-05-24T10:21:02Z",
       "https://pointieststick.com/2026/06/22/network-shares-still-talking-about-them-in-2026/" : "2026-06-22T23:53:07Z",
+      "https://pointieststick.com/2026/07/01/this-month-in-kde-linux-june-2026/" : "2026-07-02T11:55:27Z",
       "https://pokeemerald.com/" : "2026-06-06T22:40:35Z",
       "https://polyformproject.org/licenses" : "2026-06-05T22:40:29Z",
       "https://polypad.amplify.com/" : "2026-05-19T10:40:35Z",
@@ -12345,6 +12350,7 @@
       "https://www.itmedia.co.jp/news/articles/2607/02/news030.html" : "2026-07-02T11:15:51Z",
       "https://www.itmedia.co.jp/news/articles/2607/02/news059.html" : "2026-07-02T11:15:51Z",
       "https://www.itmedia.co.jp/news/articles/2607/02/news074.html" : "2026-07-02T11:15:51Z",
+      "https://www.itmedia.co.jp/news/articles/2607/02/news110.html" : "2026-07-02T11:55:28Z",
       "https://www.itmedia.co.jp/pcuser/articles/2605/19/news095.html" : "2026-05-19T22:40:22Z",
       "https://www.itmedia.co.jp/pcuser/articles/2605/26/news095.html" : "2026-05-26T22:40:31Z",
       "https://www.itmedia.co.jp/pcuser/articles/2605/27/news106.html" : "2026-05-27T22:40:30Z",
@@ -13399,6 +13405,7 @@
       "https://www.techno-edge.net/article/2026/06/25/5223.html" : "2026-06-25T11:19:51Z",
       "https://www.techno-edge.net/article/2026/06/28/5232.html" : "2026-06-28T23:45:21Z",
       "https://www.techno-edge.net/article/2026/06/29/5234.html" : "2026-06-29T12:47:47Z",
+      "https://www.techno-edge.net/article/2026/07/01/5240.html" : "2026-07-02T11:55:28Z",
       "https://www.techno-edge.net/article/2026/07/02/5247.html" : "2026-07-02T11:15:51Z",
       "https://www.techno-edge.net/article/2026/07/02/5250.html" : "2026-07-02T11:15:51Z",
       "https://www.technologyreview.jp/s/382783/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/" : "2026-05-15T09:40:46Z",
@@ -13451,6 +13458,7 @@
       "https://www.theguardian.com/society/2026/jun/17/hpv-jabs-reduce-risk-dying-cervical-cancer-before-30-zero-study-finds" : "2026-06-21T23:55:21Z",
       "https://www.theguardian.com/society/2026/jun/27/screen-time-damage-under-twos-development-study" : "2026-06-27T23:39:36Z",
       "https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial" : "2026-05-31T22:40:40Z",
+      "https://www.theguardian.com/technology/2026/jul/02/openai-stake-us-government-ai-sam-altman" : "2026-07-02T11:55:34Z",
       "https://www.theguardian.com/technology/2026/may/24/ai-washing-pr-firms-scrambling-rebrand" : "2026-05-24T22:40:33Z",
       "https://www.theguardian.com/technology/2026/may/31/meta-legal-action-forces-facebook-whistleblower-to-stay-silent-at-hay-festival" : "2026-06-01T10:40:36Z",
       "https://www.theguardian.com/tv-and-radio/2026/jun/16/alternative-3-mockumentary-missing-scientists-conspiracy-50-years-later" : "2026-06-16T13:16:58Z",
@@ -13661,6 +13669,8 @@
       "https://www.watch.impress.co.jp/docs/news/2121360.html" : "2026-07-01T23:54:01Z",
       "https://www.watch.impress.co.jp/docs/news/2121482.html" : "2026-07-01T23:54:01Z",
       "https://www.watch.impress.co.jp/docs/news/2121682.html" : "2026-07-01T23:54:01Z",
+      "https://www.watch.impress.co.jp/docs/news/2121812.html" : "2026-07-02T11:55:28Z",
+      "https://www.watch.impress.co.jp/docs/news/2121940.html" : "2026-07-02T11:55:28Z",
       "https://www.watch.impress.co.jp/docs/review/minireview/2119742.html" : "2026-06-28T10:53:19Z",
       "https://www.watch.impress.co.jp/docs/review/review/2111145.html" : "2026-05-27T04:40:23Z",
       "https://www.watch.impress.co.jp/docs/review/review/2112837.html" : "2026-05-29T10:40:32Z",
