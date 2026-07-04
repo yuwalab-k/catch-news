@@ -1,119 +1,119 @@
 {
    "fetched_at" : {
       "aws-security" : {
-         "last_attempt_at" : "2026-07-04T10:35:28Z",
+         "last_attempt_at" : "2026-07-04T11:08:33Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:28Z"
+         "last_success_at" : "2026-07-04T11:08:33Z"
       },
       "codezine" : {
-         "last_attempt_at" : "2026-07-04T10:35:22Z",
+         "last_attempt_at" : "2026-07-04T11:08:26Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:22Z"
+         "last_success_at" : "2026-07-04T11:08:26Z"
       },
       "devto-rising" : {
-         "last_attempt_at" : "2026-07-04T10:35:34Z",
+         "last_attempt_at" : "2026-07-04T11:08:38Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:34Z"
+         "last_success_at" : "2026-07-04T11:08:38Z"
       },
       "devto-top" : {
-         "last_attempt_at" : "2026-07-04T10:35:34Z",
+         "last_attempt_at" : "2026-07-04T11:08:38Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:34Z"
+         "last_success_at" : "2026-07-04T11:08:38Z"
       },
       "forest-security" : {
-         "last_attempt_at" : "2026-07-04T10:35:28Z",
+         "last_attempt_at" : "2026-07-04T11:08:33Z",
          "last_error" : "HTTP 404 for https://forest.watch.impress.co.jp/data/rss/1.0/wf/security.rdf at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : null
       },
       "github-blog" : {
-         "last_attempt_at" : "2026-07-04T10:35:25Z",
+         "last_attempt_at" : "2026-07-04T11:08:30Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:25Z"
+         "last_success_at" : "2026-07-04T11:08:30Z"
       },
       "github-changelog" : {
-         "last_attempt_at" : "2026-07-04T10:35:25Z",
+         "last_attempt_at" : "2026-07-04T11:08:30Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:25Z"
+         "last_success_at" : "2026-07-04T11:08:30Z"
       },
       "github-security" : {
-         "last_attempt_at" : "2026-07-04T10:35:28Z",
+         "last_attempt_at" : "2026-07-04T11:08:32Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:28Z"
+         "last_success_at" : "2026-07-04T11:08:32Z"
       },
       "google-cloud-blog" : {
-         "last_attempt_at" : "2026-07-04T10:35:24Z",
+         "last_attempt_at" : "2026-07-04T11:08:28Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:24Z"
+         "last_success_at" : "2026-07-04T11:08:28Z"
       },
       "google-dev-blog" : {
-         "last_attempt_at" : "2026-07-04T10:35:23Z",
+         "last_attempt_at" : "2026-07-04T11:08:28Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:23Z"
+         "last_success_at" : "2026-07-04T11:08:28Z"
       },
       "hatena-it" : {
-         "last_attempt_at" : "2026-07-04T10:35:21Z",
+         "last_attempt_at" : "2026-07-04T11:08:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:21Z"
+         "last_success_at" : "2026-07-04T11:08:25Z"
       },
       "hn-best" : {
-         "last_attempt_at" : "2026-07-04T10:35:31Z",
+         "last_attempt_at" : "2026-07-04T11:08:36Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:31Z"
+         "last_success_at" : "2026-07-04T11:08:36Z"
       },
       "hn-top" : {
-         "last_attempt_at" : "2026-07-04T10:35:29Z",
+         "last_attempt_at" : "2026-07-04T11:08:33Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:29Z"
+         "last_success_at" : "2026-07-04T11:08:33Z"
       },
       "jpcert-all" : {
-         "last_attempt_at" : "2026-07-04T10:35:25Z",
+         "last_attempt_at" : "2026-07-04T11:08:30Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:25Z"
+         "last_success_at" : "2026-07-04T11:08:30Z"
       },
       "linux-kernel" : {
-         "last_attempt_at" : "2026-07-04T10:35:25Z",
+         "last_attempt_at" : "2026-07-04T11:08:30Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:25Z"
+         "last_success_at" : "2026-07-04T11:08:30Z"
       },
       "lobsters" : {
-         "last_attempt_at" : "2026-07-04T10:35:20Z",
+         "last_attempt_at" : "2026-07-04T11:08:24Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:20Z"
+         "last_success_at" : "2026-07-04T11:08:24Z"
       },
       "meta-engineering" : {
-         "last_attempt_at" : "2026-07-04T10:35:25Z",
+         "last_attempt_at" : "2026-07-04T11:08:29Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:25Z"
+         "last_success_at" : "2026-07-04T11:08:29Z"
       },
       "qiita-popular" : {
-         "last_attempt_at" : "2026-07-04T10:35:21Z",
+         "last_attempt_at" : "2026-07-04T11:08:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:21Z"
+         "last_success_at" : "2026-07-04T11:08:25Z"
       },
       "security-next" : {
-         "last_attempt_at" : "2026-07-04T10:35:26Z",
+         "last_attempt_at" : "2026-07-04T11:08:31Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:26Z"
+         "last_success_at" : "2026-07-04T11:08:31Z"
       },
       "tech-blog-rss" : {
-         "last_attempt_at" : "2026-07-04T10:35:21Z",
+         "last_attempt_at" : "2026-07-04T11:08:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:21Z"
+         "last_success_at" : "2026-07-04T11:08:25Z"
       },
       "vercel" : {
-         "last_attempt_at" : "2026-07-04T10:35:23Z",
+         "last_attempt_at" : "2026-07-04T11:08:27Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:23Z"
+         "last_success_at" : "2026-07-04T11:08:27Z"
       },
       "youtube-fireship" : {
-         "last_attempt_at" : "2026-07-04T10:35:23Z",
+         "last_attempt_at" : "2026-07-04T11:08:27Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:23Z"
+         "last_success_at" : "2026-07-04T11:08:27Z"
       },
       "zenn" : {
-         "last_attempt_at" : "2026-07-04T10:35:21Z",
+         "last_attempt_at" : "2026-07-04T11:08:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-07-04T10:35:21Z"
+         "last_success_at" : "2026-07-04T11:08:25Z"
       }
    },
    "seen" : {
@@ -12771,6 +12771,7 @@
       "https://www.itmedia.co.jp/news/articles/2607/03/news087.html" : "2026-07-03T11:15:11Z",
       "https://www.itmedia.co.jp/news/articles/2607/03/news098.html" : "2026-07-03T11:15:11Z",
       "https://www.itmedia.co.jp/news/articles/2607/03/news101.html" : "2026-07-03T11:15:11Z",
+      "https://www.itmedia.co.jp/news/articles/2607/03/news105.html" : "2026-07-04T11:08:25Z",
       "https://www.itmedia.co.jp/news/articles/2607/03/news113.html" : "2026-07-03T11:15:11Z",
       "https://www.itmedia.co.jp/news/articles/2607/03/news116.html" : "2026-07-03T11:15:11Z",
       "https://www.itmedia.co.jp/pcuser/articles/2605/19/news095.html" : "2026-05-19T22:40:22Z",
@@ -14128,8 +14129,10 @@
       "https://www.watch.impress.co.jp/docs/news/2121482.html" : "2026-07-01T23:54:01Z",
       "https://www.watch.impress.co.jp/docs/news/2121682.html" : "2026-07-01T23:54:01Z",
       "https://www.watch.impress.co.jp/docs/news/2121812.html" : "2026-07-02T11:55:28Z",
+      "https://www.watch.impress.co.jp/docs/news/2121866.html" : "2026-07-04T11:08:25Z",
       "https://www.watch.impress.co.jp/docs/news/2121940.html" : "2026-07-02T11:55:28Z",
       "https://www.watch.impress.co.jp/docs/news/2121944.html" : "2026-07-02T23:43:17Z",
+      "https://www.watch.impress.co.jp/docs/news/2122364.html" : "2026-07-04T11:08:25Z",
       "https://www.watch.impress.co.jp/docs/review/minireview/2119742.html" : "2026-06-28T10:53:19Z",
       "https://www.watch.impress.co.jp/docs/review/review/2111145.html" : "2026-05-27T04:40:23Z",
       "https://www.watch.impress.co.jp/docs/review/review/2112837.html" : "2026-05-29T10:40:32Z",

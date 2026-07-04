@@ -1,0 +1,50 @@
+[
+   {
+      "author" : null,
+      "category" : "knowledge",
+      "fetched_at" : "2026-07-04T11:08:25Z",
+      "id" : "8e6ec63f12eb5bdb4d07f38a22275c4a145c67ed5038f093c49848efc350deae",
+      "image_url" : null,
+      "published_at" : "2026-07-04T06:01:57Z",
+      "source" : "Hatena Bookmark IT",
+      "source_color" : "#00A4DE",
+      "source_home" : "https://b.hatena.ne.jp/hotentry/it.rss",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss",
+      "source_id" : "hatena-it",
+      "source_type" : "rss",
+      "title" : "カシオ プロトレック、“ぶら下げ”可能な小型モデル",
+      "url" : "https://www.watch.impress.co.jp/docs/news/2121866.html"
+   },
+   {
+      "author" : null,
+      "category" : "knowledge",
+      "fetched_at" : "2026-07-04T11:08:25Z",
+      "id" : "91b748920ece31dcf7254bec264899292414faaf7a91562c78c867b67a86be02",
+      "image_url" : null,
+      "published_at" : "2026-07-04T04:01:35Z",
+      "source" : "Hatena Bookmark IT",
+      "source_color" : "#00A4DE",
+      "source_home" : "https://b.hatena.ne.jp/hotentry/it.rss",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss",
+      "source_id" : "hatena-it",
+      "source_type" : "rss",
+      "title" : "ビッカメもヤマダもかなわんわ――開店ホヤホヤの「ヨドバシ池袋店」に潜入　元地元民が感じた“圧倒的な強み”とは",
+      "url" : "https://www.itmedia.co.jp/news/articles/2607/03/news105.html"
+   },
+   {
+      "author" : null,
+      "category" : "knowledge",
+      "fetched_at" : "2026-07-04T11:08:25Z",
+      "id" : "9ead029fcdd85f427c5ba1c8f96cda679883fc5671646c9b3d2878a8ff2a517b",
+      "image_url" : null,
+      "published_at" : "2026-07-03T22:24:41Z",
+      "source" : "Hatena Bookmark IT",
+      "source_color" : "#00A4DE",
+      "source_home" : "https://b.hatena.ne.jp/hotentry/it.rss",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss",
+      "source_id" : "hatena-it",
+      "source_type" : "rss",
+      "title" : "大阪・藤井寺市で複数の古墳を発見",
+      "url" : "https://www.watch.impress.co.jp/docs/news/2122364.html"
+   }
+]
