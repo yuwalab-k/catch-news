@@ -1,0 +1,50 @@
+[
+   {
+      "author" : "TimCTRL",
+      "category" : "knowledge",
+      "fetched_at" : "2026-07-26T11:05:53Z",
+      "id" : "cff80b044bf04bb5e590bcb9a3aab7c397b66663d139ae038e18f8fabfddb4dd",
+      "published_at" : "2026-07-26T09:18:34Z",
+      "score" : 24,
+      "source" : "Hacker News Top",
+      "source_color" : "#FF6600",
+      "source_home" : "https://news.ycombinator.com/",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fnews.ycombinator.com%2F",
+      "source_id" : "hn-top",
+      "source_type" : "api",
+      "title" : "Elevated Errors for Opus 5",
+      "url" : "https://status.claude.com/incidents/zftg3gqkmv18"
+   },
+   {
+      "author" : "bredren",
+      "category" : "knowledge",
+      "fetched_at" : "2026-07-26T11:05:53Z",
+      "id" : "b1fc0562ad17632eb263adff37dfce95557259ea0dd72c907e3b684f5486ee2a",
+      "published_at" : "2026-07-26T08:45:06Z",
+      "score" : 10,
+      "source" : "Hacker News Top",
+      "source_color" : "#FF6600",
+      "source_home" : "https://news.ycombinator.com/",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fnews.ycombinator.com%2F",
+      "source_id" : "hn-top",
+      "source_type" : "api",
+      "title" : "Claude Code has a hardcoded instruction telling Opus 5 not to use subagents",
+      "url" : "https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling/"
+   },
+   {
+      "author" : null,
+      "category" : "knowledge",
+      "fetched_at" : "2026-07-26T11:05:44Z",
+      "id" : "3fc8bdb7cc18e6870f3b22ca2b0778b4fd4dbc28231812dde82153629812e227",
+      "image_url" : null,
+      "published_at" : "2026-07-25T04:39:45Z",
+      "source" : "Hatena Bookmark IT",
+      "source_color" : "#00A4DE",
+      "source_home" : "https://b.hatena.ne.jp/hotentry/it.rss",
+      "source_icon" : "https://www.google.com/s2/favicons?sz=64&domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss",
+      "source_id" : "hatena-it",
+      "source_type" : "rss",
+      "title" : "GitHub - marcelroed/gigatoken: Language model tokenization at GB/s",
+      "url" : "https://github.com/marcelroed/gigatoken"
+   }
+]
