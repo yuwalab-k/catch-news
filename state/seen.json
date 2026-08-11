@@ -1,119 +1,119 @@
 {
    "fetched_at" : {
       "aws-security" : {
-         "last_attempt_at" : "2026-08-11T09:38:04Z",
+         "last_attempt_at" : "2026-08-11T10:28:28Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:38:04Z"
+         "last_success_at" : "2026-08-11T10:28:28Z"
       },
       "codezine" : {
-         "last_attempt_at" : "2026-08-11T09:37:56Z",
+         "last_attempt_at" : "2026-08-11T10:28:21Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:37:56Z"
+         "last_success_at" : "2026-08-11T10:28:21Z"
       },
       "devto-rising" : {
-         "last_attempt_at" : "2026-08-11T09:38:09Z",
+         "last_attempt_at" : "2026-08-11T10:28:34Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:38:09Z"
+         "last_success_at" : "2026-08-11T10:28:34Z"
       },
       "devto-top" : {
-         "last_attempt_at" : "2026-08-11T09:38:09Z",
+         "last_attempt_at" : "2026-08-11T10:28:33Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:38:09Z"
+         "last_success_at" : "2026-08-11T10:28:33Z"
       },
       "forest-security" : {
-         "last_attempt_at" : "2026-08-11T09:38:04Z",
+         "last_attempt_at" : "2026-08-11T10:28:28Z",
          "last_error" : "HTTP 404 for https://forest.watch.impress.co.jp/data/rss/1.0/wf/security.rdf at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : null
       },
       "github-blog" : {
-         "last_attempt_at" : "2026-08-11T09:38:01Z",
+         "last_attempt_at" : "2026-08-11T10:28:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:38:01Z"
+         "last_success_at" : "2026-08-11T10:28:25Z"
       },
       "github-changelog" : {
-         "last_attempt_at" : "2026-08-11T09:38:01Z",
+         "last_attempt_at" : "2026-08-11T10:28:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:38:01Z"
+         "last_success_at" : "2026-08-11T10:28:25Z"
       },
       "github-security" : {
-         "last_attempt_at" : "2026-08-11T09:38:04Z",
+         "last_attempt_at" : "2026-08-11T10:28:28Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:38:04Z"
+         "last_success_at" : "2026-08-11T10:28:28Z"
       },
       "google-cloud-blog" : {
-         "last_attempt_at" : "2026-08-11T09:37:59Z",
+         "last_attempt_at" : "2026-08-11T10:28:23Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:37:59Z"
+         "last_success_at" : "2026-08-11T10:28:23Z"
       },
       "google-dev-blog" : {
-         "last_attempt_at" : "2026-08-11T09:37:59Z",
+         "last_attempt_at" : "2026-08-11T10:28:23Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:37:59Z"
+         "last_success_at" : "2026-08-11T10:28:23Z"
       },
       "hatena-it" : {
-         "last_attempt_at" : "2026-08-11T09:37:54Z",
+         "last_attempt_at" : "2026-08-11T10:28:20Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:37:54Z"
+         "last_success_at" : "2026-08-11T10:28:20Z"
       },
       "hn-best" : {
-         "last_attempt_at" : "2026-08-11T09:38:07Z",
+         "last_attempt_at" : "2026-08-11T10:28:31Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:38:07Z"
+         "last_success_at" : "2026-08-11T10:28:31Z"
       },
       "hn-top" : {
-         "last_attempt_at" : "2026-08-11T09:38:05Z",
+         "last_attempt_at" : "2026-08-11T10:28:29Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:38:05Z"
+         "last_success_at" : "2026-08-11T10:28:29Z"
       },
       "jpcert-all" : {
-         "last_attempt_at" : "2026-08-11T09:38:02Z",
+         "last_attempt_at" : "2026-08-11T10:28:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:38:02Z"
+         "last_success_at" : "2026-08-11T10:28:25Z"
       },
       "linux-kernel" : {
-         "last_attempt_at" : "2026-08-11T09:38:01Z",
+         "last_attempt_at" : "2026-08-11T10:28:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:38:01Z"
+         "last_success_at" : "2026-08-11T10:28:25Z"
       },
       "lobsters" : {
-         "last_attempt_at" : "2026-08-11T09:37:53Z",
+         "last_attempt_at" : "2026-08-11T10:28:20Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:37:53Z"
+         "last_success_at" : "2026-08-11T10:28:20Z"
       },
       "meta-engineering" : {
-         "last_attempt_at" : "2026-08-11T09:38:01Z",
+         "last_attempt_at" : "2026-08-11T10:28:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:38:01Z"
+         "last_success_at" : "2026-08-11T10:28:25Z"
       },
       "qiita-popular" : {
-         "last_attempt_at" : "2026-08-11T09:37:56Z",
+         "last_attempt_at" : "2026-08-11T10:28:21Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:37:56Z"
+         "last_success_at" : "2026-08-11T10:28:21Z"
       },
       "security-next" : {
-         "last_attempt_at" : "2026-08-11T09:38:03Z",
+         "last_attempt_at" : "2026-08-11T10:28:26Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:38:03Z"
+         "last_success_at" : "2026-08-11T10:28:26Z"
       },
       "tech-blog-rss" : {
-         "last_attempt_at" : "2026-08-11T09:37:55Z",
+         "last_attempt_at" : "2026-08-11T10:28:21Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:37:55Z"
+         "last_success_at" : "2026-08-11T10:28:21Z"
       },
       "vercel" : {
-         "last_attempt_at" : "2026-08-11T09:37:58Z",
+         "last_attempt_at" : "2026-08-11T10:28:22Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:37:58Z"
+         "last_success_at" : "2026-08-11T10:28:22Z"
       },
       "youtube-fireship" : {
-         "last_attempt_at" : "2026-08-11T09:37:57Z",
+         "last_attempt_at" : "2026-08-11T10:28:22Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:37:57Z"
+         "last_success_at" : "2026-08-11T10:28:22Z"
       },
       "zenn" : {
-         "last_attempt_at" : "2026-08-11T09:37:54Z",
+         "last_attempt_at" : "2026-08-11T10:28:20Z",
          "last_error" : null,
-         "last_success_at" : "2026-08-11T09:37:54Z"
+         "last_success_at" : "2026-08-11T10:28:20Z"
       }
    },
    "seen" : {
@@ -227,6 +227,7 @@
       "https://86box.net/2026/05/31/86box-v6-0.html" : "2026-05-31T10:34:42Z",
       "https://9front.org/releases/2026/08/02/0/" : "2026-08-03T11:59:53Z",
       "https://9mothers.com/careers" : "2026-07-07T12:16:19Z",
+      "https://9p.io/who/dmr/odd.html" : "2026-08-11T10:28:20Z",
       "https://9to5google.com/2026/05/25/motorola-amazon-app-hijacking-behavior/" : "2026-05-26T04:40:33Z",
       "https://9to5google.com/2026/06/15/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers/" : "2026-06-16T14:32:02Z",
       "https://9to5mac.com/2026/06/02/microsoft-ceo-were-moving-from-os-and-apps-to-agents-instead/" : "2026-06-02T22:40:24Z",
@@ -2682,6 +2683,7 @@
       "https://blog.zgp.org/the-advertising-cartel-coming-to-your-web-browser/" : "2026-06-02T22:40:34Z",
       "https://blog.zksecurity.xyz/posts/circl-bugs/" : "2026-07-07T23:34:09Z",
       "https://blog.zksecurity.xyz/posts/openvm-bugs/" : "2026-07-17T23:32:34Z",
+      "https://blog.zm.is/an-inter-mesh-deployment-pipeline/" : "2026-08-11T10:28:20Z",
       "https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/" : "2026-05-15T22:40:34Z",
       "https://blogs.cisco.com/news/our-path-forward" : "2026-05-15T02:50:55Z",
       "https://blogs.gentoo.org/mgorny/2026/05/28/why-gentoo/" : "2026-05-28T10:40:40Z",
@@ -4150,6 +4152,7 @@
       "https://courrier.jp/news/archives/447110/" : "2026-05-30T04:40:27Z",
       "https://courrier.jp/news/archives/450760/" : "2026-07-05T10:49:53Z",
       "https://courrier.jp/news/archives/452714/" : "2026-07-19T23:37:16Z",
+      "https://courrier.jp/news/archives/455535/" : "2026-08-11T10:28:20Z",
       "https://coveillance.org/a-walking-tour-of-surveillance-infrastructure-in-seattle/" : "2026-06-02T22:40:36Z",
       "https://cowboystatedaily.com/2026/06/18/giant-banana-pulled-over-in-montana-driver-says-cops-have-stopped-him-100s-of-times/" : "2026-06-23T11:42:19Z",
       "https://cp4space.hatsya.com/2026/05/03/schanuels-conjecture-and-the-semantics-of-fpsan/" : "2026-05-17T22:40:30Z",
@@ -5668,6 +5671,7 @@
       "https://dev.to/freema/i-gave-two-ai-agents-a-way-to-talk-to-each-other-then-one-of-them-fixed-a-bug-while-i-slept-a57" : "2026-08-07T09:37:48Z",
       "https://dev.to/freema/ive-built-a-handful-of-mcp-servers-heres-what-separates-a-good-one-from-a-demo-4i4f" : "2026-07-29T11:07:03Z",
       "https://dev.to/freema/mozilla-adopted-my-firefox-devtools-mcp-but-i-didnt-build-it-to-browse-the-web-5142" : "2026-07-24T10:36:44Z",
+      "https://dev.to/freemen_tech/why-i-built-cybereduc-open-source-anti-phishing-training-that-doesnt-suck-g95" : "2026-08-11T10:28:33Z",
       "https://dev.to/freezebrain/i-let-an-ai-agent-interview-me-then-it-wrote-a-file-that-describes-how-i-think-149h" : "2026-05-31T10:34:44Z",
       "https://dev.to/frodo/what-is-mlir-and-why-does-it-exist-4d78" : "2026-07-01T12:21:04Z",
       "https://dev.to/fromzerotoship/my-bot-detector-said-95-fake-it-agreed-with-me-instantly-that-was-the-tell-3j6a" : "2026-07-31T11:10:04Z",
@@ -7249,6 +7253,7 @@
       "https://dev.to/prajyu/pii-redaction-built-entirely-in-the-browser-1i4d" : "2026-06-21T11:34:44Z",
       "https://dev.to/pranav-dev/i-ported-python-semanticversion-to-rust-in-72-hours-5e83" : "2026-08-06T11:05:04Z",
       "https://dev.to/pranav_singh_6d39e7bd43d0/building-a-virtual-ipl-captain-with-5-gemini-agents-arguing-strategy-google-adk-hackathon-381m" : "2026-05-17T22:40:34Z",
+      "https://dev.to/pranta/everyone-complains-about-flutter-almost-nobody-fixes-it-3342" : "2026-08-11T10:28:33Z",
       "https://dev.to/pranta/no-the-ai-didnt-compromise-your-npm-packages-you-did-2e12" : "2026-05-15T22:40:44Z",
       "https://dev.to/prasadt1/teaching-a-qwen-agent-to-forget-5bgb" : "2026-07-15T23:38:45Z",
       "https://dev.to/pratham7711/how-i-made-a-scroll-scrubbed-video-portfolio-fast-nextjs-15-gsap-canvas-1mj6" : "2026-07-06T12:26:32Z",
@@ -9025,6 +9030,7 @@
       "https://en.wikipedia.org/wiki/crickets_as_pets" : "2026-08-09T23:04:05Z",
       "https://en.wikipedia.org/wiki/deir_el-medina_strikes" : "2026-07-12T23:33:55Z",
       "https://en.wikipedia.org/wiki/england_runestones" : "2026-05-16T04:40:29Z",
+      "https://en.wikipedia.org/wiki/fairy_ring" : "2026-08-11T10:28:29Z",
       "https://en.wikipedia.org/wiki/fermi_paradox" : "2026-08-01T23:37:55Z",
       "https://en.wikipedia.org/wiki/forestiere_underground_gardens" : "2026-07-01T11:40:22Z",
       "https://en.wikipedia.org/wiki/freeze-casting" : "2026-07-24T10:36:40Z",
@@ -20364,6 +20370,7 @@
       "https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity" : "2026-07-10T23:36:08Z",
       "https://www.brt.fyi/posts/mac-book-filing/" : "2026-07-14T23:30:43Z",
       "https://www.bruh.ltd/blog/programming-language-file-extensions-that-match-an-iso-3166-1-alpha-2-country-code/" : "2026-07-24T23:40:19Z",
+      "https://www.btp.police.uk/news/btp/news/england/btp-expands-live-facial-recognition-lfr-trial-into-london-underground-stations/" : "2026-08-11T10:28:29Z",
       "https://www.buchodi.com/meta-glasses-facial-recognition/" : "2026-06-04T22:40:36Z",
       "https://www.buildbuddy.io/blog/content-defined-chunking" : "2026-05-17T10:11:47Z",
       "https://www.buildbuddy.io/blog/content-defined-chunking/" : "2026-05-16T22:40:42Z",
@@ -21110,6 +21117,7 @@
       "https://www.itmedia.co.jp/enterprise/articles/2607/17/news032.html" : "2026-07-17T10:23:36Z",
       "https://www.itmedia.co.jp/enterprise/articles/2607/28/news016.html" : "2026-07-28T10:59:55Z",
       "https://www.itmedia.co.jp/enterprise/articles/2608/07/news026.html" : "2026-08-08T23:02:32Z",
+      "https://www.itmedia.co.jp/enterprise/articles/2608/10/news066.html" : "2026-08-11T10:28:20Z",
       "https://www.itmedia.co.jp/mobile/articles/2605/14/news135.html" : "2026-05-15T23:35:45Z",
       "https://www.itmedia.co.jp/mobile/articles/2605/14/news149.html" : "2026-05-15T02:50:46Z",
       "https://www.itmedia.co.jp/mobile/articles/2605/14/news153.html" : "2026-05-15T22:40:23Z",
@@ -21544,6 +21552,7 @@
       "https://www.itmedia.co.jp/pcuser/articles/2608/03/news042.html" : "2026-08-03T11:59:54Z",
       "https://www.itmedia.co.jp/pcuser/articles/2608/03/news063.html" : "2026-08-03T23:44:44Z",
       "https://www.itmedia.co.jp/smartjapan/articles/2607/28/news039.html" : "2026-07-29T23:39:55Z",
+      "https://www.iwriteiam.nl/pgigatron.html" : "2026-08-11T10:28:29Z",
       "https://www.j-cast.com/2026/05/22514970.html" : "2026-05-22T22:40:24Z",
       "https://www.j-cast.com/2026/06/29515961.html" : "2026-06-29T23:39:36Z",
       "https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885" : "2026-06-19T12:35:16Z",
@@ -24051,6 +24060,7 @@
       "https://zenn.dev/417/articles/ai-era-domain-knowledge-placement" : "2026-06-20T11:01:30Z",
       "https://zenn.dev/417/articles/masakazu-cf-workers-japan-enterprise-wall-20260628" : "2026-06-29T13:52:55Z",
       "https://zenn.dev/417/books/flue-framework-guide" : "2026-06-20T23:48:06Z",
+      "https://zenn.dev/4geru/books/gas-favorite-map-handson" : "2026-08-11T10:28:20Z",
       "https://zenn.dev/53able/articles/6514f44e72be7f" : "2026-06-13T22:40:27Z",
       "https://zenn.dev/7garden/articles/90bfc4e12b5461" : "2026-05-23T10:14:38Z",
       "https://zenn.dev/7kaji/articles/370a8dd7f678d1" : "2026-06-19T23:45:34Z",
@@ -24134,6 +24144,7 @@
       "https://zenn.dev/ait/articles/google-design-md-measured" : "2026-08-06T11:04:49Z",
       "https://zenn.dev/aiwatch_jp/articles/agent-vuln-hunting-harness-glasswing" : "2026-06-05T11:45:54Z",
       "https://zenn.dev/akari1106/articles/20109e62a4b8b7" : "2026-08-10T10:00:17Z",
+      "https://zenn.dev/akari1106/articles/9d2abbc63a4abb" : "2026-08-11T10:28:20Z",
       "https://zenn.dev/akari1106/articles/ea85f0a245bb8b" : "2026-07-24T10:36:32Z",
       "https://zenn.dev/akfm/books/nextjs-basic-principle/viewer/part_2_container_1st_design" : "2026-07-25T23:40:05Z",
       "https://zenn.dev/akira5kitaoka/articles/nabeatsu_zeta" : "2026-07-14T10:22:11Z",
@@ -25094,6 +25105,7 @@
       "https://zenn.dev/knowledgesense/articles/67c61463d9c664" : "2026-07-14T10:22:11Z",
       "https://zenn.dev/knowledgesense/articles/7c1a8f7720b119" : "2026-08-04T11:47:13Z",
       "https://zenn.dev/knowledgesense/articles/7ce72924c0050f" : "2026-06-09T12:24:09Z",
+      "https://zenn.dev/knowledgesense/articles/9e55a3bb67729c" : "2026-08-11T10:28:20Z",
       "https://zenn.dev/knowledgework/articles/2f100e296b60d4" : "2026-08-06T11:04:49Z",
       "https://zenn.dev/kobao/articles/64a72dc0167ca3" : "2026-05-31T10:34:33Z",
       "https://zenn.dev/kojikojiprg/articles/a89ecbe73be743" : "2026-06-21T11:34:30Z",
@@ -25277,6 +25289,7 @@
       "https://zenn.dev/mskbhd/articles/lab-198-gura105-operational-ontology-o" : "2026-07-23T23:35:09Z",
       "https://zenn.dev/msmtec/articles/gpt-structured-output-ocr" : "2026-07-24T10:36:32Z",
       "https://zenn.dev/mstn_/articles/af99d216639b30" : "2026-05-28T23:53:02Z",
+      "https://zenn.dev/mtmtdack/articles/2026-08-11-n-plus-one-counting-queries" : "2026-08-11T10:28:20Z",
       "https://zenn.dev/mu_tomoya/articles/ca73972f94e33a" : "2026-06-09T12:24:09Z",
       "https://zenn.dev/mugideru/articles/35b209e934ba3e" : "2026-05-22T10:40:24Z",
       "https://zenn.dev/muit_techblog/articles/0f761401edc878" : "2026-07-21T11:26:28Z",
