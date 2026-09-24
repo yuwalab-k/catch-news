@@ -1,119 +1,119 @@
 {
    "fetched_at" : {
       "aws-security" : {
-         "last_attempt_at" : "2026-09-24T13:46:07Z",
+         "last_attempt_at" : "2026-09-24T14:23:28Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:07Z"
+         "last_success_at" : "2026-09-24T14:23:28Z"
       },
       "codezine" : {
-         "last_attempt_at" : "2026-09-24T13:46:00Z",
+         "last_attempt_at" : "2026-09-24T14:23:22Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:00Z"
+         "last_success_at" : "2026-09-24T14:23:22Z"
       },
       "devto-rising" : {
-         "last_attempt_at" : "2026-09-24T13:46:13Z",
+         "last_attempt_at" : "2026-09-24T14:23:35Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:13Z"
+         "last_success_at" : "2026-09-24T14:23:35Z"
       },
       "devto-top" : {
-         "last_attempt_at" : "2026-09-24T13:46:13Z",
+         "last_attempt_at" : "2026-09-24T14:23:34Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:13Z"
+         "last_success_at" : "2026-09-24T14:23:34Z"
       },
       "forest-security" : {
-         "last_attempt_at" : "2026-09-24T13:46:07Z",
+         "last_attempt_at" : "2026-09-24T14:23:28Z",
          "last_error" : "HTTP 404 for https://forest.watch.impress.co.jp/data/rss/1.0/wf/security.rdf at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : null
       },
       "github-blog" : {
-         "last_attempt_at" : "2026-09-24T13:46:04Z",
+         "last_attempt_at" : "2026-09-24T14:23:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:04Z"
+         "last_success_at" : "2026-09-24T14:23:25Z"
       },
       "github-changelog" : {
-         "last_attempt_at" : "2026-09-24T13:46:04Z",
+         "last_attempt_at" : "2026-09-24T14:23:26Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:04Z"
+         "last_success_at" : "2026-09-24T14:23:26Z"
       },
       "github-security" : {
-         "last_attempt_at" : "2026-09-24T13:46:07Z",
+         "last_attempt_at" : "2026-09-24T14:23:28Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:07Z"
+         "last_success_at" : "2026-09-24T14:23:28Z"
       },
       "google-cloud-blog" : {
-         "last_attempt_at" : "2026-09-24T13:46:02Z",
+         "last_attempt_at" : "2026-09-24T14:23:24Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:02Z"
+         "last_success_at" : "2026-09-24T14:23:24Z"
       },
       "google-dev-blog" : {
-         "last_attempt_at" : "2026-09-24T13:46:01Z",
+         "last_attempt_at" : "2026-09-24T14:23:23Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:01Z"
+         "last_success_at" : "2026-09-24T14:23:23Z"
       },
       "hatena-it" : {
-         "last_attempt_at" : "2026-09-24T13:45:59Z",
+         "last_attempt_at" : "2026-09-24T14:23:21Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:45:59Z"
+         "last_success_at" : "2026-09-24T14:23:21Z"
       },
       "hn-best" : {
-         "last_attempt_at" : "2026-09-24T13:46:10Z",
+         "last_attempt_at" : "2026-09-24T14:23:32Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:10Z"
+         "last_success_at" : "2026-09-24T14:23:32Z"
       },
       "hn-top" : {
-         "last_attempt_at" : "2026-09-24T13:46:07Z",
+         "last_attempt_at" : "2026-09-24T14:23:29Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:07Z"
+         "last_success_at" : "2026-09-24T14:23:29Z"
       },
       "jpcert-all" : {
-         "last_attempt_at" : "2026-09-24T13:46:05Z",
+         "last_attempt_at" : "2026-09-24T14:23:26Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:05Z"
+         "last_success_at" : "2026-09-24T14:23:26Z"
       },
       "linux-kernel" : {
-         "last_attempt_at" : "2026-09-24T13:46:04Z",
+         "last_attempt_at" : "2026-09-24T14:23:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:04Z"
+         "last_success_at" : "2026-09-24T14:23:25Z"
       },
       "lobsters" : {
-         "last_attempt_at" : "2026-09-24T13:45:58Z",
+         "last_attempt_at" : "2026-09-24T14:23:20Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:45:58Z"
+         "last_success_at" : "2026-09-24T14:23:20Z"
       },
       "meta-engineering" : {
-         "last_attempt_at" : "2026-09-24T13:46:04Z",
+         "last_attempt_at" : "2026-09-24T14:23:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:04Z"
+         "last_success_at" : "2026-09-24T14:23:25Z"
       },
       "qiita-popular" : {
-         "last_attempt_at" : "2026-09-24T13:45:59Z",
+         "last_attempt_at" : "2026-09-24T14:23:22Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:45:59Z"
+         "last_success_at" : "2026-09-24T14:23:22Z"
       },
       "security-next" : {
-         "last_attempt_at" : "2026-09-24T13:46:05Z",
+         "last_attempt_at" : "2026-09-24T14:23:27Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:05Z"
+         "last_success_at" : "2026-09-24T14:23:27Z"
       },
       "tech-blog-rss" : {
-         "last_attempt_at" : "2026-09-24T13:45:59Z",
+         "last_attempt_at" : "2026-09-24T14:23:21Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:45:59Z"
+         "last_success_at" : "2026-09-24T14:23:21Z"
       },
       "vercel" : {
-         "last_attempt_at" : "2026-09-24T13:46:01Z",
+         "last_attempt_at" : "2026-09-24T14:23:23Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:01Z"
+         "last_success_at" : "2026-09-24T14:23:23Z"
       },
       "youtube-fireship" : {
-         "last_attempt_at" : "2026-09-24T13:46:01Z",
+         "last_attempt_at" : "2026-09-24T14:23:23Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:46:01Z"
+         "last_success_at" : "2026-09-24T14:23:23Z"
       },
       "zenn" : {
-         "last_attempt_at" : "2026-09-24T13:45:58Z",
+         "last_attempt_at" : "2026-09-24T14:23:21Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-24T13:45:58Z"
+         "last_success_at" : "2026-09-24T14:23:21Z"
       }
    },
    "seen" : {
@@ -481,6 +481,7 @@
       "https://aiandeducation.mit.edu/report/" : "2026-08-27T19:15:20Z",
       "https://aibodh.com/posts/async-rust-chapter-1-hands-on-intro-to-async-rust/" : "2026-06-10T22:40:37Z",
       "https://aiclambake.com/clamtakes/linear-a/" : "2026-06-19T23:45:43Z",
+      "https://aicoding.leaflet.pub/3mtu6c5wsvc2n" : "2026-09-24T14:23:20Z",
       "https://aiji42.dev/blog/cloudflare-os-agent-workspace/" : "2026-09-03T12:59:29Z",
       "https://aikoschurmann.com/blog/string-interning-compilers" : "2026-07-16T10:32:10Z",
       "https://airdows.com/" : "2026-07-19T10:11:54Z",
@@ -3975,6 +3976,7 @@
       "https://boz.com/articles/focus" : "2026-07-11T23:34:39Z",
       "https://bozo.httpd.rocks/" : "2026-08-07T01:37:36Z",
       "https://bradleywoolf.com/links-1/sequencing-my-own-dna-at-home" : "2026-07-07T11:27:31Z",
+      "https://bradmontague.substack.com/p/enjoy-every-sandwich" : "2026-09-24T14:23:29Z",
       "https://brainbaking.com/post/2026/05/the-death-of-the-brick-and-mortar-toy-store/" : "2026-05-22T04:40:31Z",
       "https://brainfrog.lol" : "2026-06-25T11:19:59Z",
       "https://brainless.swerdlow.dev" : "2026-07-15T23:38:42Z",
@@ -6743,6 +6745,7 @@
       "https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-june-24-to-july-1-2026-2oej" : "2026-07-01T23:54:12Z",
       "https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-june-4-to-june-11-2026-4bc4" : "2026-06-11T22:40:41Z",
       "https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-may-28-june-4-2026-3df3" : "2026-06-04T22:40:38Z",
+      "https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-september-15-to-23-2026-41mi" : "2026-09-24T14:23:34Z",
       "https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-september-9-to-17-2026-1509" : "2026-09-18T13:08:38Z",
       "https://dev.to/alexmercedcoder/apache-polaris-170-and-the-quiet-work-of-making-a-catalog-trustworthy-5bd3" : "2026-08-04T23:40:43Z",
       "https://dev.to/alexmercedcoder/apple-goes-agentic-ai-week-of-june-4-11-2026-13mm" : "2026-06-11T22:40:41Z",
@@ -7933,6 +7936,7 @@
       "https://dev.to/devopsdaily/websockets-are-the-easy-part-3l90" : "2026-08-28T06:20:29Z",
       "https://dev.to/devopsdaily/what-actually-happens-after-you-send-a-webhook-fao" : "2026-07-30T11:30:52Z",
       "https://dev.to/devopsdaily/what-happens-when-you-type-a-url-answer-it-with-three-interactive-simulators-44c0" : "2026-09-09T00:36:18Z",
+      "https://dev.to/devopsdaily/your-semantic-cache-answers-the-question-next-door-3d55" : "2026-09-24T14:23:34Z",
       "https://dev.to/devopsdaily/your-tenant-isolation-is-one-forgotten-where-clause-away-12p9" : "2026-09-20T00:22:40Z",
       "https://dev.to/devpato/-building-a-whatsapp-ai-agent-with-gemini-using-gemini-as-your-copilot-41" : "2026-07-29T23:40:10Z",
       "https://dev.to/devpops/how-to-properly-set-up-k3s-on-your-homelab-or-server-2026-edition-595" : "2026-06-13T23:45:06Z",
@@ -15048,6 +15052,7 @@
       "https://gigazine.net/news/20260924-anthropic-claude-crispr/" : "2026-09-24T13:45:59Z",
       "https://gigazine.net/news/20260924-enigma-mvueh-break/" : "2026-09-24T13:45:59Z",
       "https://gigazine.net/news/20260924-frontier-ai-control/" : "2026-09-24T13:45:59Z",
+      "https://gigazine.net/news/20260924-gemini-3-8-flash-tts/" : "2026-09-24T14:23:21Z",
       "https://gigazine.net/news/20260924-googlebook/" : "2026-09-24T13:45:59Z",
       "https://gigazine.net/news/20260924-googles-gemini-hacked-three-companies-ai/" : "2026-09-24T13:45:59Z",
       "https://gigazine.net/news/20260924-meta-vr-glasses/" : "2026-09-24T13:45:59Z",
@@ -16274,6 +16279,7 @@
       "https://github.com/neilsonnn/image-blaster" : "2026-05-15T22:40:23Z",
       "https://github.com/nelsonwerd/proof-ate-the-project" : "2026-08-01T10:19:37Z",
       "https://github.com/neospe/autofit2" : "2026-06-26T23:45:41Z",
+      "https://github.com/nestrilabs/nesbox" : "2026-09-24T14:23:29Z",
       "https://github.com/nestrilabs/virtio-nvgpu" : "2026-09-24T13:46:07Z",
       "https://github.com/newren/git-filter-repo" : "2026-07-24T10:36:40Z",
       "https://github.com/newspicel/sdrminusminus" : "2026-09-14T15:13:49Z",
@@ -29855,6 +29861,7 @@
       "https://www.bloomberg.com/news/articles/2026-08-28/advent-stripe-consortium-is-said-to-drop-pursuit-of-paypal" : "2026-08-28T06:20:23Z",
       "https://www.bloomberg.com/news/articles/2026-09-18/to-quit-vaping-some-are-starting-to-smoke" : "2026-09-23T00:55:16Z",
       "https://www.bloomberg.com/news/articles/2026-09-21/google-rolls-out-899-plus-googlebooks-from-dell-hp-lenovo-acer-asus" : "2026-09-21T15:18:52Z",
+      "https://www.bloomberg.com/news/articles/2026-09-24/oracle-cites-force-majeure-to-shield-itself-on-controversial-data-center" : "2026-09-24T14:23:29Z",
       "https://www.bloomberg.com/news/features/2020-06-23/golden-geese-and-unicorns-inside-the-eccentric-presentations-of-masayoshi-son" : "2026-06-29T12:47:56Z",
       "https://www.bloomberg.com/news/features/2026-06-12/india-s-extreme-heat-is-hurting-its-economy-and-workers" : "2026-06-13T22:40:36Z",
       "https://www.bloomberg.com/news/features/2026-07-07/why-it-s-so-difficult-to-produce-100-american-made-medical-gloves" : "2026-07-11T10:05:07Z",
@@ -33931,6 +33938,7 @@
       "https://www.security-next.com/190486" : "2026-09-18T00:46:18Z",
       "https://www.security-next.com/190497" : "2026-09-18T00:46:18Z",
       "https://www.security-next.com/190502" : "2026-09-18T13:08:31Z",
+      "https://www.security-next.com/190516" : "2026-09-24T14:23:27Z",
       "https://www.security-next.com/190525" : "2026-09-18T13:08:31Z",
       "https://www.security-next.com/190534" : "2026-09-18T13:08:31Z",
       "https://www.security-next.com/190538" : "2026-09-18T13:08:31Z",
@@ -33942,6 +33950,7 @@
       "https://www.security-next.com/190602" : "2026-09-24T00:52:18Z",
       "https://www.security-next.com/190604" : "2026-09-24T00:52:18Z",
       "https://www.security-next.com/190611" : "2026-09-24T00:52:18Z",
+      "https://www.security-next.com/190619" : "2026-09-24T14:23:27Z",
       "https://www.security-next.com/190629" : "2026-09-24T00:52:18Z",
       "https://www.security-next.com/190638" : "2026-09-24T13:46:05Z",
       "https://www.security-next.com/190654" : "2026-09-24T13:46:05Z",
@@ -37158,6 +37167,7 @@
       "https://zenn.dev/nowly/articles/a0089957f172ef" : "2026-09-18T00:46:11Z",
       "https://zenn.dev/nozomi720/articles/claude_code_hooks_feedback" : "2026-08-13T10:40:31Z",
       "https://zenn.dev/nozomu/articles/4b55abc30c8ec1" : "2026-05-30T23:40:33Z",
+      "https://zenn.dev/nrs/articles/10a331bae98bc4" : "2026-09-24T14:23:21Z",
       "https://zenn.dev/nrs/articles/70db94beb7b76d" : "2026-08-04T23:40:29Z",
       "https://zenn.dev/nrs/articles/93424504f49ce6" : "2026-08-28T06:20:15Z",
       "https://zenn.dev/nrs/articles/97969a71c1d3b6" : "2026-05-19T23:43:50Z",
