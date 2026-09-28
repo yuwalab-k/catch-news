@@ -1,119 +1,119 @@
 {
    "fetched_at" : {
       "aws-security" : {
-         "last_attempt_at" : "2026-09-28T16:59:21Z",
+         "last_attempt_at" : "2026-09-28T17:47:48Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:21Z"
+         "last_success_at" : "2026-09-28T17:47:48Z"
       },
       "codezine" : {
-         "last_attempt_at" : "2026-09-28T16:59:15Z",
+         "last_attempt_at" : "2026-09-28T17:47:42Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:15Z"
+         "last_success_at" : "2026-09-28T17:47:42Z"
       },
       "devto-rising" : {
-         "last_attempt_at" : "2026-09-28T16:59:27Z",
+         "last_attempt_at" : "2026-09-28T17:47:54Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:27Z"
+         "last_success_at" : "2026-09-28T17:47:54Z"
       },
       "devto-top" : {
-         "last_attempt_at" : "2026-09-28T16:59:26Z",
+         "last_attempt_at" : "2026-09-28T17:47:53Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:26Z"
+         "last_success_at" : "2026-09-28T17:47:53Z"
       },
       "forest-security" : {
-         "last_attempt_at" : "2026-09-28T16:59:21Z",
+         "last_attempt_at" : "2026-09-28T17:47:48Z",
          "last_error" : "HTTP 404 for https://forest.watch.impress.co.jp/data/rss/1.0/wf/security.rdf at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : null
       },
       "github-blog" : {
-         "last_attempt_at" : "2026-09-28T16:59:19Z",
+         "last_attempt_at" : "2026-09-28T17:47:46Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:19Z"
+         "last_success_at" : "2026-09-28T17:47:46Z"
       },
       "github-changelog" : {
-         "last_attempt_at" : "2026-09-28T16:59:19Z",
+         "last_attempt_at" : "2026-09-28T17:47:46Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:19Z"
+         "last_success_at" : "2026-09-28T17:47:46Z"
       },
       "github-security" : {
-         "last_attempt_at" : "2026-09-28T16:59:21Z",
+         "last_attempt_at" : "2026-09-28T17:47:48Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:21Z"
+         "last_success_at" : "2026-09-28T17:47:48Z"
       },
       "google-cloud-blog" : {
-         "last_attempt_at" : "2026-09-28T16:59:17Z",
+         "last_attempt_at" : "2026-09-28T17:47:44Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:17Z"
+         "last_success_at" : "2026-09-28T17:47:44Z"
       },
       "google-dev-blog" : {
-         "last_attempt_at" : "2026-09-28T16:59:17Z",
+         "last_attempt_at" : "2026-09-28T17:47:44Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:17Z"
+         "last_success_at" : "2026-09-28T17:47:44Z"
       },
       "hatena-it" : {
-         "last_attempt_at" : "2026-09-28T16:59:14Z",
+         "last_attempt_at" : "2026-09-28T17:47:41Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:14Z"
+         "last_success_at" : "2026-09-28T17:47:41Z"
       },
       "hn-best" : {
-         "last_attempt_at" : "2026-09-28T16:59:24Z",
+         "last_attempt_at" : "2026-09-28T17:47:51Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:24Z"
+         "last_success_at" : "2026-09-28T17:47:51Z"
       },
       "hn-top" : {
-         "last_attempt_at" : "2026-09-28T16:59:22Z",
+         "last_attempt_at" : "2026-09-28T17:47:49Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:22Z"
+         "last_success_at" : "2026-09-28T17:47:49Z"
       },
       "jpcert-all" : {
-         "last_attempt_at" : "2026-09-28T16:59:19Z",
+         "last_attempt_at" : "2026-09-28T17:47:46Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:19Z"
+         "last_success_at" : "2026-09-28T17:47:46Z"
       },
       "linux-kernel" : {
-         "last_attempt_at" : "2026-09-28T16:59:19Z",
+         "last_attempt_at" : "2026-09-28T17:47:46Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:19Z"
+         "last_success_at" : "2026-09-28T17:47:46Z"
       },
       "lobsters" : {
-         "last_attempt_at" : "2026-09-28T16:59:13Z",
+         "last_attempt_at" : "2026-09-28T17:47:40Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:13Z"
+         "last_success_at" : "2026-09-28T17:47:40Z"
       },
       "meta-engineering" : {
-         "last_attempt_at" : "2026-09-28T16:59:18Z",
+         "last_attempt_at" : "2026-09-28T17:47:46Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:18Z"
+         "last_success_at" : "2026-09-28T17:47:46Z"
       },
       "qiita-popular" : {
-         "last_attempt_at" : "2026-09-28T16:59:14Z",
+         "last_attempt_at" : "2026-09-28T17:47:42Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:14Z"
+         "last_success_at" : "2026-09-28T17:47:42Z"
       },
       "security-next" : {
-         "last_attempt_at" : "2026-09-28T16:59:20Z",
+         "last_attempt_at" : "2026-09-28T17:47:47Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:20Z"
+         "last_success_at" : "2026-09-28T17:47:47Z"
       },
       "tech-blog-rss" : {
-         "last_attempt_at" : "2026-09-28T16:59:14Z",
+         "last_attempt_at" : "2026-09-28T17:47:41Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:14Z"
+         "last_success_at" : "2026-09-28T17:47:41Z"
       },
       "vercel" : {
-         "last_attempt_at" : "2026-09-28T16:59:16Z",
+         "last_attempt_at" : "2026-09-28T17:47:43Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:16Z"
+         "last_success_at" : "2026-09-28T17:47:43Z"
       },
       "youtube-fireship" : {
-         "last_attempt_at" : "2026-09-28T16:59:16Z",
+         "last_attempt_at" : "2026-09-28T17:47:43Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:16Z"
+         "last_success_at" : "2026-09-28T17:47:43Z"
       },
       "zenn" : {
-         "last_attempt_at" : "2026-09-28T16:59:13Z",
+         "last_attempt_at" : "2026-09-28T17:47:41Z",
          "last_error" : null,
-         "last_success_at" : "2026-09-28T16:59:13Z"
+         "last_success_at" : "2026-09-28T17:47:41Z"
       }
    },
    "seen" : {
@@ -1023,6 +1023,7 @@
       "https://arstechnica.com/space/2026/07/the-space-force-is-now-seeking-to-buy-up-to-30-billion-in-rocket-launches/" : "2026-07-21T10:47:42Z",
       "https://arstechnica.com/space/2026/07/this-is-the-worlds-most-advanced-robotic-servicing-satellite-that-we-know-about/" : "2026-07-28T23:36:45Z",
       "https://arstechnica.com/space/2026/09/it-turns-out-that-orions-much-maligned-heat-shield-performed-really-well/" : "2026-09-02T13:51:00Z",
+      "https://arstechnica.com/space/2026/09/the-large-robotic-arm-on-the-international-space-station-has-stopped-working/" : "2026-09-28T17:47:49Z",
       "https://arstechnica.com/space/2026/09/without-new-landers-or-rovers-its-helicopters-or-bust-for-nasas-mars-program/" : "2026-09-05T00:22:19Z",
       "https://arstechnica.com/tech-policy/2026/06/polymarkets-viral-videos-showed-people-winning-big-but-the-bets-were-fake/" : "2026-06-23T11:42:22Z",
       "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/" : "2026-06-06T10:32:44Z",
@@ -1501,6 +1502,7 @@
       "https://aws.amazon.com/blogs/security/aws-certificate-manager-will-discontinue-email-validation-to-prove-domain-validation-for-certificates/" : "2026-08-13T23:23:11Z",
       "https://aws.amazon.com/blogs/security/aws-completes-the-2026-police-assured-secure-facilities-pasf-audit-in-europe-london/" : "2026-08-10T23:16:37Z",
       "https://aws.amazon.com/blogs/security/aws-designated-as-a-critical-third-party-to-the-uk-financial-sector/" : "2026-07-10T23:36:08Z",
+      "https://aws.amazon.com/blogs/security/aws-european-sovereign-cloud-demonstrating-an-independent-operation/" : "2026-09-28T17:47:48Z",
       "https://aws.amazon.com/blogs/security/aws-kms-or-aws-cloudhsm-choose-the-right-key-management-solution/" : "2026-07-28T23:36:44Z",
       "https://aws.amazon.com/blogs/security/aws-ky3p-report-now-available-for-third-party-supplier-due-diligence/" : "2026-05-21T22:40:34Z",
       "https://aws.amazon.com/blogs/security/aws-network-firewall-now-supports-rule-hit-count/" : "2026-08-20T23:00:31Z",
@@ -1912,6 +1914,7 @@
       "https://blog.cloudflare.com/billable-usage-api/" : "2026-08-03T23:44:51Z",
       "https://blog.cloudflare.com/build-your-own-vulnerability-harness/" : "2026-07-10T11:30:50Z",
       "https://blog.cloudflare.com/cache-transcoding/" : "2026-09-03T00:38:23Z",
+      "https://blog.cloudflare.com/cloudflare-cf-cli-launch/" : "2026-09-28T17:47:49Z",
       "https://blog.cloudflare.com/cloudflare-os/" : "2026-08-05T23:35:54Z",
       "https://blog.cloudflare.com/content-independence-day-ai-options/" : "2026-07-26T10:22:14Z",
       "https://blog.cloudflare.com/cyber-frontier-models/" : "2026-05-18T22:40:38Z",
@@ -4368,6 +4371,7 @@
       "https://calif.io/research/weworm" : "2026-09-12T12:21:15Z",
       "https://californiasciencecenter.org/about-us/samuel-oschin-air-and-space-center/go-for-stack" : "2026-06-28T10:53:27Z",
       "https://caligra.com/c100/" : "2026-08-23T09:01:24Z",
+      "https://calnewport.com/its-time-to-investigate-the-ai-labs/" : "2026-09-28T17:47:40Z",
       "https://calnewport.com/on-ai-coding-and-its-discontents/" : "2026-08-12T23:21:13Z",
       "https://calpaterson.com/bank-python.html" : "2026-06-25T23:57:02Z",
       "https://calpaterson.com/helsinki-hn.html" : "2026-08-05T11:04:00Z",
@@ -11147,6 +11151,7 @@
       "https://dev.to/raghu_bharadwaj_404e60eb0c/speculative-decoding-faster-on-device-llms-mh3" : "2026-08-05T23:35:56Z",
       "https://dev.to/raghu_bharadwaj_404e60eb0c/the-kernel-maintainer-bottleneck-and-what-it-means-for-upstreaming-53oh" : "2026-08-07T01:37:50Z",
       "https://dev.to/rahil_pirani_c48446facc8c/the-challenges-of-creating-a-semantic-memory-layer-on-cloudflare-workers-d1-and-vectorize-3c7a" : "2026-06-06T23:41:41Z",
+      "https://dev.to/rahul_kalakoti_34d0f44c70/my-on-call-agent-remembered-the-fix-that-took-down-checkout-1de2" : "2026-09-28T17:47:53Z",
       "https://dev.to/rahul_patwa_f99f19cd1519b/granting-root-privileges-to-good-luck-on-linux-2hem" : "2026-08-16T22:55:43Z",
       "https://dev.to/raisudeep66/i-built-84-free-developer-tools-that-run-100-in-your-browser-no-signup-no-server-no-tracking-29li" : "2026-07-04T23:41:24Z",
       "https://dev.to/raj_javiya_00936ea2a2ed5a/orbit-from-abandoned-solo-tool-to-full-team-platform-with-github-copilot-4622" : "2026-06-07T22:40:36Z",
@@ -12028,6 +12033,7 @@
       "https://dev.to/tanay_joshi_04/never-lose-a-training-run-again-a-checkpoint-and-resume-playbook-for-ephemeral-gpus-2m1j" : "2026-06-23T23:39:16Z",
       "https://dev.to/tanush_326k/i-built-moneybuddy-in-10-days-a-multilingual-ai-voice-agent-for-indias-financial-services-28jd" : "2026-08-15T22:56:26Z",
       "https://dev.to/tapadyutichatterjee/a-date-is-never-just-a-date-from-west-bengals-panjika-to-a-bengali-calendar-library-4pe5" : "2026-08-25T09:18:14Z",
+      "https://dev.to/taqui/my-craziest-side-project-yet-drawva-2iom" : "2026-09-28T17:47:53Z",
       "https://dev.to/tarikmostafa/the-best-engineers-i-know-dont-write-unit-tests-4flj" : "2026-09-25T14:08:59Z",
       "https://dev.to/tatsuyawwp/my-scheduled-task-reported-success-every-5-minutes-for-3-weeks-the-process-inside-it-had-been-28m5" : "2026-08-23T09:01:27Z",
       "https://dev.to/taylorjojo/i-built-a-browser-based-tool-that-turns-photos-into-cross-stitch-patterns-el" : "2026-09-02T00:31:16Z",
@@ -15495,6 +15501,7 @@
       "https://gigazine.net/news/20260927-apple-watch-ultra-4-review/" : "2026-09-27T14:16:27Z",
       "https://gigazine.net/news/20260928-24-carat-gold-mini-pc/" : "2026-09-28T16:59:14Z",
       "https://gigazine.net/news/20260928-ai-do-not-guess/" : "2026-09-28T16:59:14Z",
+      "https://gigazine.net/news/20260928-apple-new-vision-pro/" : "2026-09-28T17:47:41Z",
       "https://gigazine.net/news/20260928-dymocks-tutoring-close-use-ai/" : "2026-09-28T16:59:14Z",
       "https://gigazine.net/news/20260928-github-removed-imitation-software-sns-buzz/" : "2026-09-28T16:59:14Z",
       "https://gigazine.net/news/20260928-jev-pokemon-red/" : "2026-09-28T16:59:14Z",
@@ -16085,6 +16092,7 @@
       "https://github.blog/open-source/gaming/beyond-the-engine-10-open-source-projects-shaping-how-games-actually-get-made/" : "2026-05-21T22:40:31Z",
       "https://github.blog/open-source/gaming/dungeons-desktops-10-roguelikes-that-never-die-because-their-communities-wont-let-them/" : "2026-05-15T02:50:50Z",
       "https://github.blog/open-source/git/highlights-from-git-2-55/" : "2026-06-29T23:39:40Z",
+      "https://github.blog/open-source/git/highlights-from-git-2-56/" : "2026-09-28T17:47:46Z",
       "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/" : "2026-07-20T23:37:03Z",
       "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/" : "2026-06-19T00:14:07Z",
       "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/" : "2026-08-27T19:15:18Z",
@@ -17514,6 +17522,7 @@
       "https://hl2.slqnt.dev/" : "2026-06-25T11:20:01Z",
       "https://hlnet.notion.site/text-art-tools" : "2026-07-12T10:11:50Z",
       "https://hmml.eddocu.com" : "2026-06-11T12:29:52Z",
+      "https://hn.watch/" : "2026-09-28T17:47:49Z",
       "https://hnmatchmaker.com/" : "2026-09-02T00:31:12Z",
       "https://hnrss.github.io/" : "2026-08-23T09:01:21Z",
       "https://hnwork.app/" : "2026-07-08T23:42:53Z",
@@ -25956,6 +25965,7 @@
       "https://simondalvai.org/blog/google-free-android/" : "2026-06-29T12:47:56Z",
       "https://simondobson.org/2026/08/07/strange-behaviour-in-lisp-sub-typing/" : "2026-08-14T22:57:02Z",
       "https://simonklee.dk/farnese-letter" : "2026-09-19T00:37:13Z",
+      "https://simonw.substack.com/p/2026-in-llms-so-far" : "2026-09-28T17:47:49Z",
       "https://simonwillison.net/2026/aug/16/qwen-38-27b/" : "2026-08-17T09:21:56Z",
       "https://simonwillison.net/2026/aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/" : "2026-08-17T22:57:50Z",
       "https://simonwillison.net/2026/aug/30/understanding-chatgpt-work/" : "2026-08-31T16:22:07Z",
@@ -28829,6 +28839,7 @@
       "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/" : "2026-09-20T00:22:36Z",
       "https://techcrunch.com/2026/09/23/commas-hands-off-driving-tech-under-investigation-after-2-fatal-crashes/" : "2026-09-23T14:24:25Z",
       "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/" : "2026-09-27T00:51:40Z",
+      "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/" : "2026-09-28T17:47:49Z",
       "https://techfeed.io/entries/6a04e692b77ff536fc1f90d6" : "2026-05-17T22:40:22Z",
       "https://techfeed.io/entries/6a0cd063d7ab5858a631b20b" : "2026-05-21T10:40:25Z",
       "https://techfeed.io/entries/6a25dbba448e384852d76345" : "2026-06-09T22:40:29Z",
@@ -31326,6 +31337,7 @@
       "https://www.experimentlog.com/blog/building-a-world-map-with-only-500-bytes" : "2026-07-04T23:41:20Z",
       "https://www.extend.ai/ui" : "2026-06-10T22:40:37Z",
       "https://www.extremetech.com/computing/windows-11s-new-media-player-uses-35x-more-ram-charges-for-popular-video" : "2026-06-20T23:48:16Z",
+      "https://www.extremetech.com/mobile/grapheneos-picks-motorola-signature-27-as-its-first-non-pixel-phone" : "2026-09-28T17:47:49Z",
       "https://www.fabianhemmert.com/opinions/a-greyscale-iphone-setup-that-works-in-everyday-life" : "2026-06-12T04:40:33Z",
       "https://www.fadingmaize.com" : "2026-07-09T23:49:20Z",
       "https://www.fairphone.com/nl/stories/the-fairphone-gen-6-is-all-about-giving-you-more" : "2026-08-18T22:57:59Z",
@@ -33384,6 +33396,7 @@
       "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html" : "2026-09-26T00:52:38Z",
       "https://www.nytimes.com/2026/09/26/business/dealbook/ai-law-discount-billable-hour.html" : "2026-09-28T16:59:24Z",
       "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html" : "2026-09-27T14:49:00Z",
+      "https://www.nytimes.com/2026/09/28/nyregion/nyc-flock-nypd-surveillance-cameras.html" : "2026-09-28T17:47:49Z",
       "https://www.nytimes.com/athletic/7586821/2026/09/12/football-black-card-referee/" : "2026-09-14T00:24:56Z",
       "https://www.nytimes.com/interactive/2026/05/29/world/asia/japan-census-population-decline.html" : "2026-05-29T11:54:05Z",
       "https://www.nytimes.com/interactive/2026/06/21/us/trucks-suv-pedestrian-crashes.html" : "2026-06-23T23:39:14Z",
@@ -33504,6 +33517,7 @@
       "https://www.petekeen.net/homelab-resolved/" : "2026-07-16T10:32:10Z",
       "https://www.petervijeh.com/projects/reddit-ner" : "2026-09-17T14:25:43Z",
       "https://www.pew.org/en/research-and-analysis/reports/2026/05/the-remote-work-challenge-lessons-from-5-cities" : "2026-08-23T22:56:18Z",
+      "https://www.pewresearch.org/decoded/2026/09/28/how-pew-research-center-is-and-is-not-using-ai-in-our-work-2/" : "2026-09-28T17:47:49Z",
       "https://www.pewresearch.org/methods/2026/08/27/no-easy-fix-for-bogus-respondents-in-online-opt-in-polls/" : "2026-09-23T13:50:32Z",
       "https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/" : "2026-08-21T09:18:18Z",
       "https://www.pgedge.com/blog/looking-forward-to-postgres-19-its-about-time" : "2026-06-12T22:40:38Z",
@@ -35080,6 +35094,7 @@
       "https://www.techdirt.com/2026/08/26/meta-just-paid-nearly-17-billion-to-make-sure-it-gets-to-write-the-kid-safety-rules-for-every-other-social-media-platform/" : "2026-08-29T03:51:35Z",
       "https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/" : "2026-09-09T00:36:16Z",
       "https://www.techdirt.com/2026/09/16/paramount-funds-leaks-dodgy-study-saying-california-will-suffer-if-its-merger-is-blocked/" : "2026-09-17T00:52:24Z",
+      "https://www.techdirt.com/2026/09/28/driver-ticketed-for-no-insurance-despite-having-insurance-just-because-flock-said-she-didnt/" : "2026-09-28T17:47:49Z",
       "https://www.techeblog.com/tom-stanton-supersonic-trebuchet/" : "2026-08-09T23:04:07Z",
       "https://www.techemails.com/p/bill-gates-tries-to-install-movie-maker" : "2026-09-08T00:39:59Z",
       "https://www.techfirm.co.jp/blog/ai-asic" : "2026-07-21T23:37:55Z",
