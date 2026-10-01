@@ -1,119 +1,119 @@
 {
    "fetched_at" : {
       "aws-security" : {
-         "last_attempt_at" : "2026-10-01T15:39:18Z",
+         "last_attempt_at" : "2026-10-01T16:40:51Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:18Z"
+         "last_success_at" : "2026-10-01T16:40:51Z"
       },
       "codezine" : {
-         "last_attempt_at" : "2026-10-01T15:39:11Z",
+         "last_attempt_at" : "2026-10-01T16:40:45Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:11Z"
+         "last_success_at" : "2026-10-01T16:40:45Z"
       },
       "devto-rising" : {
-         "last_attempt_at" : "2026-10-01T15:39:25Z",
+         "last_attempt_at" : "2026-10-01T16:40:58Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:25Z"
+         "last_success_at" : "2026-10-01T16:40:58Z"
       },
       "devto-top" : {
-         "last_attempt_at" : "2026-10-01T15:39:25Z",
+         "last_attempt_at" : "2026-10-01T16:40:58Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:25Z"
+         "last_success_at" : "2026-10-01T16:40:58Z"
       },
       "forest-security" : {
-         "last_attempt_at" : "2026-10-01T15:39:18Z",
+         "last_attempt_at" : "2026-10-01T16:40:51Z",
          "last_error" : "HTTP 404 for https://forest.watch.impress.co.jp/data/rss/1.0/wf/security.rdf at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : null
       },
       "github-blog" : {
-         "last_attempt_at" : "2026-10-01T15:39:15Z",
+         "last_attempt_at" : "2026-10-01T16:40:48Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:15Z"
+         "last_success_at" : "2026-10-01T16:40:48Z"
       },
       "github-changelog" : {
-         "last_attempt_at" : "2026-10-01T15:39:15Z",
+         "last_attempt_at" : "2026-10-01T16:40:49Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:15Z"
+         "last_success_at" : "2026-10-01T16:40:49Z"
       },
       "github-security" : {
-         "last_attempt_at" : "2026-10-01T15:39:17Z",
+         "last_attempt_at" : "2026-10-01T16:40:51Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:17Z"
+         "last_success_at" : "2026-10-01T16:40:51Z"
       },
       "google-cloud-blog" : {
-         "last_attempt_at" : "2026-10-01T15:39:13Z",
+         "last_attempt_at" : "2026-10-01T16:40:47Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:13Z"
+         "last_success_at" : "2026-10-01T16:40:47Z"
       },
       "google-dev-blog" : {
-         "last_attempt_at" : "2026-10-01T15:39:12Z",
+         "last_attempt_at" : "2026-10-01T16:40:46Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:12Z"
+         "last_success_at" : "2026-10-01T16:40:46Z"
       },
       "hatena-it" : {
-         "last_attempt_at" : "2026-10-01T15:39:09Z",
+         "last_attempt_at" : "2026-10-01T16:40:44Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:09Z"
+         "last_success_at" : "2026-10-01T16:40:44Z"
       },
       "hn-best" : {
-         "last_attempt_at" : "2026-10-01T15:39:22Z",
+         "last_attempt_at" : "2026-10-01T16:40:55Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:22Z"
+         "last_success_at" : "2026-10-01T16:40:55Z"
       },
       "hn-top" : {
-         "last_attempt_at" : "2026-10-01T15:39:18Z",
+         "last_attempt_at" : "2026-10-01T16:40:51Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:18Z"
+         "last_success_at" : "2026-10-01T16:40:51Z"
       },
       "jpcert-all" : {
-         "last_attempt_at" : "2026-10-01T15:39:15Z",
+         "last_attempt_at" : "2026-10-01T16:40:49Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:15Z"
+         "last_success_at" : "2026-10-01T16:40:49Z"
       },
       "linux-kernel" : {
-         "last_attempt_at" : "2026-10-01T15:39:15Z",
+         "last_attempt_at" : "2026-10-01T16:40:48Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:15Z"
+         "last_success_at" : "2026-10-01T16:40:48Z"
       },
       "lobsters" : {
-         "last_attempt_at" : "2026-10-01T15:39:08Z",
+         "last_attempt_at" : "2026-10-01T16:40:43Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:08Z"
+         "last_success_at" : "2026-10-01T16:40:43Z"
       },
       "meta-engineering" : {
-         "last_attempt_at" : "2026-10-01T15:39:14Z",
+         "last_attempt_at" : "2026-10-01T16:40:48Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:14Z"
+         "last_success_at" : "2026-10-01T16:40:48Z"
       },
       "qiita-popular" : {
-         "last_attempt_at" : "2026-10-01T15:39:11Z",
+         "last_attempt_at" : "2026-10-01T16:40:45Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:11Z"
+         "last_success_at" : "2026-10-01T16:40:45Z"
       },
       "security-next" : {
-         "last_attempt_at" : "2026-10-01T15:39:16Z",
+         "last_attempt_at" : "2026-10-01T16:40:49Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:16Z"
+         "last_success_at" : "2026-10-01T16:40:49Z"
       },
       "tech-blog-rss" : {
-         "last_attempt_at" : "2026-10-01T15:39:10Z",
+         "last_attempt_at" : "2026-10-01T16:40:44Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:10Z"
+         "last_success_at" : "2026-10-01T16:40:44Z"
       },
       "vercel" : {
-         "last_attempt_at" : "2026-10-01T15:39:12Z",
+         "last_attempt_at" : "2026-10-01T16:40:46Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:12Z"
+         "last_success_at" : "2026-10-01T16:40:46Z"
       },
       "youtube-fireship" : {
-         "last_attempt_at" : "2026-10-01T15:39:12Z",
+         "last_attempt_at" : "2026-10-01T16:40:46Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:12Z"
+         "last_success_at" : "2026-10-01T16:40:46Z"
       },
       "zenn" : {
-         "last_attempt_at" : "2026-10-01T15:39:09Z",
+         "last_attempt_at" : "2026-10-01T16:40:44Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-01T15:39:09Z"
+         "last_success_at" : "2026-10-01T16:40:44Z"
       }
    },
    "seen" : {
@@ -865,6 +865,7 @@
       "https://api.github.com/meta" : "2026-08-27T03:33:13Z",
       "https://api.transit.ls8h.com/" : "2026-06-26T12:00:14Z",
       "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63" : "2026-07-22T10:49:10Z",
+      "https://apnews.com/article/alberta-canada-carney-pipeline-68539133d6e0245fad3622263afd4aeb" : "2026-10-01T16:40:51Z",
       "https://apnews.com/article/california-farmer-nectarines-lawsuit-patent-4f7bc8ab185e8b9cbdd6d6ad4f2aabd1" : "2026-07-05T10:50:03Z",
       "https://apnews.com/article/california-research-grants-terminated-keywords-lawsuit-a0ddb01413ecb68d9668490a20be6207" : "2026-07-22T11:27:27Z",
       "https://apnews.com/article/chile-el-nino-humboldt-penguins-vulnerable-injuries-rehabilitation-6e93b8d4eaef903e4c85d16ade7d5881" : "2026-09-12T00:36:51Z",
@@ -1948,8 +1949,10 @@
       "https://blog.cloudflare.com/billable-usage-api/" : "2026-08-03T23:44:51Z",
       "https://blog.cloudflare.com/build-your-own-vulnerability-harness/" : "2026-07-10T11:30:50Z",
       "https://blog.cloudflare.com/cache-transcoding/" : "2026-09-03T00:38:23Z",
+      "https://blog.cloudflare.com/clef-decision-models/" : "2026-10-01T16:40:51Z",
       "https://blog.cloudflare.com/cloudflare-certificate-authority/" : "2026-09-30T01:33:00Z",
       "https://blog.cloudflare.com/cloudflare-cf-cli-launch/" : "2026-09-28T17:47:49Z",
+      "https://blog.cloudflare.com/cloudflare-k2-streams/" : "2026-10-01T16:40:51Z",
       "https://blog.cloudflare.com/cloudflare-os/" : "2026-08-05T23:35:54Z",
       "https://blog.cloudflare.com/content-independence-day-ai-options/" : "2026-07-26T10:22:14Z",
       "https://blog.cloudflare.com/cyber-frontier-models/" : "2026-05-18T22:40:38Z",
@@ -3041,6 +3044,7 @@
       "https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur" : "2026-06-12T22:40:49Z",
       "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/" : "2026-07-04T10:35:31Z",
       "https://blog.miloslavhomer.cz/how-google-sees-your-site/" : "2026-09-14T00:24:56Z",
+      "https://blog.mlh.com/everything-you-need-to-know-about-hacktoberfest-2026-ai-belongs-to-everyone-mdk" : "2026-10-01T16:40:58Z",
       "https://blog.mlh.com/hey-everyone-im-sanidhya-from-mlh-25an" : "2026-09-04T12:54:40Z",
       "https://blog.mlh.com/preptember-is-here-plan-a-fest-for-your-local-community-5ce3" : "2026-09-02T00:31:16Z",
       "https://blog.modelcontextprotocol.io/posts/2026-07-28/" : "2026-07-28T23:36:45Z",
@@ -7625,6 +7629,7 @@
       "https://dev.to/axrisi/nixos-for-government-why-the-netherlands-is-leaving-microsoft-3fll" : "2026-09-30T01:33:04Z",
       "https://dev.to/axrisi/openai-agents-and-rubygems-what-the-may-attack-report-found-4noe" : "2026-09-29T15:04:20Z",
       "https://dev.to/axrisi/openai-devday-2026-every-announcement-with-prices-and-availability-1mbh" : "2026-09-30T01:33:04Z",
+      "https://dev.to/axrisi/openai-lawsuit-microsofts-theft-of-labor-memo-in-the-nyt-case-bp" : "2026-10-01T16:40:58Z",
       "https://dev.to/axrisi/recursive-self-improvement-what-googles-dream-rsi-paper-really-does-kgp" : "2026-10-01T15:39:25Z",
       "https://dev.to/axrisi/rust-malware-in-arrayref-how-a-buildrs-ran-a-payload-at-compile-time-e7f" : "2026-09-30T15:16:15Z",
       "https://dev.to/axrisi/tailwind-css-joins-shopify-a-day-later-shopify-drops-react-native-3n4i" : "2026-09-28T16:59:26Z",
@@ -11693,6 +11698,7 @@
       "https://dev.to/robertadam987_/ai-can-fix-the-bug-before-you-understand-it-thats-more-dangerous-than-it-sounds-466j" : "2026-09-28T16:59:26Z",
       "https://dev.to/robertadam987_/ai-can-write-code-faster-than-we-can-review-it-and-thats-becoming-the-real-bottleneck-25ee" : "2026-09-16T13:43:10Z",
       "https://dev.to/robertadam987_/ai-coding-is-getting-expensive-how-developers-can-stop-burning-tokens-491g" : "2026-09-08T13:49:46Z",
+      "https://dev.to/robertadam987_/ai-helps-you-code-faster-so-why-are-you-still-shipping-slowly-dl1" : "2026-10-01T16:40:58Z",
       "https://dev.to/robertadam987_/ai-is-changing-software-development-faster-than-we-expected-what-comes-next-53mo" : "2026-09-14T15:13:59Z",
       "https://dev.to/robertadam987_/ai-is-writing-more-of-the-code-but-developers-are-becoming-responsible-for-more-than-ever-55ni" : "2026-09-23T13:50:42Z",
       "https://dev.to/robertadam987_/anthropic-ceo-dario-amodei-says-ai-must-slow-down-as-a-software-engineer-heres-what-i-think-377e" : "2026-09-16T00:47:14Z",
@@ -11726,6 +11732,7 @@
       "https://dev.to/rubenglez/coding-agents-made-me-take-specs-seriously-2fi6" : "2026-06-24T11:26:37Z",
       "https://dev.to/rucs0/i-built-a-storefront-that-works-with-zero-api-keys-and-it-made-the-code-better-309i" : "2026-07-19T23:37:27Z",
       "https://dev.to/rudrabuilds/i-benchmarked-8-react-rich-text-editors-here-are-the-numbers-2lh5" : "2026-09-01T01:23:32Z",
+      "https://dev.to/rudratosh/eli5-why-can-hiding-one-sentence-inside-a-web-page-make-an-ai-ignore-its-own-owner-and-obey-a-203p" : "2026-10-01T16:40:58Z",
       "https://dev.to/rudratosh/your-github-profile-shows-your-follower-count-it-also-shows-attackers-your-whole-attack-surface-j7b" : "2026-09-29T15:04:20Z",
       "https://dev.to/ruita_wachira/karibu-give-ussd-micro-philanthropy-for-the-next-billion-givers-46a3" : "2026-09-07T00:19:56Z",
       "https://dev.to/rulestack/claude-p-what-headless-claude-code-actually-loads-and-when-bare-is-the-right-call-182c" : "2026-08-06T11:05:04Z",
@@ -12661,6 +12668,7 @@
       "https://dev.to/valeriavg/great-little-software-theo-vangogh-2n07" : "2026-05-15T02:50:59Z",
       "https://dev.to/valerykot/bigger-context-windows-didnt-make-our-rag-smarter-4d0l" : "2026-07-08T23:42:57Z",
       "https://dev.to/valpere/session-indexer-giving-claude-code-a-memory-that-doesnt-die-with-the-project-next-door-3b76" : "2026-07-04T23:41:24Z",
+      "https://dev.to/valyuai/how-to-add-live-web-search-to-an-ai-agent-25bk" : "2026-10-01T16:40:58Z",
       "https://dev.to/valyuai/how-to-use-jev-a-practical-guide-to-typesafes-system-one-model-g5e" : "2026-09-18T13:08:38Z",
       "https://dev.to/valyuai/semantic-scholar-vs-valyu-which-research-api-should-your-agent-call-oc7" : "2026-08-28T20:21:32Z",
       "https://dev.to/varshithvhegde/1200-applications-4-offers-heres-what-actually-got-me-the-product-based-role-10mp" : "2026-06-26T11:29:43Z",
@@ -15878,7 +15886,11 @@
       "https://gigazine.net/news/20260930-mcdonalds-push-ai-price-big-mac/" : "2026-09-30T16:03:38Z",
       "https://gigazine.net/news/20260930-openai-codex-cli-cloud/" : "2026-09-30T16:03:38Z",
       "https://gigazine.net/news/20260930-windows-11-1-2/" : "2026-10-01T01:32:50Z",
+      "https://gigazine.net/news/20261001-deepseek-huawei-ascend/" : "2026-10-01T16:40:44Z",
+      "https://gigazine.net/news/20261001-google-deepmind-synthid-bio/" : "2026-10-01T16:40:44Z",
       "https://gigazine.net/news/20261001-hermes-agent-arc-pro-b70/" : "2026-10-01T15:39:09Z",
+      "https://gigazine.net/news/20261001-livenerf-benchmark-ai-capability-after-release/" : "2026-10-01T16:40:44Z",
+      "https://gigazine.net/news/20261001-magnitude/" : "2026-10-01T16:40:44Z",
       "https://gigazine.net/news/20261001-micron-q4-2026/" : "2026-10-01T15:39:09Z",
       "https://gigazine.net/news/20261001-reddit-killing-rss-feeds-end-public-api/" : "2026-10-01T15:39:09Z",
       "https://gigazine.net/news/20261001-robot-job/" : "2026-10-01T15:39:09Z",
@@ -16440,6 +16452,7 @@
       "https://github.blog/changelog/2026-09-30-x25519-only-tls-ends-for-ghe-com-on-september-15" : "2026-10-01T01:32:54Z",
       "https://github.blog/changelog/2026-10-01-actions-runner-controller-release-0-15-0" : "2026-10-01T15:39:15Z",
       "https://github.blog/changelog/2026-10-01-github-async-merge-api-generally-available" : "2026-10-01T15:39:15Z",
+      "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default" : "2026-10-01T16:40:49Z",
       "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/" : "2026-08-11T23:21:56Z",
       "https://github.blog/developer-skills/career-growth/transitioning-as-a-hubber/" : "2026-06-26T12:00:20Z",
       "https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/" : "2026-06-08T22:40:30Z",
@@ -16780,6 +16793,7 @@
       "https://github.com/drumih/turbo-fieldfare" : "2026-07-29T23:40:08Z",
       "https://github.com/dsummersl/treepeat" : "2026-09-25T00:48:04Z",
       "https://github.com/dtnewman/burn-baby-burn" : "2026-05-15T22:40:34Z",
+      "https://github.com/dtonon/outis" : "2026-10-01T16:40:43Z",
       "https://github.com/dtonon/squalk" : "2026-09-21T15:18:43Z",
       "https://github.com/duanebester/gooey" : "2026-06-03T22:40:30Z",
       "https://github.com/edgcpp/compiler" : "2026-10-01T01:32:50Z",
@@ -26926,6 +26940,7 @@
       "https://speakerdeck.com/rnakamine/shao-ren-shu-sretexin-lai-xing-wopei-rutamenoseruhusahisutokatorerushe-ji" : "2026-05-16T22:40:33Z",
       "https://speakerdeck.com/ryotarai/niokeru-ai-jidai-no-kousoku-kiban-arca" : "2026-09-26T13:21:59Z",
       "https://speakerdeck.com/ryuichi1208/ru-men-zai-fa-fang-zhi-ce" : "2026-05-20T10:41:08Z",
+      "https://speakerdeck.com/sadonosake/explore-it-o-chizu-ni-suru" : "2026-10-01T16:40:44Z",
       "https://speakerdeck.com/sanfrecce_osaka/sekigahara01" : "2026-05-31T22:40:29Z",
       "https://speakerdeck.com/sbite0138/magic-the-gatheringde-linuxwodong-kasu" : "2026-05-30T10:26:27Z",
       "https://speakerdeck.com/seanchas116/xin-gui-purodakutowo-gao-su-desheng-michu-su-hanesuenziniaringu" : "2026-06-02T22:40:25Z",
@@ -30386,6 +30401,7 @@
       "https://tumbleforth.hardcoded.net/" : "2026-08-21T22:58:07Z",
       "https://tumbleweed.nu/r/lm-3/uv/amber.html" : "2026-06-14T23:48:43Z",
       "https://turbopuffer.com/blog/control-plane" : "2026-08-17T22:57:58Z",
+      "https://turbopuffer.com/blog/rip-vector-database" : "2026-10-01T16:40:51Z",
       "https://turbowarp.org/1248315967" : "2026-07-27T11:56:15Z",
       "https://turingarchive.kings.cam.ac.uk/material-given-kings-college-cambridge-1960-amtk/amt-k-2" : "2026-07-30T23:39:05Z",
       "https://turkeyland.net/thoughts/ai.php" : "2026-10-01T01:32:58Z",
@@ -37446,6 +37462,7 @@
       "https://zenn.dev/benjuwan/articles/c2ba48e7662f92" : "2026-08-04T23:40:29Z",
       "https://zenn.dev/berry_blog/articles/39392e1da7ca71" : "2026-07-17T10:23:37Z",
       "https://zenn.dev/berry_blog/articles/82848c885604f9" : "2026-08-31T16:21:55Z",
+      "https://zenn.dev/bigshine/articles/ai-librarian-free-tier" : "2026-10-01T16:40:44Z",
       "https://zenn.dev/bit_and_coffee/articles/gexam-practice-app" : "2026-06-28T23:45:21Z",
       "https://zenn.dev/bita/articles/f1872707871b2c" : "2026-09-25T14:08:45Z",
       "https://zenn.dev/bitkey_dev/articles/ai-agent-virtual-qe-team" : "2026-08-18T09:06:55Z",
