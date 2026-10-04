@@ -1,119 +1,119 @@
 {
    "fetched_at" : {
       "aws-security" : {
-         "last_attempt_at" : "2026-10-04T14:21:15Z",
+         "last_attempt_at" : "2026-10-04T14:58:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:15Z"
+         "last_success_at" : "2026-10-04T14:58:25Z"
       },
       "codezine" : {
-         "last_attempt_at" : "2026-10-04T14:21:09Z",
+         "last_attempt_at" : "2026-10-04T14:58:19Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:09Z"
+         "last_success_at" : "2026-10-04T14:58:19Z"
       },
       "devto-rising" : {
-         "last_attempt_at" : "2026-10-04T14:21:22Z",
+         "last_attempt_at" : "2026-10-04T14:58:30Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:22Z"
+         "last_success_at" : "2026-10-04T14:58:30Z"
       },
       "devto-top" : {
-         "last_attempt_at" : "2026-10-04T14:21:21Z",
+         "last_attempt_at" : "2026-10-04T14:58:30Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:21Z"
+         "last_success_at" : "2026-10-04T14:58:30Z"
       },
       "forest-security" : {
-         "last_attempt_at" : "2026-10-04T14:21:15Z",
+         "last_attempt_at" : "2026-10-04T14:58:25Z",
          "last_error" : "HTTP 404 for https://forest.watch.impress.co.jp/data/rss/1.0/wf/security.rdf at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : null
       },
       "github-blog" : {
-         "last_attempt_at" : "2026-10-04T14:21:13Z",
+         "last_attempt_at" : "2026-10-04T14:58:22Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:13Z"
+         "last_success_at" : "2026-10-04T14:58:22Z"
       },
       "github-changelog" : {
-         "last_attempt_at" : "2026-10-04T14:21:13Z",
+         "last_attempt_at" : "2026-10-04T14:58:23Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:13Z"
+         "last_success_at" : "2026-10-04T14:58:23Z"
       },
       "github-security" : {
-         "last_attempt_at" : "2026-10-04T14:21:15Z",
+         "last_attempt_at" : "2026-10-04T14:58:25Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:15Z"
+         "last_success_at" : "2026-10-04T14:58:25Z"
       },
       "google-cloud-blog" : {
-         "last_attempt_at" : "2026-10-04T14:21:11Z",
+         "last_attempt_at" : "2026-10-04T14:58:21Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:11Z"
+         "last_success_at" : "2026-10-04T14:58:21Z"
       },
       "google-dev-blog" : {
-         "last_attempt_at" : "2026-10-04T14:21:10Z",
+         "last_attempt_at" : "2026-10-04T14:58:21Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:10Z"
+         "last_success_at" : "2026-10-04T14:58:21Z"
       },
       "hatena-it" : {
-         "last_attempt_at" : "2026-10-04T14:21:07Z",
+         "last_attempt_at" : "2026-10-04T14:58:17Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:07Z"
+         "last_success_at" : "2026-10-04T14:58:17Z"
       },
       "hn-best" : {
-         "last_attempt_at" : "2026-10-04T14:21:19Z",
+         "last_attempt_at" : "2026-10-04T14:58:28Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:19Z"
+         "last_success_at" : "2026-10-04T14:58:28Z"
       },
       "hn-top" : {
-         "last_attempt_at" : "2026-10-04T14:21:16Z",
+         "last_attempt_at" : "2026-10-04T14:58:26Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:16Z"
+         "last_success_at" : "2026-10-04T14:58:26Z"
       },
       "jpcert-all" : {
-         "last_attempt_at" : "2026-10-04T14:21:13Z",
+         "last_attempt_at" : "2026-10-04T14:58:23Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:13Z"
+         "last_success_at" : "2026-10-04T14:58:23Z"
       },
       "linux-kernel" : {
-         "last_attempt_at" : "2026-10-04T14:21:13Z",
+         "last_attempt_at" : "2026-10-04T14:58:22Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:13Z"
+         "last_success_at" : "2026-10-04T14:58:22Z"
       },
       "lobsters" : {
-         "last_attempt_at" : "2026-10-04T14:21:06Z",
+         "last_attempt_at" : "2026-10-04T14:58:16Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:06Z"
+         "last_success_at" : "2026-10-04T14:58:16Z"
       },
       "meta-engineering" : {
-         "last_attempt_at" : "2026-10-04T14:21:12Z",
+         "last_attempt_at" : "2026-10-04T14:58:22Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:12Z"
+         "last_success_at" : "2026-10-04T14:58:22Z"
       },
       "qiita-popular" : {
-         "last_attempt_at" : "2026-10-04T14:21:08Z",
+         "last_attempt_at" : "2026-10-04T14:58:18Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:08Z"
+         "last_success_at" : "2026-10-04T14:58:18Z"
       },
       "security-next" : {
-         "last_attempt_at" : "2026-10-04T14:21:13Z",
+         "last_attempt_at" : "2026-10-04T14:58:24Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:13Z"
+         "last_success_at" : "2026-10-04T14:58:24Z"
       },
       "tech-blog-rss" : {
-         "last_attempt_at" : "2026-10-04T14:21:08Z",
+         "last_attempt_at" : "2026-10-04T14:58:18Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:08Z"
+         "last_success_at" : "2026-10-04T14:58:18Z"
       },
       "vercel" : {
-         "last_attempt_at" : "2026-10-04T14:21:10Z",
+         "last_attempt_at" : "2026-10-04T14:58:20Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:10Z"
+         "last_success_at" : "2026-10-04T14:58:20Z"
       },
       "youtube-fireship" : {
-         "last_attempt_at" : "2026-10-04T14:21:09Z",
+         "last_attempt_at" : "2026-10-04T14:58:20Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:09Z"
+         "last_success_at" : "2026-10-04T14:58:20Z"
       },
       "zenn" : {
-         "last_attempt_at" : "2026-10-04T14:21:07Z",
+         "last_attempt_at" : "2026-10-04T14:58:17Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-04T14:21:07Z"
+         "last_success_at" : "2026-10-04T14:58:17Z"
       }
    },
    "seen" : {
@@ -13088,6 +13088,7 @@
       "https://dev.to/wiseai/avatar-rs-very-efficient-avatar-components-for-wasm-frameworks-3lkn" : "2026-09-27T14:16:39Z",
       "https://dev.to/wiseai/card-rs-extremely-customizable-card-component-for-wasm-frameworks-1j0c" : "2026-09-27T14:16:39Z",
       "https://dev.to/wiseai/code-rs-cdn-free-syntax-highlighted-code-components-for-wasm-njc" : "2026-10-04T14:21:21Z",
+      "https://dev.to/wiseai/form-rs-production-ready-form-components-for-wasm-frameworks-4c03" : "2026-10-04T14:58:30Z",
       "https://dev.to/wiseai/frozendict-state-of-the-art-immutable-hashmap-for-python-and-node-js-284o" : "2026-09-19T12:40:43Z",
       "https://dev.to/wiseai/genuine-intelligence-will-never-in-trillion-years-emerge-from-neural-networks-1250" : "2026-08-21T22:58:11Z",
       "https://dev.to/wiseai/i-built-a-version-bump-tool-in-rust-that-is-10000x-faster-than-its-python-counterparts-i6b" : "2026-09-06T12:18:57Z",
@@ -22047,6 +22048,7 @@
       "https://oak.space/oak/oak" : "2026-06-22T23:53:16Z",
       "https://oaklandside.org/2026/01/29/oakland-police-overtime/" : "2026-08-18T22:57:58Z",
       "https://obaid.wtf/jotbook/2026/07/18/how-i-got-into-yc-by-hacking-it.html" : "2026-07-24T23:40:19Z",
+      "https://obeli.sk/blog/announcing-obelisk-0-42/" : "2026-10-04T14:58:16Z",
       "https://obeli.sk/blog/comparing-obelisk-temporal-restate/" : "2026-07-15T23:38:32Z",
       "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/" : "2026-05-29T22:40:37Z",
       "https://oborona.zip/post/a-middle-period-engine-reconstructing-concurrency-invariants-through-east-asian-structural-logic" : "2026-09-13T00:18:02Z",
