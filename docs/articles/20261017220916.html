@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>2026-10-17 22:09:16</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="locked">
+  <section id="gate">
+    <h1>Catch News</h1>
+    <input id="password" type="password" autocomplete="current-password" placeholder="Password">
+    <button id="unlock" type="button">Open</button>
+    <p id="error" class="error"></p>
+  </section>
+  <script>
+    const expected = "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4";
+    const gate = document.getElementById("gate");
+    const error = document.getElementById("error");
+    const input = document.getElementById("password");
+    async function sha256(text) {
+      const bytes = new TextEncoder().encode(text);
+      const hash = await crypto.subtle.digest("SHA-256", bytes);
+      return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, "0")).join("");
+    }
+    async function unlock() {
+      if (await sha256(input.value) === expected) {
+        sessionStorage.setItem("catch_news_unlocked", "1");
+        document.body.classList.remove("locked");
+        gate.remove();
+      } else {
+        error.textContent = "Password is incorrect.";
+      }
+    }
+    if (sessionStorage.getItem("catch_news_unlocked") === "1") {
+      document.body.classList.remove("locked");
+      gate.remove();
+    }
+    document.getElementById("unlock").addEventListener("click", unlock);
+    input.addEventListener("keydown", event => { if (event.key === "Enter") unlock(); });
+  </script>
+
+  <main id="content" class="wrap">
+    <header>
+      <div class="brand">
+        <a href="../archive.html" class="back-btn" aria-label="Archive">&#8592;</a>
+        <h1>2026-10-17 22:09:16</h1>
+      </div>
+      <div class="header-right">
+        <a href="../index.html" class="sub-link">Latest &#8594;</a>
+        <div class="tabs">
+        <button class="tab-btn active" data-tab="knowledge">Knowledge<span class="cnt">7</span></button>
+        <button class="tab-btn" data-tab="official">Official<span class="cnt">0</span></button>
+        <button class="tab-btn" data-tab="security">Security<span class="cnt">0</span></button>
+        </div>
+      </div>
+    </header>
+    <p class="meta">Generated at 2026-10-17T13:09:34Z / 7 items</p>
+    <section class="tab-panel active" id="tab-knowledge"><div class="feed">
+    <a href="https://macyou.co/mac-llm-calculator" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Show HN: Which Mac runs which LLM, and how fast</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-17T12:15:57Z ・ 5 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.inorinrinrin.com/entry/5ef7c90a-69a1-4b9e-d253-95c981e94ce7" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Vitest v5.0 で新しくなったBenchmarkをCIで実行して比較する - プププなテクブ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-17T08:29:39Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://note.com/suh_sunaneko/n/n23ed6981ff6a" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AI駆動PMの組織でのはじめかた｜すぅ | AI駆動PM</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-17T04:12:34Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://news.yahoo.co.jp/expert/articles/5e8495cadb5412ac2ca85a7253509eadf5360471" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>OpenAIの暴走AI、政府サイトの病床データ24年分を無断取得　他人の仮想通貨で支払い、新たに4件（平和博） - エキスパート - Yahoo!ニュース</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-17T04:03:08Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/rishavrajsingh44/i-built-bountypilot-an-open-weight-ai-that-helps-developers-find-coding-opportunities-worth-their-56a1" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>I Built BountyPilot: An Open-Weight AI That Helps Developers Find Coding Opportunities Worth Their Time</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-16T21:24:15Z ・ 5 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://mainichi.jp/articles/20261016/k00/00m/010/341000c" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>読む政治：守勢の高市首相　危機管理問われ「スマホ最大音量で寝ている」 | 毎日新聞</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-16T12:14:21Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://cr.yp.to/papers/cryptoint-20250424.pdf" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>The cryptoint library (2025) [pdf]</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-15T13:41:08Z ・ 3 pts</span></div>
+      </div>
+    </a>
+
+    </div></section>
+    <section class="tab-panel" id="tab-official"><div class="feed">
+<p class="empty">No new articles in this edition.</p>
+    </div></section>
+    <section class="tab-panel" id="tab-security"><div class="feed">
+<p class="empty">No new articles in this edition.</p>
+    </div></section>
+  </main>
+  <script>
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn, .tab-panel').forEach(el => el.classList.remove('active'));
+        b.classList.add('active');
+        document.getElementById('tab-' + b.dataset.tab).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
