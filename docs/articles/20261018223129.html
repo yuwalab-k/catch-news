@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>2026-10-18 22:31:29</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="locked">
+  <section id="gate">
+    <h1>Catch News</h1>
+    <input id="password" type="password" autocomplete="current-password" placeholder="Password">
+    <button id="unlock" type="button">Open</button>
+    <p id="error" class="error"></p>
+  </section>
+  <script>
+    const expected = "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4";
+    const gate = document.getElementById("gate");
+    const error = document.getElementById("error");
+    const input = document.getElementById("password");
+    async function sha256(text) {
+      const bytes = new TextEncoder().encode(text);
+      const hash = await crypto.subtle.digest("SHA-256", bytes);
+      return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, "0")).join("");
+    }
+    async function unlock() {
+      if (await sha256(input.value) === expected) {
+        sessionStorage.setItem("catch_news_unlocked", "1");
+        document.body.classList.remove("locked");
+        gate.remove();
+      } else {
+        error.textContent = "Password is incorrect.";
+      }
+    }
+    if (sessionStorage.getItem("catch_news_unlocked") === "1") {
+      document.body.classList.remove("locked");
+      gate.remove();
+    }
+    document.getElementById("unlock").addEventListener("click", unlock);
+    input.addEventListener("keydown", event => { if (event.key === "Enter") unlock(); });
+  </script>
+
+  <main id="content" class="wrap">
+    <header>
+      <div class="brand">
+        <a href="../archive.html" class="back-btn" aria-label="Archive">&#8592;</a>
+        <h1>2026-10-18 22:31:29</h1>
+      </div>
+      <div class="header-right">
+        <a href="../index.html" class="sub-link">Latest &#8594;</a>
+        <div class="tabs">
+        <button class="tab-btn active" data-tab="knowledge">Knowledge<span class="cnt">7</span></button>
+        <button class="tab-btn" data-tab="official">Official<span class="cnt">0</span></button>
+        <button class="tab-btn" data-tab="security">Security<span class="cnt">0</span></button>
+        </div>
+      </div>
+    </header>
+    <p class="meta">Generated at 2026-10-18T13:31:46Z / 7 items</p>
+    <section class="tab-panel active" id="tab-knowledge"><div class="feed">
+    <a href="https://dev.to/lucasnevespereira/i-built-a-remote-to-answer-claude-code-from-my-phone-i40" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>I Built a Remote to Answer Claude Code From My Phone</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-18T12:26:41Z ・ 1 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/shubhradev/the-garden-i-wait-for-every-winter-8mg" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>The Garden I Wait for Every Winter</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-18T12:21:49Z ・ 14 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/devstackcommunity/best-ai-ui-design-tools-i-wish-i-had-found-earlier-in-my-career-198m" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Best AI UI Design Tools I Wish I Had Found Earlier in My Career</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-18T09:54:06Z ・ 5 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://newsdig.tbs.co.jp/articles/-/3020110" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>不正アクセス急増背景に“中国製LLM”台頭、AIが自動で偵察→侵入→情報奪取「情報漏れていない人の方が珍しい」専門家が警鐘、対策は? | TBS NEWS DIG</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-18T08:55:01Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/maromaro_nw/items/2a191e16f1b32235886d" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>【ネットワークセキュリティ入門】VLANとACLだけで安全？管理プレーンの分離とマイクロセグメンテーションを整理してみた - Qiita</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-18T01:59:23Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://news.jp/i/1484341336457167841" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>衛星利用制限、マスク氏提案か　トランプ氏も同意と英報道 | NEWSjp</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-18T01:20:09Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://en.wikipedia.org/wiki/Hatching_(heraldry)" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Hatching (Heraldry)</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-14T18:57:57Z ・ 4 pts</span></div>
+      </div>
+    </a>
+
+    </div></section>
+    <section class="tab-panel" id="tab-official"><div class="feed">
+<p class="empty">No new articles in this edition.</p>
+    </div></section>
+    <section class="tab-panel" id="tab-security"><div class="feed">
+<p class="empty">No new articles in this edition.</p>
+    </div></section>
+  </main>
+  <script>
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn, .tab-panel').forEach(el => el.classList.remove('active'));
+        b.classList.add('active');
+        document.getElementById('tab-' + b.dataset.tab).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
