@@ -1,0 +1,1400 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>2026-10-20 22:49:51</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="locked">
+  <section id="gate">
+    <h1>Catch News</h1>
+    <input id="password" type="password" autocomplete="current-password" placeholder="Password">
+    <button id="unlock" type="button">Open</button>
+    <p id="error" class="error"></p>
+  </section>
+  <script>
+    const expected = "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4";
+    const gate = document.getElementById("gate");
+    const error = document.getElementById("error");
+    const input = document.getElementById("password");
+    async function sha256(text) {
+      const bytes = new TextEncoder().encode(text);
+      const hash = await crypto.subtle.digest("SHA-256", bytes);
+      return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, "0")).join("");
+    }
+    async function unlock() {
+      if (await sha256(input.value) === expected) {
+        sessionStorage.setItem("catch_news_unlocked", "1");
+        document.body.classList.remove("locked");
+        gate.remove();
+      } else {
+        error.textContent = "Password is incorrect.";
+      }
+    }
+    if (sessionStorage.getItem("catch_news_unlocked") === "1") {
+      document.body.classList.remove("locked");
+      gate.remove();
+    }
+    document.getElementById("unlock").addEventListener("click", unlock);
+    input.addEventListener("keydown", event => { if (event.key === "Enter") unlock(); });
+  </script>
+
+  <main id="content" class="wrap">
+    <header>
+      <div class="brand">
+        <a href="../archive.html" class="back-btn" aria-label="Archive">&#8592;</a>
+        <h1>2026-10-20 22:49:51</h1>
+      </div>
+      <div class="header-right">
+        <a href="../index.html" class="sub-link">Latest &#8594;</a>
+        <div class="tabs">
+        <button class="tab-btn active" data-tab="knowledge">Knowledge<span class="cnt">181</span></button>
+        <button class="tab-btn" data-tab="official">Official<span class="cnt">1</span></button>
+        <button class="tab-btn" data-tab="security">Security<span class="cnt">7</span></button>
+        </div>
+      </div>
+    </header>
+    <p class="meta">Generated at 2026-10-20T13:50:08Z / 189 items</p>
+    <section class="tab-panel active" id="tab-knowledge"><div class="feed">
+    <a href="https://dev.to/kenwalger/tuesday-isnt-a-valid-state-transition-16ln" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Tuesday Isn't a Valid State Transition</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T13:46:00Z ・ 0 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://entropicthoughts.com/nixos-is-making-me-less-afraid" class="item" style="--accent: #AC130D" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>NixOS is making me less afraid</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Flobste.rs%2Frss" alt="" loading="lazy">Lobsters</span><span class="date">Tue, 20 Oct 2026 08:44:53 -0500</span></div>
+      </div>
+    </a>
+
+    <a href="https://jepsen.io/analyses/orkes-conductor-5.3.2" class="item" style="--accent: #AC130D" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Jepsen: Orkes Conductor 5.3.2</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Flobste.rs%2Frss" alt="" loading="lazy">Lobsters</span><span class="date">Tue, 20 Oct 2026 08:14:54 -0500</span></div>
+      </div>
+    </a>
+
+    <a href="https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Publish fake stats, get cited in LLMs</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T13:06:22Z ・ 6 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/0R3XLJL6FuE/m/0XofdebrAAAJ?pli=1" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Compromised EMudhra Intermediate Certificates</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T13:06:14Z ・ 4 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/" class="item" style="--accent: #AC130D" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Protecting Firefox users following the compromise of eMudhra intermediate certificates</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Flobste.rs%2Frss" alt="" loading="lazy">Lobsters</span><span class="date">Tue, 20 Oct 2026 08:00:50 -0500</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/gde/building-a-cross-platform-flutter-festival-assistant-with-llamadart-2dml" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Building a cross-platform Flutter festival assistant with llamadart</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T13:00:00Z ・ 0 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://entropicthoughts.com/nixos-is-making-me-less-afraid" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>NixOS is making me less afraid</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T12:43:05Z ・ 22 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/reporails/state-of-ai-instruction-quality-repos-split-on-co-authored-by-5bfl" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>State of AI Instruction Quality: Repos Split on Co-Authored-By</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T12:40:48Z ・ 1 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.techdirt.com/2026/10/20/new-skydance-already-worth-less-than-half-of-warner-brothers-paramount-were-combined/" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>New Skydance Worth Less Than Half of Warner Brothers, Paramount Combined</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T12:40:46Z ・ 5 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.science.org/doi/10.1126/science.ael8752" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Demographic &quot;Doomsday&quot; Misses the Mark</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T12:22:28Z ・ 39 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Apple broke an essential presentation feature of iPads</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T12:17:28Z ・ 58 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/gde/agent-platform-in-practice-2-from-monolithic-cloud-run-to-google-cloud-agent-runtime-bo1" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>[Agent Platform in Practice (2)] From Monolithic Cloud Run to Google Cloud Agent Runtime: Refactoring LINE AI Business Card King</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T12:12:59Z ・ 0 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.ycombinator.com/companies/hazel-2/jobs/PpNKYBS-full-stack-engineer-ts-sci" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Hazel (YC W24) Is Hiring</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T12:00:32Z ・ 1 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.itmedia.co.jp/news/article/2610/20/2000002435/" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>栃木県警、全職員の情報流出か　アルカディア不正アクセス、他県警でも被害判明相次ぐ　報道</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T11:50:52Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://recruit.group.gmo/engineer/jisedai/blog/spark_deepseek_v4/" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>DGX Spark 2 台で DeepSeek V4 Flash 0731 を動かす：構築と Sonnet 5 との比較 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 11:44:21 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/deepu105/qwen38-flash-next-vs-claude-opus-55-six-way-benchmark-on-a-real-rust-feature-1n98" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Qwen3.8-Flash-Next vs Claude Opus 5.5: Six-way benchmark on a real Rust feature</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T11:32:07Z ・ 0 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.trustbank.co.jp/newsroom/newsrelease/news261020/" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ | NEWSROOM | 株式会社トラストバンク</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T10:59:09Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/slabb/opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine-238g" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>OpenCode lost the keys that lived in its cloud. The ones on disk were fine.</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T10:35:47Z ・ 7 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/infoinlet1/how-i-landed-a-dev-job-with-no-degree-4b74" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>How I landed a dev job with no degree</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T10:32:45Z ・ 14 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Google cloud outage takes down banks</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T10:26:02Z ・ 141 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/" class="item" style="--accent: #AC130D" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Setting up SSH keys on macOS with Touch ID</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Flobste.rs%2Frss" alt="" loading="lazy">Lobsters</span><span class="date">Tue, 20 Oct 2026 05:23:58 -0500</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/reality_tech/articles/oxc-monorepo-20261006" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Oxlint + Oxfmt で規約をコード化するモノレポ運用</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T10:22:56Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://product.plex.co.jp/entry/graphql-ruby-namespace-design" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Railsの「1対1」をGraphQLにも ― 迷わないgraphql-rubyのディレクトリ設計 | PLEX Product Team Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 10:06:43 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.smartbank.co.jp/entry/2026/10/20/190000" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>社内最大のRailsアプリのテスト高速化に挑戦した半年 - inSmartBank</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T10:06:35Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.smartbank.co.jp/entry/2026/10/20/190000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>社内最大のRailsアプリのテスト高速化に挑戦した半年 | inSmartBank</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 10:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/alexgeorgiev17/docker-engine-2991-fixes-a-docker-save-bug-that-left-deleted-layers-on-disk-516a" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Docker Engine 29.9.1 fixes a docker save bug that left deleted layers on disk</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T10:00:00Z ・ 8 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://k-tai.watch.impress.co.jp/docs/news/2149690.html" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>《発表会レポート》JR東の「teppay」が始動、2万円超決済だけでない「Suicaの枠組みを超える」サービスの狙いとは</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T09:45:17Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.heistberlin.com/news/afd-leak-what-421-179-hacked-emails-show-about-the-german-far-right/" class="item" style="--accent: #FF8A00" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AfD Leak: What 421,179 Hacked Emails Show about the German Far Right</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Best</span><span class="date">2026-10-20T09:35:40Z ・ 313 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.itmedia.co.jp/news/article/2610/20/2000002433/" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>NECの委託先にサイバー攻撃　正規アカウント悪用し顧客のサーバ暗号化、個人情報の漏えいも</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T09:25:45Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://github.com/deepseek-ai/DeepInfer" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>DeepSeek just open-sourced its inference engine</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T09:08:54Z ・ 1049 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://github.com/deepseek-ai/DeepInfer" class="item" style="--accent: #FF8A00" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>DeepSeek just open-sourced its inference engine</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Best</span><span class="date">2026-10-20T09:08:54Z ・ 1049 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/ncdc/articles/84f75d8348c9cf" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>TanStack Query v5のonError削除への移行方法 | NCDC テックブログのフィード</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 09:04:41 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/yassersoliman/stop-shipping-marketing-pages-like-product-features-374d" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Stop Shipping Marketing Pages Like Product Features</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T09:02:59Z ・ 23 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/yassersoliman/stop-shipping-marketing-pages-like-product-features-374d" class="item" style="--accent: #3B49DF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Stop Shipping Marketing Pages Like Product Features</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Fstate%3Drising%26per_page%3D30" alt="" loading="lazy">DEV Rising</span><span class="date">2026-10-20T09:02:59Z ・ 23 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://analytics.leverages.jp/entry/2026/10/20/180000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>スプレッドシートで行っていた目標策定業務をAI-DLCでアプリ化してみた | レバレジーズ データAIブログ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 09:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://jpn.nec.com/news/info/20261020.html" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>委託先への不正アクセスに起因するお客さまのシステム障害、情報漏えいに関するお詫び</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T08:54:57Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://github.com/xscreensaver-official/xscreensaver" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>There is no official XScreenSaver GitHub repository</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T08:51:31Z ・ 72 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://anond.hatelabo.jp/20261020173628" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>ウィンドウズアップデートについて調べたらめちゃめちゃ面白かった</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T08:41:46Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/baleenstudio/articles/2d8521a8d23b06" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AIP (API Improvement Proposals)を活用したAPI設計 | 株式会社BALEEN STUDIOのフィード</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 08:35:31 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://techracho.bpsinc.jp/hachi8833/2026_10_20/159818" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Railsの鋭い部品シリーズ: ブロックはトランザクションではない（翻訳） | TechRacho</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 08:30:42 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://techblog.ap-com.co.jp/entry/2026/10/20/173000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>【Backstage】 GitHub SSOのデフォルトユーザーリゾルバーがセキュリティ強化のため変更されました | APC 技術ブログ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 08:30:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://scrapbox.io/nishio/%E4%BA%BA%E9%96%93%E3%81%AEAI%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%88%A4%E6%96%AD%E7%A7%BB%E8%AD%B2" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>人間のAIに対する判断移譲 - 西尾泰和の外部脳</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T08:21:44Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/copyleftdev/what-happens-when-you-give-a-classifier-some-game-sense-4ecp" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>What Happens When You Give a Classifier Some Game Sense?</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T08:11:48Z ・ 3 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/slabb/five-witnesses-and-two-rirs-the-cas-just-discovered-custody-4aie" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Five witnesses and two RIRs: the CAs just discovered custody</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T08:11:46Z ・ 8 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/rudratosh/is-claude-taking-control-of-my-development-skills-i-went-looking-for-proof-37gk" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Is Claude taking control of my development skills? I went looking for proof.</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T08:09:51Z ・ 12 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/headwaters/articles/f10d6e17496b52" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Microsoft Agent 365 管理ガイド | ヘッドウォータースのフィード</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 08:09:16 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://gihyo.jp/article/2026/10/cve-2026-99999" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Linuxカーネル脆弱性「CVE-2026-99999」発見の背景が明らかに ―きっかけは賞金総額100万ドルの“サンドボックス脱出チャレンジ” | gihyo.jp</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T07:59:47Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://k-tai.watch.impress.co.jp/docs/review/2149675.html" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>本日開始「Androidのマイナンバーカード」さっそく登録、試してわかったiPhoneとの違いと注意点</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T07:39:04Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://github.com/streetcomplete/StreetComplete/releases/tag/v64.0" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>StreetComplete v64.0</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T07:38:49Z ・ 15 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://tech.iimon.co.jp/entry/2026/10/19" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>サービスアカウントについて解説してみた | iimon TECH BLOG</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 07:38:20 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://forest.watch.impress.co.jp/docs/news/2149622.html" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>「Visual Studio Code」でUIのモダナイズが進行中、従来の「クラシックUI」はいずれ廃止へ／詰まった表示の［Compact］やタブがエディターにくっついたデザインも選択可能</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T07:34:41Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://media.zenet-web.co.jp/entry/2026/10/20/161923" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>【AWS Jam参加レポート】人生初のAWS Jamで4位！チームで学んだAWSの実践力 | Zenet Tech Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 07:19:23 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://forest.watch.impress.co.jp/docs/news/2149576.html" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>適当に撮るだけでいい感じ ～無償のデスクトップ録画ツール「OpenScreen」がv2.0に／クロスプラットフォーム、オープンソース。“何もしなくてもきれい、いじっても崩れない”</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T07:00:47Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://tech.mobilefactory.jp/entry/2026/10/20/160000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>複数アカウントのCloudWatchダッシュボードのスナップショットを保存する話 | Mobile Factory Tech Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 07:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://codezine.jp/article/detail/30065" class="item" style="--accent: #0077B6" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Amazon CloudFront、オリジンとしてAWS Lambda Web Functionをサポート</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fcodezine.jp%2Frss%2Fnew%2F20%2Findex.xml" alt="" loading="lazy">CodeZine</span><span class="date">Tue, 20 Oct 2026 16:00:00 +0900</span></div>
+      </div>
+    </a>
+
+    <a href="https://gigazine.net/news/20261020-cloudflare-clairic/" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Cloudflareが文章や画像から必要な情報を高速・低コストで抽出するAI「Clairic」を発表、計算や予測にも対応</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T06:57:56Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/gzer0/articles/real-play-save-fixtures-for-ai-tests" class="item" style="--accent: #3EA8FF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>テストの前提を「実際に遊んで撮ったセーブ」に替えたら、撮影ボットがソフトロックを見つけた</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fzenn.dev%2Ffeed" alt="" loading="lazy">Zenn</span><span class="date">Tue, 20 Oct 2026 06:50:12 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://codezine.jp/article/detail/30071" class="item" style="--accent: #0077B6" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>新規事業における「終わらない企画書修正」をAIで解決へ、個社専用エージェント「Plan」が登場</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fcodezine.jp%2Frss%2Fnew%2F20%2Findex.xml" alt="" loading="lazy">CodeZine</span><span class="date">Tue, 20 Oct 2026 15:45:00 +0900</span></div>
+      </div>
+    </a>
+
+    <a href="https://github.com/microg/GmsCore/wiki" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>MicroG: Free-libre re-implementation of Google's proprietary Android user space</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T06:37:07Z ・ 205 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://github.com/microg/GmsCore/wiki" class="item" style="--accent: #FF8A00" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>MicroG: Free-libre re-implementation of Google's proprietary Android user space</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Best</span><span class="date">2026-10-20T06:37:07Z ・ 205 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://gigazine.net/news/20261020-smart-tv-no-ads-tool/" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>開発者たちはAIを使ってスマートテレビから広告とトラッキングを削除しようとしている</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T06:20:52Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/aiforall/articles/9bf3ff1903c073" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AIコーディングツールのトークン消費を可視化する「Tokscale」を試してみた | 株式会社メンバーズ AIフォーオールカンパニーのフィード</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 06:17:47 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.itmedia.co.jp/news/article/2610/20/2000002426/" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>「侵入経路塞いだが、バックドアから……」不正アクセス105時間の攻防、分単位で報告　防災メールのアルカディア</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T06:16:53Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.serverworks.co.jp/use-own-mcp-with-claude" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Amazon EC2で起動させた自作MCPサーバーをClaude Codeから使用できるようにしてみた | サーバーワークスエンジニアブログ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 06:11:37 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://techblog.vpoint.co.jp/entry/2026/10/20/145946" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>OWLとOntobricksで作って触れるオントロジー | Vポイントマーケティング｜TECH LABの Tech Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 05:59:46 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://gigazine.net/news/20261020-ai-game-clones/" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AIにゲームをコピーされて本家より先に発売される危険を恐れて無料体験版の公開が中止される</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T05:50:50Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://tech.iimon.co.jp/entry/2026/10/20/145049" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Webhookってなに？ ― フォーム送信をSlackに通知しながら仕組みを理解する | iimon TECH BLOG</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 05:50:49 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/james_anderson_h/somewhere-coding-stopped-being-allowed-to-be-fun-14pe" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Somewhere, Coding Stopped Being Allowed to Be Fun</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T05:35:46Z ・ 30 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/james_anderson_h/somewhere-coding-stopped-being-allowed-to-be-fun-14pe" class="item" style="--accent: #3B49DF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Somewhere, Coding Stopped Being Allowed to Be Fun</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Fstate%3Drising%26per_page%3D30" alt="" loading="lazy">DEV Rising</span><span class="date">2026-10-20T05:35:46Z ・ 30 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://codezine.jp/article/detail/30064" class="item" style="--accent: #0077B6" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>GitHub、依存関係のライセンスをポリシーで管理する機能を一般提供</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fcodezine.jp%2Frss%2Fnew%2F20%2Findex.xml" alt="" loading="lazy">CodeZine</span><span class="date">Tue, 20 Oct 2026 14:30:00 +0900</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/koda2026/im-12-i-built-an-ephemeral-cloud-platform-on-a-150-phone-and-fought-10-bugs-to-win-1337" class="item" style="--accent: #3B49DF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>I'm 12. I Built an Ephemeral Cloud Platform on a $150 Phone (And Fought 10 Bugs to Win)</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Fstate%3Drising%26per_page%3D30" alt="" loading="lazy">DEV Rising</span><span class="date">2026-10-20T05:22:03Z ・ 20 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/dhanushnehru/standup-sloth-a-local-llm-drafts-your-standup-and-a-citation-check-keeps-it-honest-5h7h" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>standup-sloth: a local LLM drafts your standup, and a citation check keeps it honest</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T05:21:02Z ・ 7 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://techblog.raksul.com/entry/2026/10/20/134629" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>インターン生としてラクスルのHack Weekに参加してきました | RAKSUL TechBlog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 04:46:29 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.cloudnative.co.jp/articles/sales-pm-difference-2/" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>営業からPMへの転職は、ジョブチェンジじゃなかったかもしれない（2）「準備の型化」で説明できると思っていた | CloudNative BLOGs</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 04:46:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://deathplanswitch.com/" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T04:37:43Z ・ 80 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/gde/generative-ui-without-the-async-tax-introducing-blocsignalsgenui-10-3gge" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Generative UI Without the Async Tax: Introducing bloc_signals_genui 1.0</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T04:34:20Z ・ 5 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://codezine.jp/article/detail/30070" class="item" style="--accent: #0077B6" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AnthropicやOpenAIらが登壇、GMO Flatt Securityがプロダクトセキュリティイベントを12月3日に開催</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fcodezine.jp%2Frss%2Fnew%2F20%2Findex.xml" alt="" loading="lazy">CodeZine</span><span class="date">Tue, 20 Oct 2026 13:30:00 +0900</span></div>
+      </div>
+    </a>
+
+    <a href="https://tech.smarthr.jp/entry/2026/10/20/132917" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>「AIの審査」で締めるチームビルディング —— ファシリテーターの負担ほぼゼロで、もうひと盛り上がり！ | SmartHR Tech Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 04:29:17 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.s-style.co.jp/2026/10/16831/" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Read/Write Split環境で更新直後の最新データを取得する ～ProxySQLのnext_query_flagINを活用～ | スマートスタイル TECH BLOG</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 04:21:23 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://tech.akariinc.co.jp/entry/2026/10/20/132049" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>三菱電機×AWSのテックフェス「AWS-MELCO DAY 2026」に当社小倉が登壇しました！ | AKARI Tech Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 04:20:49 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/kizuku_tabata/items/6d5b58ad0cb832d2a4c5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AI時代の開発プロセスとチームのあり方を考える</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-20T13:15:47+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://codezine.jp/article/detail/30069" class="item" style="--accent: #0077B6" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>URL入力から約20秒で自社サイトの弱点を発見、デジライズが無料セキュリティ診断を公開</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fcodezine.jp%2Frss%2Fnew%2F20%2Findex.xml" alt="" loading="lazy">CodeZine</span><span class="date">Tue, 20 Oct 2026 13:15:00 +0900</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/yashksaini/dev-log-26-deep-in-the-libp2p-weeds-fixing-dht-prefixes-and-yamux-resets-315n" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Dev log #26 Deep in the libp2p weeds: Fixing DHT prefixes and Yamux resets</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T04:12:05Z ・ 13 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://sodech.hatenablog.com/entry/2026/10/20/131107" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AIは天気予報士、人は傘を持つか決める人 ～AI時代に求められる人材とは～ | Sodech Developer Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 04:11:07 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.nishimu.land/entry/2026/10/20/123916" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>ソフトウェアの産業革命 - ちなみに</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T04:10:49Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/yashksaini/dev-log-25-hardening-p2p-networking-and-shipping-interactive-cli-features-in-rust-n36" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Dev log #25 Hardening p2p networking and shipping interactive CLI features in Rust</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T04:10:16Z ・ 12 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.mahdibm.com/posts/a-very-fast-ipv4-parser-in-swift/" class="item" style="--accent: #AC130D" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>A Very Fast IPv4 Parser, in Swift</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Flobste.rs%2Frss" alt="" loading="lazy">Lobsters</span><span class="date">Mon, 19 Oct 2026 23:04:43 -0500</span></div>
+      </div>
+    </a>
+
+    <a href="https://tech.bm-sms.co.jp/entry/2026/10/20/130000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AI-DLCワークショップで感じた、PdMに大切なこと | エス・エム・エス エンジニア テックブログ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 04:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://codezine.jp/article/detail/30063" class="item" style="--accent: #0077B6" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>「COBOLもJavaも得意なAI」IBM Bobを実際に触ってみよう【11/25・東京】</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fcodezine.jp%2Frss%2Fnew%2F20%2Findex.xml" alt="" loading="lazy">CodeZine</span><span class="date">Tue, 20 Oct 2026 13:00:00 +0900</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/earlgreyhot1701d/an-app-built-for-one-why-a-devpost-skill-pack-made-me-spec-it-anyway-knh" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>An App Built for One: Why a Devpost Skill Pack Made Me Spec It Anyway</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T03:53:04Z ・ 14 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/finatext/articles/b83c6488af3864" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Vue Routerの書き方はどう変わる？Experimental Routerを調査してみた | Finatext Tech Blogのフィード</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 03:50:46 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://tech.codmon.com/entry/2026/10/20/122719" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>「子育てエンジニアリングMeetup #1」がコドモンオフィスで開催されました！ | コドモン Product Team Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 03:27:19 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://github.com/golang/go/issues/82345" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Go will reject certificate chains containing eight distrusted SPKIs</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T03:05:07Z ・ 124 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://tech.itandi.co.jp/entry/2026/10/20/120449" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Kaigi on Rails 2026 参加レポート | ITANDI Engineer Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 03:04:49 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/flinters_blog/articles/3b377ce568d676" class="item" style="--accent: #3EA8FF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AI にリバースエンジニアリングさせる REA を触って、持ち帰ったのは「証拠付きで進める」考え方でした</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fzenn.dev%2Ffeed" alt="" loading="lazy">Zenn</span><span class="date">Tue, 20 Oct 2026 03:00:05 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://techblog.heroz.jp/entry/2026/10/20/120000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>「動くけど設計が微妙なコード」を卒業する — Matt Pocock流・AIに丸投げしない開発フロー | HEROZ Tech Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 03:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://tech.newmo.me/entry/2026/10/20/120000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>実装より先に仕様を検査する SDD の実践 | newmo 技術ブログ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 03:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://staffblog.amelieff.jp/entry/2026/10/20/120000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>シングルセルRNA-seq応用解析：擬似系譜、RNA Velocity、サンプル間比較【BI入門⑭】 | バイオインフォマティクス実践ラボ｜アメリエフ技術ブログ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 03:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://codezine.jp/article/detail/30068" class="item" style="--accent: #0077B6" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AWS、フィジカルAI開発向け「Physical AI Toolchain」を発表</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fcodezine.jp%2Frss%2Fnew%2F20%2Findex.xml" alt="" loading="lazy">CodeZine</span><span class="date">Tue, 20 Oct 2026 11:50:00 +0900</span></div>
+      </div>
+    </a>
+
+    <a href="https://note.shiftinc.jp/n/nfb4d5ce07906" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>「自然体で話す」は、何も意識しないことではない | SHIFT Group 技術ブログ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 02:49:07 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://pc.watch.impress.co.jp/docs/news/2149485.html" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>32GBでQwen3.8-Flash-Nextが動く！Strata 0.2.0ベータ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T02:36:15Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/gemcook/articles/f408cc6b1f75ec" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Go 1.27 で追加された strings.CutLast を試す | Gemcook Tech Blogのフィード</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 02:32:23 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.cybozu.io/entry/2026/10/20/113000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>3Dプリンタ、ギャルネイル、eスポーツ。「業務の話禁止」の社内LT会で見えたサイボウズの文化 | Cybozu Inside Out | サイボウズエンジニアのブログ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 02:30:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://codezine.jp/article/detail/30062" class="item" style="--accent: #0077B6" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Microsoft、.NETのツールチェーンマネージャー「dotnetup」をプレビュー公開</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fcodezine.jp%2Frss%2Fnew%2F20%2Findex.xml" alt="" loading="lazy">CodeZine</span><span class="date">Tue, 20 Oct 2026 11:30:00 +0900</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/komaba/items/b15321f2efd73ff248df?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>SQL初心者の基本のキ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-20T11:20:46+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://techblog.hacomono.jp/entry/2026/10/20/110000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>育休中に自由研究で Agentic IDE を作った話 | hacomono TECH BLOG</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 02:15:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/giganticsaki_A/items/f0ed9ec5cff12106978e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>怠惰の化身が資格取得するための勉強の習慣を身につけるまで</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-20T11:12:07+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.openbsd.org/80.html" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>OpenBSD 8.0</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-20T02:06:40Z ・ 385 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.openbsd.org/80.html" class="item" style="--accent: #FF8A00" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>OpenBSD 8.0</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Best</span><span class="date">2026-10-20T02:06:40Z ・ 385 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.watch.impress.co.jp/docs/news/2149442.html" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AIが若手の採用を減らし、ボトルネックは「人間の注意」に アンソロピックで起きた変化</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T02:05:43Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.watch.impress.co.jp/docs/news/2149413.html" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>JR東日本のコード決済「テッペイ」スタート　2万円超え決済など「Suica拡張」 - Impress Watch</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T02:05:34Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://historia.co.jp/archives/67838/" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>衛星軌道から月まで！ 宇宙空間デジタルツイン「REAL ORBIT」を公開 | historia Inc – 株式会社ヒストリア</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 02:00:32 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/reality_tech/articles/oxc-monorepo-20261006" class="item" style="--accent: #3EA8FF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Oxlint + Oxfmt で規約をコード化するモノレポ運用</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fzenn.dev%2Ffeed" alt="" loading="lazy">Zenn</span><span class="date">Tue, 20 Oct 2026 02:00:05 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://techblog.zozo.com/entry/zozotown-ios-swift6-first-step" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>ZOZOTOWNのSwift 6対応、頑張りすぎない「はじめの一歩」 | ZOZO TECH BLOG</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 02:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://knowledge.sakura.ad.jp/51880/" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>さくらの高火力 PHYを利用したKV CacheのOffload検証 〜高火力 PHYで作る分散推論基盤 vol.4〜 | さくらのナレッジ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 02:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://kakehashi-dev.hatenablog.com/entry/2026/10/20/110000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>薬剤師がプロンプトをバージョン100まで育てた。ヘルステック領域で医療現場の判断をAIに落とし込む | KAKEHASHI Tech Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 02:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.colopl.dev/entry/2026/10/20/110000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>【資料公開】新卒エンジニア向けデータベース基礎研修（MySQL編）を実施しました | COLOPL Tech Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 02:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://tech-blog.yayoi-kk.co.jp/entry/2026/10/20/110000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>デザインシステムをAgent Skillsにしてわかったこと | 弥生開発者ブログ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 02:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.agile.esm.co.jp/entry/eiwa-dojo-open-training-01" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>永和道場の「公開稽古」を開催します（11/16〜11/20） | ESM アジャイル事業部 開発者ブログ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 02:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://japan.zdnet.com/article/35253752/" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>「Linux」に無料の「Acrobat」クローンが登場--本格的なPDF編集アプリ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T01:51:05Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.openbsd.org/80.html" class="item" style="--accent: #AC130D" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>OpenBSD 8.0</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Flobste.rs%2Frss" alt="" loading="lazy">Lobsters</span><span class="date">Mon, 19 Oct 2026 20:46:00 -0500</span></div>
+      </div>
+    </a>
+
+    <a href="https://forest.watch.impress.co.jp/docs/serial/yajiuma/2149461.html" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>情報漏洩や不正アクセスのニュースばかりで訳わかんない！……っていう人に「JP Incident Monitor」／日本のサイバーインシデントを一覧、AIで分析して信頼度付きで掲載【やじうまの杜】</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T01:28:01Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.sge-coretech.com/entry/2026/10/20/102300" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AIとRender Docの連携による描画不具合の調査 | CORETECH ENGINEER BLOG</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 01:23:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/shirok/items/8dd19291f959da310c99?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Oracle AI Data Platform(AIDP)：Private Endpointの AI Lakehouseで Knowledge Base・RAG検索してみてみた</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-20T10:21:10+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://coliss.com/articles/build-websites/operation/work/crafting-apps-20261020.html" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Photoshopをオープンソースで再構築した「PhotoCraft」が日本語フォントの縦書きに対応、各ツールの使い勝手も向上</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-20T01:17:25Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/maskot1977/items/3b0066bf024070e55c0d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>「地方消滅」は財源幻想が招いた人災だ ― 地方財政の制度設計 : システム設計視点の行動経済学 (44)</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-20T10:02:01+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/dinii/articles/5b8edc7856c25b" class="item" style="--accent: #3EA8FF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Chromium(V8)のArray.prototype.fillを最大約7倍高速化した</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fzenn.dev%2Ffeed" alt="" loading="lazy">Zenn</span><span class="date">Tue, 20 Oct 2026 01:00:05 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/nttdata_tech/articles/0b9c9cfa261322" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Snowflake World Tour Tokyo 2026に新入社員が参加してみた！ | NTT DATA TECHのフィード</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 01:00:05 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/tokium_dev/articles/58c4c5a94b4372" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>多階層の部署データ設計【第2回】結果編 | TOKIUMプロダクトチーム テックブログのフィード</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 01:00:05 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://buildersbox.corp-sansan.com/entry/2026/10/20/100000" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>ECSタスク定義をTerraformで管理しやすくするTips | Sansan Tech Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 01:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://tech.sumzap.co.jp/entry/toon-shader-subsurface-scattering" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>表面下散乱（SSS）の実装案比較とトゥーン調への適用方法 | Sumzap Engineering Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 01:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/nttdata_tech/articles/cc060304c4a204" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Informatica IDMCのMDMでデータマネジメント 〜承認ワークフローをカスタマイズしてみた〜 | NTT DATA TECHのフィード</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 00:58:23 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://efe.com/english/latest-news/2026-10-20/lula-supporters-protest-against-meta-to-denounce-its-electoral-interference/" class="item" style="--accent: #FF8A00" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Lula supporters protest against Meta to denounce its 'electoral interference'</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Best</span><span class="date">2026-10-20T00:53:52Z ・ 269 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://making.close.com/posts/rendering-untrusted-html-email-safely/" class="item" style="--accent: #AC130D" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Rendering untrusted HTML email, safely(2021)</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Flobste.rs%2Frss" alt="" loading="lazy">Lobsters</span><span class="date">Mon, 19 Oct 2026 19:16:31 -0500</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/c2b/adopte-un-job-on-swipe-les-vrais-postes-de-lopt-nc-et-on-voit-pourquoi-ils-nous-correspondent-48pc" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>#HackAVP Adopte un Job : swipe les postes de l'OPT-NC, vois pourquoi ils te correspondent</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-20T00:12:40Z ・ 12 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://blog.jbs.co.jp/entry/2026/10/20/091144" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Microsoft Agent Framework（MAF）の Agent Harness と Harness Agent を Python で使う | JBS Tech Blog</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Tue, 20 Oct 2026 00:11:44 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.watch.impress.co.jp/docs/topic/2147284.html" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>なぜいま「ピックルボール」が人気なのか　誰でも楽しめるルールとちょうどいい運動量</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-19T23:52:08Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://quadro.hateblo.jp/entry/seiseiai_real" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>生成AIの女性画像、なぜ「作り物」に見えるの?毛穴や産毛まで感じる自然な肌を目指し無料版AIの1K画像で感じた限界と、実在感のある写真への挑戦 - Quadro Diary 生成AI 過去日記</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-19T23:46:02Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/J-T_ky2g/items/863c78a49602100cfe4d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>chakra-ui v2を検証用に使う前の確認をしていたら、タイポスクワッティングを狙う悪意のあるリポジトリをsnykで見つけた話</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-20T08:40:08+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/maskot1977/items/5a7a61346add83106a30?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>耳で聞く！Python で学ぶ マクロ経済学 入門 全30回総復習</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-20T08:32:23+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/edash_tech_blog/articles/5b90aa33bd8d49" class="item" style="--accent: #3EA8FF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Claude Code で CI 待ち時間を 18 分から 4 分台に短縮する【GitHub Actions】</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fzenn.dev%2Ffeed" alt="" loading="lazy">Zenn</span><span class="date">Mon, 19 Oct 2026 23:00:05 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://lobste.rs/s/fonp7g/intermediary_between_public_private" class="item" style="--accent: #AC130D" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Intermediary between public and private members</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Flobste.rs%2Frss" alt="" loading="lazy">Lobsters</span><span class="date">Mon, 19 Oct 2026 17:53:54 -0500</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/shiro_kuma_san/articles/8abfbdacfeaa59" class="item" style="--accent: #3EA8FF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>npm と比べて分かった Go の依存管理の「一番の違い」── go get の中身を 6 ステップで追う</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fzenn.dev%2Ffeed" alt="" loading="lazy">Zenn</span><span class="date">Mon, 19 Oct 2026 22:15:05 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://hexane.cc/" class="item" style="--accent: #FF8A00" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Germany's far-right AfD: half a million internal documents leaked</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Best</span><span class="date">2026-10-19T20:31:05Z ・ 186 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/star123/hello-world-5425" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Hello world!!</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-19T19:09:31Z ・ 23 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/star123/hello-world-5425" class="item" style="--accent: #3B49DF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Hello world!!</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Fstate%3Drising%26per_page%3D30" alt="" loading="lazy">DEV Rising</span><span class="date">2026-10-19T19:09:31Z ・ 23 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/md8_habibullah/they-charge-mr-to-export-my-own-whatsapp-contacts-i-shipped-a-free-alternative-in-one-day-4n9g" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>They Charge Me to Export My Own WhatsApp Contacts. I Shipped a Free Alternative in One Day 🔓</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-19T18:12:03Z ・ 5 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://mbuffett.com/posts/most-human-chess-bot" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Spending 10 months building the most human-like chess bot</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-19T16:30:41Z ・ 11 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>DeepSeek banned from U.S. federal civilian agencies under new DHS order</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-19T16:16:46Z ・ 396 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/" class="item" style="--accent: #FF8A00" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>DeepSeek banned from U.S. federal civilian agencies under new DHS order</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Best</span><span class="date">2026-10-19T16:16:46Z ・ 396 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/priyanshuverma/the-file-format-pages-headers-and-magic-bytes-2k78" class="item" style="--accent: #0A0A0A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>The File Format: Pages, Headers, and Magic Bytes</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Ftop%3D1%26per_page%3D30" alt="" loading="lazy">DEV Top</span><span class="date">2026-10-19T15:27:59Z ・ 5 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/d_date/articles/macos-capture-protection-preventscapture" class="item" style="--accent: #3EA8FF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>macOSで特定のビューをスクリーンキャプチャから隠す</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fzenn.dev%2Ffeed" alt="" loading="lazy">Zenn</span><span class="date">Mon, 19 Oct 2026 15:20:47 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://engineering.dena.com/blog/2026/10/cascaded-voice-interaction-demo/" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>カスケード型音声対話で宿泊予約の電話応対デモを作る 〜投機的実行で待ち時間を減らす〜 | Blog on DeNA Engineering</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Mon, 19 Oct 2026 15:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://future-architect.github.io/articles/20261020a/" class="item" style="--accent: #E8710A" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>コードが読めないのは、文法を知らないからなのか？ ― プログラミングパラダイムを「読むときの問い」として考える | フューチャー技術ブログ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fyamadashy.github.io%2Ftech-blog-rss-feed%2Ffeeds%2Frss.xml" alt="" loading="lazy">企業テックブログRSS</span><span class="date">Mon, 19 Oct 2026 15:00:00 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/naoyuki1212/articles/20261019-legacy-code-with-ai" class="item" style="--accent: #3EA8FF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>AIを利用したレガシーコード改善</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fzenn.dev%2Ffeed" alt="" loading="lazy">Zenn</span><span class="date">Mon, 19 Oct 2026 14:53:36 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/J-T_ky2g/items/d0d5aea8b3b78ac3baca?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>MacのJetbrains IDEで一気にコンポーネントやクラスをインポートする</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-19T23:46:41+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/masaru21/articles/2100616bb5110d" class="item" style="--accent: #3EA8FF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Cloudflare + EmDash の自サイトを点検したら Server-Timing から内部情報が見えていた話</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fzenn.dev%2Ffeed" alt="" loading="lazy">Zenn</span><span class="date">Mon, 19 Oct 2026 14:42:30 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/J-T_ky2g/items/075c7f87b88867cff86e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>chakra-ui v3でDrawerをクリックしてnavigateしても閉じない</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-19T23:40:31+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/k_kane/items/a2428f62732632a40b9e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Private Agent Factoryで作るかんたんな業務エージェント</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-19T23:25:13+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/hisa_tech_2973/articles/9cb4aee5b999fa" class="item" style="--accent: #3EA8FF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>個人情報入りの PDF を AI に渡さない：Drive の前に「関所」を置いて突き合わせを自動化した話</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fzenn.dev%2Ffeed" alt="" loading="lazy">Zenn</span><span class="date">Mon, 19 Oct 2026 11:55:13 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/megmogmog1965/items/503394c2e67881949b95?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Claude Code の cross-session messaging で、1 つの文書を複数のセッションと並列に編集する</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-19T20:43:46+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://decks.yasaichi.com/20261016/domain-modeling-with-vanilla-rails" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Domain Modeling with Vanilla Rails</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-19T10:52:55Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://zenn.dev/yurapii/articles/2622d98d641acc" class="item" style="--accent: #3EA8FF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Progate git自作インターン参加記〜AIとチーム開発との付き合い方〜</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fzenn.dev%2Ffeed" alt="" loading="lazy">Zenn</span><span class="date">Mon, 19 Oct 2026 10:49:53 GMT</span></div>
+      </div>
+    </a>
+
+    <a href="https://star.hatenastaff.com/entry/2026/10/19/140533" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>「つけたスター・ついたスター」一覧の表示期間を直近3か月に変更します - はてなスター日記</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-19T10:38:08Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://posfie.com/@petaritape/p/aa5HeGM" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>1か月ぐらいClaude Codeと伴走してたけどもう疲れてしまった。育てたら快適になると信じて育ててたけど、もはや健康被害が出そうなレベルで強いストレスを感じている。AI使うのやめたいです。→「ClaudCodeとAIを新入社員に読み替えてみたら分かりやすいのですが。 そのつもりで使うとまた違うんですけどね」</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-10-19T10:37:03Z</span></div>
+      </div>
+    </a>
+
+    <a href="https://dev.to/ositrustees/why-two-market-charts-can-disagree-a-reproducible-comparison-workflow-4205" class="item" style="--accent: #3B49DF" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Why Two Market Charts Can Disagree: A Reproducible Comparison Workflow</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdev.to%2Fapi%2Farticles%3Fstate%3Drising%26per_page%3D30" alt="" loading="lazy">DEV Rising</span><span class="date">2026-10-19T09:51:42Z ・ 23 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/Masato_Iwasaki/items/7e5241176f3eead2a2f5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Codexでゲームを作っていたら、小さなAI開発組織を回す実験になった</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-19T17:33:01+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/kai_kou/items/b99961b38bff5956a35a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Anthropic OSS Scanner 登録ガイド、人間レビューなしの報告を捌く手順</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-19T16:12:40+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/yukio3239/items/e02c811664e444686fe5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>ローカルAIに実装を任せればClaudeのトークンは減る？ 実測したら逆だった（と、そこから分かったこと）</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-19T11:14:42+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://qiita.com/kkaattoo/items/1416801376bc60e1d027?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" class="item" style="--accent: #55C500" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>本番DBで手作業しているSQLを、Django の管理画面の操作に置き換えたい</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fqiita.com%2Fpopular-items%2Ffeed" alt="" loading="lazy">Qiita Popular</span><span class="date">2026-10-19T10:03:53+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://flatwaterfreepress.org/der-viener-schlinger-the-meat-cannon-that-launched-20000-hot-dogs/" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>'Der Viener Schlinger': The meat cannon that launched 20k hot dogs</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-19T00:43:01Z ・ 36 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://github.com/tywr/Nordwand-Mono" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Nordwand Mono – A monospace font for coders and adventurers</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-18T14:48:01Z ・ 400 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://github.com/tywr/Nordwand-Mono" class="item" style="--accent: #FF8A00" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Nordwand Mono – A monospace font for coders and adventurers</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Best</span><span class="date">2026-10-18T14:48:01Z ・ 400 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.nature.com/articles/s41467-025-58290-8" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Restoration of Retinal Regenerative Potential (2025)</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-18T11:32:38Z ・ 89 pts</span></div>
+      </div>
+    </a>
+
+    <a href="http://oldvcr.blogspot.com/2026/10/refurb-weekend-ii-alpha-micro-eagle-300.html" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Refurb weekend II: Alpha Micro Eagle 300 and friends</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-18T04:48:47Z ・ 18 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://gardinerbryant.com/what-if-video-games-came-on-vhs/" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Porting video games to VHS</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-17T21:12:16Z ・ 45 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.quantamagazine.org/how-do-fungi-keep-the-planet-healthy-20261015/" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>How Do Fungi Keep the Planet Healthy?</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-17T20:27:22Z ・ 67 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://petapixel.com/2026/10/17/photographer-spends-six-years-capturing-400-american-girls-and-their-most-meaningful-objects/" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Capturing 400 American Girls and Their Most Meaningful Objects</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-17T14:21:49Z ・ 3 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.nytimes.com/2026/08/15/nyregion/nyc-street-sign-shop.html" class="item" style="--accent: #FF6600" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>There Are over 1M New York City Street Signs. Here's How They Are Made.</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fnews.ycombinator.com%2F" alt="" loading="lazy">Hacker News Top</span><span class="date">2026-10-16T16:42:48Z ・ 25 pts</span></div>
+      </div>
+    </a>
+
+    <a href="https://impeccable.style/" class="item" style="--accent: #00A4DE" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>The missing design vocabulary for agents.</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fb.hatena.ne.jp%2Fhotentry%2Fit.rss" alt="" loading="lazy">Hatena Bookmark IT</span><span class="date">2026-01-15T15:35:43Z</span></div>
+      </div>
+    </a>
+
+    </div></section>
+    <section class="tab-panel" id="tab-official"><div class="feed">
+    <a href="https://developers.googleblog.com/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/" class="item" style="--accent: #4285F4" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>Unifying Edge AI: How Coral NPU’s open standard brings portable, energy-viable intelligence from model to silicon</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fdevelopers.googleblog.com%2Ffeeds%2Fposts%2Fdefault" alt="" loading="lazy">Google Developers Blog</span><span class="date">2026-10-20T13:49:57Z</span></div>
+      </div>
+    </a>
+
+    </div></section>
+    <section class="tab-panel" id="tab-security"><div class="feed">
+    <a href="https://www.security-next.com/191652" class="item" style="--accent: #CC3300" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>複数システムに不正アクセス、個人情報が流出 - ユミルリンク</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fwww.security-next.com%2Fcategory%2Fcat191%2Ffeed" alt="" loading="lazy">Security NEXT</span><span class="date">Tue, 20 Oct 2026 13:14:50 +0000</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.security-next.com/191672" class="item" style="--accent: #CC3300" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>「Roundcube Webmail」にセキュリティ更新 - 複数の脆弱性を解消</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fwww.security-next.com%2Fcategory%2Fcat191%2Ffeed" alt="" loading="lazy">Security NEXT</span><span class="date">Tue, 20 Oct 2026 06:46:29 +0000</span></div>
+      </div>
+    </a>
+
+    <a href="https://jvn.jp/jp/JVN88864366/" class="item" style="--accent: #005BAC" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>JVN: アツミ電氣製DVRに利用可能な非公開機能を悪用される問題</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fwww.jpcert.or.jp%2Frss%2Fjpcert-all.rdf" alt="" loading="lazy">JPCERT/CC</span><span class="date">2026-10-20T14:00:00+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://jvn.jp/jp/JVN33436631/" class="item" style="--accent: #005BAC" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>JVN: 複数のLenovo製タブレットのAndroid Verified Boot機能において既知のテスト用鍵がそのまま使用されている問題</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fwww.jpcert.or.jp%2Frss%2Fjpcert-all.rdf" alt="" loading="lazy">JPCERT/CC</span><span class="date">2026-10-20T12:00:15+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://jvn.jp/jp/JVN29783594/" class="item" style="--accent: #005BAC" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>JVN: UnRTFにおける境界外書き込みの脆弱性</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fwww.jpcert.or.jp%2Frss%2Fjpcert-all.rdf" alt="" loading="lazy">JPCERT/CC</span><span class="date">2026-10-20T12:00:00+09:00</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.security-next.com/191645" class="item" style="--accent: #CC3300" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>ウェブサーバ「nginx」に複数脆弱性 - 3件が「クリティカル」との評価も</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fwww.security-next.com%2Fcategory%2Fcat191%2Ffeed" alt="" loading="lazy">Security NEXT</span><span class="date">Tue, 20 Oct 2026 02:42:37 +0000</span></div>
+      </div>
+    </a>
+
+    <a href="https://www.security-next.com/191648" class="item" style="--accent: #CC3300" target="_blank" rel="noopener noreferrer">
+      <div class="thumb"><div class="noimage"><span>社内の光回線申込受付管理システムで侵害、影響を調査 - ニフティ</span></div></div>
+      <div class="body">
+        <div class="source"><span class="pill"><img src="https://www.google.com/s2/favicons?sz=64&amp;domain_url=https%3A%2F%2Fwww.security-next.com%2Fcategory%2Fcat191%2Ffeed" alt="" loading="lazy">Security NEXT</span><span class="date">Tue, 20 Oct 2026 01:44:57 +0000</span></div>
+      </div>
+    </a>
+
+    </div></section>
+  </main>
+  <script>
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn, .tab-panel').forEach(el => el.classList.remove('active'));
+        b.classList.add('active');
+        document.getElementById('tab-' + b.dataset.tab).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
