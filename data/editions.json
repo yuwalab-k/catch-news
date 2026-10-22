@@ -1,6 +1,18 @@
 [
    {
       "by_category" : {
+         "knowledge" : 121,
+         "official" : 3,
+         "security" : 7
+      },
+      "date" : "20261022",
+      "generated_at" : "2026-10-22T00:53:40Z",
+      "slug" : "20261022095302",
+      "time" : "095302",
+      "title" : "2026-10-22 09:53:02"
+   },
+   {
+      "by_category" : {
          "knowledge" : 16
       },
       "date" : "20261021",
