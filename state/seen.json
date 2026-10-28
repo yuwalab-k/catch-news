@@ -1,119 +1,119 @@
 {
    "fetched_at" : {
       "aws-security" : {
-         "last_attempt_at" : "2026-10-28T15:25:04Z",
+         "last_attempt_at" : "2026-10-28T16:14:48Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:25:04Z"
+         "last_success_at" : "2026-10-28T16:14:48Z"
       },
       "codezine" : {
-         "last_attempt_at" : "2026-10-28T15:24:54Z",
+         "last_attempt_at" : "2026-10-28T16:14:43Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:54Z"
+         "last_success_at" : "2026-10-28T16:14:43Z"
       },
       "devto-rising" : {
-         "last_attempt_at" : "2026-10-28T15:25:10Z",
+         "last_attempt_at" : "2026-10-28T16:14:56Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:25:10Z"
+         "last_success_at" : "2026-10-28T16:14:56Z"
       },
       "devto-top" : {
-         "last_attempt_at" : "2026-10-28T15:25:10Z",
+         "last_attempt_at" : "2026-10-28T16:14:56Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:25:10Z"
+         "last_success_at" : "2026-10-28T16:14:56Z"
       },
       "forest-security" : {
-         "last_attempt_at" : "2026-10-28T15:25:04Z",
+         "last_attempt_at" : "2026-10-28T16:14:48Z",
          "last_error" : "HTTP 404 for https://forest.watch.impress.co.jp/data/rss/1.0/wf/security.rdf at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : null
       },
       "github-blog" : {
-         "last_attempt_at" : "2026-10-28T15:24:57Z",
+         "last_attempt_at" : "2026-10-28T16:14:46Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:57Z"
+         "last_success_at" : "2026-10-28T16:14:46Z"
       },
       "github-changelog" : {
-         "last_attempt_at" : "2026-10-28T15:24:57Z",
+         "last_attempt_at" : "2026-10-28T16:14:46Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:57Z"
+         "last_success_at" : "2026-10-28T16:14:46Z"
       },
       "github-security" : {
-         "last_attempt_at" : "2026-10-28T15:25:03Z",
+         "last_attempt_at" : "2026-10-28T16:14:48Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:25:03Z"
+         "last_success_at" : "2026-10-28T16:14:48Z"
       },
       "google-cloud-blog" : {
-         "last_attempt_at" : "2026-10-28T15:24:55Z",
+         "last_attempt_at" : "2026-10-28T16:14:44Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:55Z"
+         "last_success_at" : "2026-10-28T16:14:44Z"
       },
       "google-dev-blog" : {
-         "last_attempt_at" : "2026-10-28T15:24:55Z",
+         "last_attempt_at" : "2026-10-28T16:14:44Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:55Z"
+         "last_success_at" : "2026-10-28T16:14:44Z"
       },
       "hatena-it" : {
-         "last_attempt_at" : "2026-10-28T15:24:52Z",
+         "last_attempt_at" : "2026-10-28T16:14:42Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:52Z"
+         "last_success_at" : "2026-10-28T16:14:42Z"
       },
       "hn-best" : {
-         "last_attempt_at" : "2026-10-28T15:25:07Z",
+         "last_attempt_at" : "2026-10-28T16:14:53Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:25:07Z"
+         "last_success_at" : "2026-10-28T16:14:53Z"
       },
       "hn-top" : {
-         "last_attempt_at" : "2026-10-28T15:25:04Z",
+         "last_attempt_at" : "2026-10-28T16:14:49Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:25:04Z"
+         "last_success_at" : "2026-10-28T16:14:49Z"
       },
       "jpcert-all" : {
-         "last_attempt_at" : "2026-10-28T15:24:57Z",
+         "last_attempt_at" : "2026-10-28T16:14:46Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:57Z"
+         "last_success_at" : "2026-10-28T16:14:46Z"
       },
       "linux-kernel" : {
-         "last_attempt_at" : "2026-10-28T15:24:57Z",
+         "last_attempt_at" : "2026-10-28T16:14:46Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:57Z"
+         "last_success_at" : "2026-10-28T16:14:46Z"
       },
       "lobsters" : {
-         "last_attempt_at" : "2026-10-28T15:24:52Z",
+         "last_attempt_at" : "2026-10-28T16:14:42Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:52Z"
+         "last_success_at" : "2026-10-28T16:14:42Z"
       },
       "meta-engineering" : {
-         "last_attempt_at" : "2026-10-28T15:24:57Z",
+         "last_attempt_at" : "2026-10-28T16:14:46Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:57Z"
+         "last_success_at" : "2026-10-28T16:14:46Z"
       },
       "qiita-popular" : {
-         "last_attempt_at" : "2026-10-28T15:24:53Z",
+         "last_attempt_at" : "2026-10-28T16:14:43Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:53Z"
+         "last_success_at" : "2026-10-28T16:14:43Z"
       },
       "security-next" : {
-         "last_attempt_at" : "2026-10-28T15:24:58Z",
+         "last_attempt_at" : "2026-10-28T16:14:47Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:58Z"
+         "last_success_at" : "2026-10-28T16:14:47Z"
       },
       "tech-blog-rss" : {
-         "last_attempt_at" : "2026-10-28T15:24:53Z",
+         "last_attempt_at" : "2026-10-28T16:14:42Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:53Z"
+         "last_success_at" : "2026-10-28T16:14:42Z"
       },
       "vercel" : {
-         "last_attempt_at" : "2026-10-28T15:24:55Z",
+         "last_attempt_at" : "2026-10-28T16:14:44Z",
          "last_error" : "HTTP 404 for https://vercel.com/rss.xml at /home/runner/work/catch-news/catch-news/bin/../lib/Fetcher.pm line 32.\n",
          "last_success_at" : "2026-10-21T14:38:10Z"
       },
       "youtube-fireship" : {
-         "last_attempt_at" : "2026-10-28T15:24:55Z",
+         "last_attempt_at" : "2026-10-28T16:14:44Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:55Z"
+         "last_success_at" : "2026-10-28T16:14:44Z"
       },
       "zenn" : {
-         "last_attempt_at" : "2026-10-28T15:24:52Z",
+         "last_attempt_at" : "2026-10-28T16:14:42Z",
          "last_error" : null,
-         "last_success_at" : "2026-10-28T15:24:52Z"
+         "last_success_at" : "2026-10-28T16:14:42Z"
       }
    },
    "seen" : {
@@ -4712,6 +4712,7 @@
       "https://blog.whywrite.it/2026/09/26/migrate-homelab-kubernetes-talos-cloudflare/" : "2026-09-27T14:16:27Z",
       "https://blog.willgrant.org/2026/07/23/the-hardest-way-to-make-gif.html" : "2026-07-24T10:36:32Z",
       "https://blog.willmeye.rs/new-york-city-should-carefully-measure-a-new-tree/" : "2026-10-04T01:58:48Z",
+      "https://blog.willnet.in/entry/2026/10/28/180758" : "2026-10-28T16:14:42Z",
       "https://blog.wirelessmoves.com/2026/09/grapheneos-when-an-app-is-slow.html" : "2026-09-29T02:17:49Z",
       "https://blog.wybxc.cc/blog/parametricity/" : "2026-05-21T22:40:24Z",
       "https://blog.wybxc.cc/blog/pretty-printer-pye/" : "2026-05-30T22:40:24Z",
@@ -10553,6 +10554,7 @@
       "https://dev.to/gde/a-4-gb-laptop-gpu-vs-a-6-core-cpu-on-gemma-4-re-measured-in-abba-order-41x-5g56" : "2026-09-24T00:52:24Z",
       "https://dev.to/gde/a-cubit-or-bloc-is-just-a-container-holding-a-signal-how-much-bloc-vs-signals-do-you-actually-koj" : "2026-10-03T01:26:12Z",
       "https://dev.to/gde/a-dense-31b-on-an-8-gb-gpu-gemma-4-31b-on-an-rtx-3050-26p9" : "2026-10-21T00:54:58Z",
+      "https://dev.to/gde/accuracy-vs-speed-gemma-4-e2b-quantization-tradeoffs-bf16-to-q2k-aea" : "2026-10-28T16:14:56Z",
       "https://dev.to/gde/agent-development-kit-for-google-apps-script-38ho" : "2026-05-18T10:40:46Z",
       "https://dev.to/gde/agent-platform-in-action-3-solving-stateless-container-hitl-amnesia-cross-instance-business-3c4h" : "2026-10-23T13:48:01Z",
       "https://dev.to/gde/agent-platform-in-practice-2-from-monolithic-cloud-run-to-google-cloud-agent-runtime-bo1" : "2026-10-20T13:50:07Z",
@@ -12419,6 +12421,7 @@
       "https://dev.to/maximsaplin/ai-agent-failure-modes-beyond-hallucination-208g" : "2026-05-22T22:40:37Z",
       "https://dev.to/maximsaplin/cli-over-mcp-a-small-chrome-devtools-experiment-in-copilot-cli-5gpi" : "2026-06-10T22:40:44Z",
       "https://dev.to/maximsaplin/debloating-the-ai-grown-codebase-2om" : "2026-06-01T22:40:44Z",
+      "https://dev.to/maximsaplin/mercury-3-when-ai-is-fast-enough-to-stay-in-the-loop-3oe5" : "2026-10-28T16:14:56Z",
       "https://dev.to/maximsaplin/persistent-agent-teams-recreating-the-grok-bot-experience-with-herdr-claude-code-and-pi-2aea" : "2026-10-19T16:14:29Z",
       "https://dev.to/maximsaplin/the-ai-bill-grows-in-the-agent-loop-87n" : "2026-07-07T23:34:13Z",
       "https://dev.to/maximsaplin/typesafe-jev-played-chess-and-landed-next-to-reasoning-models-28ga" : "2026-09-18T00:46:24Z",
@@ -12952,6 +12955,7 @@
       "https://dev.to/nyaomaru/how-i-built-the-editor-and-compile-pipeline-for-a-typescript-dsa-visualizer-dsa-view-view--530f" : "2026-07-23T23:35:21Z",
       "https://dev.to/nyaomaru/how-i-made-javascript-execution-visual-and-rewindable-dsa-view-view--42k4" : "2026-07-29T11:07:03Z",
       "https://dev.to/nyaomaru/i-built-a-tool-to-visualize-dsa-lets-learn-together-dsa-view-view--djo" : "2026-07-15T23:38:45Z",
+      "https://dev.to/nyaomaru/i-compared-6-typescript-validation-libraries-heres-what-surprised-me-325g" : "2026-10-28T16:14:56Z",
       "https://dev.to/nyaomaru/is-kit-reached-100-stars-heres-what-changed-since-50-49pf" : "2026-10-22T00:53:39Z",
       "https://dev.to/nyaomaru/is-kit-reached-50-stars-heres-how-we-use-it-in-production-2i5b" : "2026-08-12T23:21:29Z",
       "https://dev.to/nyaomaru/is-learning-dsa-boring-lets-use-dsa-view-view-two-sum-binary-search-and-bubble-sort-374o" : "2026-08-19T22:58:16Z",
@@ -14252,6 +14256,7 @@
       "https://dev.to/smtahosin/how-react-actually-works-under-the-hood-and-why-your-mental-model-might-be-wrong-12b8" : "2026-10-08T15:50:51Z",
       "https://dev.to/smtahosin/in-ruby-objects-dont-have-methods-how-method-lookup-actually-works-31g9" : "2026-10-21T14:13:27Z",
       "https://dev.to/smtahosin/mqtt-doesnt-have-message-queues-inside-the-2-byte-protocol-powering-modern-iot-161" : "2026-10-28T15:25:10Z",
+      "https://dev.to/smtahosin/nodejs-isnt-single-threaded-how-libuv-and-the-os-kernel-actually-run-your-code-3460" : "2026-10-28T16:14:56Z",
       "https://dev.to/smtahosin/pointers-arent-arrows-how-c-and-c-actually-talk-to-hardware-9d6" : "2026-09-25T14:08:59Z",
       "https://dev.to/smtahosin/python-thinks-different-what-actually-happens-inside-your-code-visual-guide-241l" : "2026-09-24T13:46:13Z",
       "https://dev.to/smtahosin/rails-magic-isnt-magic-how-a-request-actually-travels-through-rails-5gc5" : "2026-10-19T16:14:29Z",
@@ -14796,6 +14801,7 @@
       "https://dev.to/tooljet/build-a-supplier-product-import-app-with-tooljet-mcp-51f3" : "2026-09-29T15:04:20Z",
       "https://dev.to/tooljet/build-a-support-ticket-sorter-app-with-tooljet-mcp-and-jev-637" : "2026-10-12T18:11:35Z",
       "https://dev.to/tooljet/build-a-vendor-risk-register-with-tooljet-mcp-and-jev-3m3i" : "2026-10-26T15:27:00Z",
+      "https://dev.to/tooljet/build-a-visual-quality-gate-with-tooljet-mcp-for-inspectors-35dm" : "2026-10-28T16:14:56Z",
       "https://dev.to/tooljet/build-a-warehouse-layout-planner-with-tooljet-mcp-5573" : "2026-09-24T13:46:13Z",
       "https://dev.to/tooljet/build-an-asset-handover-app-with-tooljet-mcp-4fm4" : "2026-09-17T13:45:54Z",
       "https://dev.to/tooljet/build-an-auto-care-back-office-with-claude-code-for-repair-shops-35lj" : "2026-10-15T14:22:53Z",
@@ -16532,6 +16538,7 @@
       "https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric/" : "2026-09-25T00:48:06Z",
       "https://electrek.co/2026/09/29/tesla-takes-on-30-billion-in-credit-as-it-approaches-unprofitability/" : "2026-10-01T01:33:00Z",
       "https://electrek.co/2026/10/20/subaru-killing-off-gas-cars-europe-will-only-sell-evs/" : "2026-10-21T00:54:55Z",
+      "https://electrek.co/2026/10/28/tesla-semi-fire-i-880-hayward-no-crash/" : "2026-10-28T16:14:49Z",
       "https://electronicmaterialsoffice.com/" : "2026-08-07T01:37:48Z",
       "https://elenajs.com/" : "2026-08-02T10:18:44Z",
       "https://elgan.com/google-news-is-just-forrest-gumps-shrimp-boat-now" : "2026-08-01T23:37:59Z",
@@ -16839,6 +16846,7 @@
       "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/" : "2026-10-26T16:17:24Z",
       "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape/" : "2026-10-28T01:40:53Z",
       "https://engineering.fb.com/2026/10/27/security/privacylib/" : "2026-10-28T01:40:53Z",
+      "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/" : "2026-10-28T16:14:46Z",
       "https://engineering.mercari.com/blog/entry/20260605-moneyflow-bridging-payment-and-accounting/" : "2026-06-07T11:23:30Z",
       "https://engineering.mercari.com/blog/entry/20260610-be556591c7/" : "2026-06-27T23:39:26Z",
       "https://engineering.mercari.com/blog/entry/20260616-0f89ad4c7b/" : "2026-06-27T11:13:05Z",
@@ -19454,11 +19462,13 @@
       "https://github.blog/news-insights/company-news/github-availability-report-may-2026/" : "2026-06-11T22:40:30Z",
       "https://github.blog/news-insights/company-news/github-availability-report-september-2026/" : "2026-10-15T00:50:37Z",
       "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/" : "2026-05-15T02:50:50Z",
+      "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/" : "2026-10-28T16:14:46Z",
       "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/" : "2026-06-04T22:40:31Z",
       "https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here/" : "2026-05-28T22:40:29Z",
       "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/" : "2026-08-20T23:00:28Z",
       "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/" : "2026-10-16T00:44:13Z",
       "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/" : "2026-08-13T23:23:08Z",
+      "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/" : "2026-10-28T16:14:46Z",
       "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/" : "2026-09-29T15:04:12Z",
       "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/" : "2026-06-23T23:39:08Z",
       "https://github.blog/news-insights/policy-news-and-insights/how-researchers-are-using-github-innovation-graph-data-to-reveal-the-digital-complexity-of-nations/" : "2026-05-15T09:40:51Z",
@@ -21255,6 +21265,7 @@
       "https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/" : "2026-10-17T00:46:03Z",
       "https://huggingface.co/apple/lensvlm-9b" : "2026-09-24T00:52:21Z",
       "https://huggingface.co/blog/agent-intrusion-technical-timeline" : "2026-07-28T23:36:37Z",
+      "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary" : "2026-10-28T16:14:49Z",
       "https://huggingface.co/blog/security-incident-july-2026" : "2026-07-20T11:26:01Z",
       "https://huggingface.co/cloudflare/clef" : "2026-10-02T01:48:47Z",
       "https://huggingface.co/datalab-to/indra-ocr" : "2026-10-21T00:54:47Z",
@@ -32349,6 +32360,7 @@
       "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming/" : "2026-08-23T22:56:08Z",
       "https://surfingcomplexity.blog/2026/08/29/omnipresent-availability-risks-in-cloud-software/" : "2026-08-30T00:41:23Z",
       "https://surfingcomplexity.blog/wp-content/uploads/2026/06/dear-researchers.pdf" : "2026-06-19T23:45:33Z",
+      "https://surgehq.ai/blog/dayjob-tax" : "2026-10-28T16:14:49Z",
       "https://surrealdb.com/blog/surrealdb-3-x-by-the-numbers" : "2026-06-01T10:40:36Z",
       "https://surya.website/rling-qwen-to-paint-with-code" : "2026-08-23T22:56:18Z",
       "https://susam.net/childhood-computing.html" : "2026-05-24T22:40:33Z",
@@ -32408,6 +32420,7 @@
       "https://syu-m-5151.hatenablog.com/entry/2026/09/29/161928" : "2026-10-01T01:32:50Z",
       "https://syu-m-5151.hatenablog.com/entry/2026/10/02/163023" : "2026-10-03T01:25:59Z",
       "https://syu-m-5151.hatenablog.com/entry/2026/10/05/132102" : "2026-10-05T17:23:13Z",
+      "https://t-wada.hatenablog.jp/entry/red-green-tdd-with-claude-code-202610" : "2026-10-28T16:14:42Z",
       "https://t3.at/blog/2026-10-17-parser-combinators/" : "2026-10-18T12:46:52Z",
       "https://t3x.org/files/floodfill.pdf" : "2026-10-27T14:53:32Z",
       "https://t3x.org/lisp64k/index.html" : "2026-10-27T01:36:51Z",
@@ -35408,6 +35421,7 @@
       "https://thesciverse.org/scientists-found-that-the-creatine-supplement-millions-take-for-muscle-gains-is-quietly-raising-brain-energy-levels-and-slowing-early-alzheimers-cognitive-decline-by-30/" : "2026-05-31T22:40:40Z",
       "https://theshamblog.com/the-secret-garden-of-rock-paper-scissors/" : "2026-05-29T22:40:34Z",
       "https://theslowburningfuse.wordpress.com/2026/06/14/the-rich-arent-your-role-models-theyre-your-oppressors/" : "2026-06-15T14:45:48Z",
+      "https://thestateofinahaze.net/blog/c-goto-considered-totally-sick/" : "2026-10-28T16:14:42Z",
       "https://thetariffcost.com/" : "2026-08-27T03:33:13Z",
       "https://thetokyohermit.substack.com/p/itadakimasu-a-word-you-say-to-the" : "2026-08-10T23:16:37Z",
       "https://thetrek.co/appalachian-trail/there-is-no-done-reflections-on-a-completed-at-thru-hike/" : "2026-08-10T23:16:37Z",
@@ -37155,6 +37169,7 @@
       "https://www.bbc.com/news/articles/c8xnwqe00v1o" : "2026-08-17T22:57:58Z",
       "https://www.bbc.com/news/articles/c93x0k194yno" : "2026-06-03T14:15:33Z",
       "https://www.bbc.com/news/articles/c9q9w3x9qn2o" : "2026-07-27T11:56:15Z",
+      "https://www.bbc.com/news/articles/c9vy191rgn1o" : "2026-10-28T16:14:49Z",
       "https://www.bbc.com/news/articles/cdr42623e1do" : "2026-07-01T11:40:22Z",
       "https://www.bbc.com/news/articles/ce3q5nxpgk1o" : "2026-08-11T23:22:00Z",
       "https://www.bbc.com/news/articles/ce97mm3vvemo" : "2026-08-14T22:57:13Z",
@@ -37482,6 +37497,7 @@
       "https://www.chosun.com/english/industry-en/2026/08/30/sbfxuijqyzearkp5t4fbay25hq/" : "2026-09-01T01:23:28Z",
       "https://www.chosunonline.com/site/data/html_dir/2026/10/03/2026100380012.html" : "2026-10-03T13:53:33Z",
       "https://www.cia.gov/stories/story/cia-releases-presidents-daily-briefs-in-commemoration-of-the-25th-anniversary-of-9-11/" : "2026-09-12T00:36:51Z",
+      "https://www.cip.uw.edu/2026/10/23/from-confession-to-conspiracy-how-the-wedgewood-fake-polls-story-spread/" : "2026-10-28T16:14:49Z",
       "https://www.circuithub.com/post/unveiling-the-grid" : "2026-10-28T15:25:04Z",
       "https://www.citroenet.org.uk/prototypes/metropolis/metropolis1.html" : "2026-05-17T10:11:55Z",
       "https://www.city.nagoya.jp/kenkofukushi/eisei/1014926/1015240/1015265.html" : "2026-09-09T13:08:20Z",
@@ -38703,6 +38719,7 @@
       "https://www.itmedia.co.jp/enterprise/articles/2609/15/news019.html" : "2026-09-15T00:53:33Z",
       "https://www.itmedia.co.jp/enterprise/articles/2609/28/news080.html" : "2026-09-28T16:59:14Z",
       "https://www.itmedia.co.jp/enterprise/articles/2610/08/news034.html" : "2026-10-10T15:33:14Z",
+      "https://www.itmedia.co.jp/enterprise/articles/2610/26/news002.html" : "2026-10-28T16:14:42Z",
       "https://www.itmedia.co.jp/mobile/articles/2512/19/news078.html" : "2026-08-17T22:57:51Z",
       "https://www.itmedia.co.jp/mobile/articles/2605/14/news135.html" : "2026-05-15T23:35:45Z",
       "https://www.itmedia.co.jp/mobile/articles/2605/14/news149.html" : "2026-05-15T02:50:46Z",
@@ -40070,6 +40087,7 @@
       "https://www.moj.go.jp/content/001468286.pdf" : "2026-08-08T23:02:32Z",
       "https://www.moj.go.jp/minji/minji07_00400.html" : "2026-08-08T09:20:14Z",
       "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins" : "2026-06-16T00:16:07Z",
+      "https://www.mongodb.com/company/blog/technical/scanning-7-point-25-million-public-repositories-chinas-largest-git-platform-for-secrets" : "2026-10-28T16:14:49Z",
       "https://www.monicahq.com/en/blog/we-are-rebuilding-monica/" : "2026-09-02T00:31:12Z",
       "https://www.monolisa.dev/" : "2026-06-24T11:26:34Z",
       "https://www.mooreds.com/wordpress/archives/3518" : "2026-06-21T23:55:21Z",
@@ -41067,6 +41085,7 @@
       "https://www.reddit.com/r/nextfuckinglevel/comments/1wkn561/largest_wildlife_overpass_in_north_america/" : "2026-09-20T00:22:36Z",
       "https://www.reddit.com/r/pasadena/s/94bhlke84r" : "2026-05-18T10:40:42Z",
       "https://www.reddit.com/r/rust/comments/1tcrmjs/rewrite_bun_in_rust_has_been_merged/" : "2026-05-15T02:50:45Z",
+      "https://www.reddit.com/r/seattle/comments/1xhf6qp/archivetoday_links_going_forward/" : "2026-10-28T16:14:49Z",
       "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/" : "2026-09-23T13:50:37Z",
       "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/" : "2026-10-19T00:28:17Z",
       "https://www.reddit.com/r/truepokemon/comments/hwluk9/while_it_is_true_that_iwata_did_write_a_new/" : "2026-05-19T22:40:21Z",
@@ -42464,6 +42483,7 @@
       "https://www.security-next.com/192044" : "2026-10-28T01:40:54Z",
       "https://www.security-next.com/192047" : "2026-10-28T01:40:54Z",
       "https://www.security-next.com/192058" : "2026-10-28T01:40:54Z",
+      "https://www.security-next.com/192075" : "2026-10-28T16:14:47Z",
       "https://www.security-next.com/192099" : "2026-10-28T15:24:58Z",
       "https://www.seko-law.com/entry/reort" : "2026-10-17T00:45:54Z",
       "https://www.sem-r.com/entry/20261022/1792605105" : "2026-10-22T00:53:05Z",
